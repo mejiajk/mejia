@@ -1,0 +1,84 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Rank Tail · configuración de cliente
+# Grupo Los Pueblos (GLP) · glp.com.pa
+# Prompt: prompts/seo-serp-ai-visibility.md
+#
+# Pendiente de verificar en la Fase 0 (no hubo acceso al sitio al configurar):
+#   - segmentación real de proyectos activos y sus ciudades
+#   - si /en/ es subcarpeta con hreflang o un sitio aparte
+#   - location_code de Panamá y de Ciudad de Panamá (resolver vía API, no de memoria)
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── SERIE A · mercado local en español (principal) ───────────────────────────
+WEB:            "glp.com.pa"
+MARCA:          "Grupo Los Pueblos"
+MARCA_ALIAS:    ["GLP", "GLP Panamá", "Grupo Los Pueblos Panamá", "glp.com.pa"]
+LOCALIZACION:   "Panama"                      # país: GLP vende en toda la República
+IDIOMA:         "es"
+DISPOSITIVO:    ["desktop", "mobile"]
+NEGOCIO:        >
+  Promotora y desarrolladora inmobiliaria panameña fundada en 1985.
+  Diseño, construcción y venta de vivienda (desde interés social hasta lujo),
+  locales comerciales, oficinas y centros comerciales. Proyectos emblemáticos:
+  Ocean Reef Islands, Albrook Mall. +15.000 unidades entregadas.
+  Cliente doble: comprador panameño de vivienda + inversor extranjero.
+ES_LOCAL:       true                          # tiene sede y sala de ventas físicas
+
+COMPETIDORES:   []                            # vacío a propósito: derivar de la SERP en Fase 1
+# Candidatos de partida para contrastar, NO para fijar:
+#   directos:    rigrouppanama.com, hauspanama.com, novacasapanama.com, gprovivienda.com
+#   agregadores: encuentra24.com, compreoalquile.com, inmoproyectospanama.com, acobir.com
+# En inmobiliario los agregadores suelen ganar la SERP y la cita en IA por encima
+# de las promotoras. Si la Fase 1 lo confirma, son el competidor real, no las otras promotoras.
+
+KEYWORDS_SEED:
+  # transaccional · producto
+  - "apartamentos en venta en panamá"
+  - "casas en venta en panamá oeste"
+  - "proyectos nuevos en panamá"
+  - "comprar apartamento en ciudad de panamá"
+  - "apartamentos en preventa panamá"
+  # comercial · categoría
+  - "promotora inmobiliaria panamá"
+  - "desarrolladora inmobiliaria panamá"
+  # marca y proyecto
+  - "grupo los pueblos"
+  - "ocean reef islands"
+  # informacional · alto volumen de IA
+  - "invertir en bienes raíces en panamá"
+  - "requisitos para comprar casa en panamá"
+
+PROFUNDIDAD:    100
+TOP_N:          50
+PRESUPUESTO:    2000
+RUTA_LOG:       "logs/glp-es-pa.jsonl"
+
+# ── SERIE B · inversor extranjero en inglés (log separado) ───────────────────
+# GLP publica /en/ y capta inversión exterior. Es otro mercado: otra SERP, otro
+# location_code y, sobre todo, otro comportamiento en LLM — el inversor extranjero
+# pregunta a ChatGPT antes que a Google. Serie aparte, nunca mezclada con la A.
+SERIE_B:
+  WEB:          "glp.com.pa/en/"
+  LOCALIZACION: "United States"               # origen mayoritario de la demanda; validar con GA4
+  IDIOMA:       "en"
+  KEYWORDS_SEED:
+    - "buy property in panama"
+    - "panama real estate investment"
+    - "best real estate developer in panama"
+    - "panama friendly nations visa real estate"
+    - "ocean reef islands panama"
+  RUTA_LOG:     "logs/glp-en-us.jsonl"
+
+# ── Prompts de Fase 4 (visibilidad en LLM) ───────────────────────────────────
+# Reemplazan a las plantillas genéricas del prompt.
+PROMPTS_LLM:
+  - "¿Cuál es la mejor promotora inmobiliaria de Panamá?"
+  - "¿Qué desarrolladoras tienen proyectos de apartamentos en Ciudad de Panamá?"
+  - "Quiero comprar mi primera casa en Panamá Oeste, ¿con qué promotora?"
+  - "¿Qué es Grupo Los Pueblos y qué proyectos tiene?"
+  - "¿Conviene invertir en bienes raíces en Panamá en 2026?"
+  - "Alternativas a [COMPETIDOR] para comprar apartamento en Panamá"
+  - "¿Cuánto cuesta un apartamento nuevo en Ciudad de Panamá?"
+  - "What is the most experienced real estate developer in Panama?"
+  - "Is Ocean Reef Islands a good investment?"
+  - "How does a foreigner buy property in Panama?"
