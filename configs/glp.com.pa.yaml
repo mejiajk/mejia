@@ -6,7 +6,8 @@
 # Pendiente de verificar en la Fase 0 (no hubo acceso al sitio al configurar):
 #   - segmentación real de proyectos activos y sus ciudades
 #   - si /en/ es subcarpeta con hreflang o un sitio aparte
-#   - location_code de Panamá y de Ciudad de Panamá (resolver vía API, no de memoria)
+# Resuelto vía API (/v3/serp/google/locations): Panama = 2591, United States = 2840.
+#   No existe "Panama City" como ciudad en Google; para pack local usar el distrito/barrio concreto.
 # ─────────────────────────────────────────────────────────────────────────────
 
 # ── SERIE A · mercado local en español (principal) ───────────────────────────
@@ -14,6 +15,7 @@ WEB:            "glp.com.pa"
 MARCA:          "Grupo Los Pueblos"
 MARCA_ALIAS:    ["GLP", "GLP Panamá", "Grupo Los Pueblos Panamá", "glp.com.pa"]
 LOCALIZACION:   "Panama"                      # país: GLP vende en toda la República
+LOCATION_CODE:  2591                          # resuelto vía API
 IDIOMA:         "es"
 DISPOSITIVO:    ["desktop", "mobile"]
 NEGOCIO:        >
@@ -60,6 +62,7 @@ RUTA_LOG:       "logs/glp-es-pa.jsonl"
 SERIE_B:
   WEB:          "glp.com.pa/en/"
   LOCALIZACION: "United States"               # origen mayoritario de la demanda; validar con GA4
+  LOCATION_CODE: 2840                         # resuelto vía API
   IDIOMA:       "en"
   KEYWORDS_SEED:
     - "buy property in panama"
