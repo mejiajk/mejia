@@ -13,7 +13,7 @@ Datos: DataForSEO (Google Ads search volume y SERP en vivo, móvil, ubicación C
 | Closets/escritorios | closets 590 · escritorios 590 | closets 40.500 · escritorios 49.500 |
 | Sofá cama | sofa cama 390 | 49.500 |
 | Comedores | comedores 320 · comedor 4 puestos 320 · comedores modernos 90 · comedor 6 puestos 90 | comedores 27.100 |
-| Cocinas | cocinas integrales 260 · cocinas modernas 210 · diseño de cocinas 70 | integrales 22.100 |
+| Cocinas | cocinas integrales 260 · cocinas modernas 210 · diseño de cocinas 70 | integrales 22.200 |
 | Camas | camas modernas 170 · cama queen 110 · cama doble 110 · camas cucuta 70 | camas 14.800 |
 | Cunas | cunas para bebe 110 · cuna colecho 90 | 8.100 / 5.400 |
 | Decoración | decoracion de interiores 10 · decoracion cucuta 20 | 880 |
