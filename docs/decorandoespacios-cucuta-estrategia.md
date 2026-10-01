@@ -1,7 +1,19 @@
 # Decorando Espacios · Cúcuta — mercado, keywords y estrategia
 
 Datos: DataForSEO (Google Ads search volume y SERP en vivo, móvil, ubicación Cúcuta `1029301`), 2026-10-01. Costo total ≈ 0,20 USD.
-**No verificado:** el sitio `decorandoespacios.com.co` no fue accesible desde el entorno (el proxy lo bloquea), así que nada aquí describe su catálogo, plataforma ni estado técnico actual.
+El sitio no es accesible desde el entorno (el proxy lo bloquea), pero se verificó con el rastreador y Labs de DataForSEO (sección 1).
+
+## 0. Punto de partida: el sitio hoy no vende muebles
+
+Verificado el 2026-10-01 con DataForSEO:
+
+- **Contenido actual:** guía de acabados en PVC (techos, paredes, piso laminado, paredes 3D). La home se titula "Proyectos y recursos recomendados de acabados en PVC" y lista proyectos inmobiliarios de Colombia y Panamá (Grupo Los Pueblos, Playa Dorada, Ocean Reef, Armonía, Bosco di Santa María). **Hay 0 páginas de camas, cocinas, cunas o comedores.**
+- **Técnico:** WordPress con LiteSpeed y Cloudflare, HTTPS, HTTP/3, puntaje on-page 97, LCP 1,6 s en la home. `sitemap.xml` existe; `robots.txt` da 404. La home declara canonical en `www`. Las URL terminan en `.html`.
+- **Enlaces rotos o provisionales:** tres proyectos de la home enlazan a dominios con prefijo `verificar-` (verificar-armonia.com, verificar-oceanreef.com, verificar-playacaracol.com). Hay que sustituirlos o quitarlos.
+- **Posicionamiento:** 141 keywords en Google Colombia, ninguna en el top 3, 7 en el 4–10, 32 en el 11–20; tráfico estimado ~512 visitas/mes. Lo aportan `/techo-pvc.html` (95 keywords), `/paredes-pvc.html` (30), `/piso-laminado.html` (9) y `/paredes-3d.html` (7). Ejemplos: "techo pvc bogota" #7, "cielo raso pvc madera" #12, "laminas en pvc para pared" #22 (1.000 búsquedas/mes). Son posiciones nacionales, no de Cúcuta.
+- **Autoridad:** 75 enlaces desde 52 dominios, desde noviembre de 2023.
+
+Decisión acordada: **añadir muebles al sitio sin perder lo que ya rankea**. Las páginas de PVC se conservan y se enlazan con las nuevas categorías (cocinas y closets combinan con techos y paredes).
 
 ## 1. Hallazgos del mercado
 
@@ -41,13 +53,16 @@ Oportunidades concretas:
 ## 2. Estrategia
 
 ### Fase 0 · Base (semanas 1–2)
-- Verificar el sitio: plataforma, velocidad móvil, HTTPS, sitemap, Search Console y GA4 instalados.
+- **Reposicionar la home:** hoy se presenta como directorio inmobiliario de PVC. Debe mostrar muebles y decoración para el hogar con acceso a las guías de PVC. Mover o retirar los proyectos de Panamá, que no sirven al público de Cúcuta.
+- **Corregir los tres enlaces `verificar-*`**, crear `robots.txt` y decidir si el sitio vive en `www` o en el dominio simple (hoy la canonical dice `www`).
+- **No tocar** las URL ni el contenido de `/techo-pvc.html`, `/paredes-pvc.html` y `/piso-laminado.html`; subirlas del puesto 11–26 al top 10 con mejoras de contenido es la victoria más barata.
+- Confirmar Search Console y GA4 instalados.
 - **Google Business Profile** (esencial si hay local, bodega o punto de entrega; si no, definir área de servicio "Cúcuta y área metropolitana"). Categoría principal "Tienda de muebles". Fotos reales de producto, horarios, WhatsApp.
 - **Botón de WhatsApp** en cada página y producto, con mensaje precargado. Es el canal de cierre en este mercado.
 - Datos estructurados: `Organization`, `LocalBusiness`, `Product`, `BreadcrumbList`, `FAQPage`.
 
 ### Fase 1 · Arquitectura y contenido transaccional (semanas 2–6)
-Una página de categoría por intención, con título "X en Cúcuta" y texto único (no solo cuadrícula de productos):
+Una página de categoría por intención, con título "X en Cúcuta" y texto único (no solo cuadrícula de productos). Seguir el patrón de URL actual (`.html`) o migrar con redirecciones, sin mezclar ambos:
 
 | URL | Keyword principal | Secundarias |
 |---|---|---|
@@ -104,7 +119,7 @@ Regla: **cada publicación lleva a una URL de categoría o producto del sitio**,
 - Metas orientativas a 90 días: top 10 móvil en 4–5 keywords de categoría; presencia en pack local; 50 reseñas.
 
 ## 6. Qué falta por verificar
-1. Catálogo y estado real del sitio (no accesible).
-2. Si existe local físico o fábrica (define el enfoque de Google Business Profile).
+1. Si existe local físico o fábrica en Cúcuta (define el enfoque de Google Business Profile). Las posiciones actuales son nacionales, sobre todo Bogotá.
+2. Qué hacer con los proyectos inmobiliarios de Panamá de la home.
 3. Margen y logística de entrega, que condicionan la pauta.
 4. Volúmenes de TikTok/Instagram: no medidos aquí.

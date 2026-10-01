@@ -1,7 +1,8 @@
 # Rank Tail · decorandoespacios.com.co · Cúcuta, Norte de Santander (Colombia)
-# Sin verificar: el sitio no fue alcanzable desde el entorno (proxy bloquea el dominio).
-#   - plataforma, catálogo real, WhatsApp, si tiene tienda física/fábrica
-#   - alias de marca
+# Verificado 2026-10-01 vía DataForSEO (el proxy bloquea el dominio, pero el rastreador no):
+#   WordPress + LiteSpeed + Cloudflare; hoy es una guía de acabados PVC (techos, paredes, piso),
+#   141 keywords en Colombia, 0 páginas de muebles. Decisión: añadir muebles sin perder lo PVC.
+# Sin verificar: tienda física/fábrica en Cúcuta, WhatsApp, alias de marca.
 WEB:            "decorandoespacios.com.co"
 MARCA:          "Decorando Espacios"
 MARCA_ALIAS:    ["Decorando Espacios Cúcuta", "decorandoespacios", "decorandoespacios.com.co"]
@@ -10,8 +11,9 @@ LOCATION_CODE:  1029301                 # resuelto vía /v3/serp/google/location
 IDIOMA:         "es"
 DISPOSITIVO:    ["mobile", "desktop"]   # mobile primero: la SERP local es móvil
 NEGOCIO:        >
-  Tienda web de decoración y muebles para el hogar: camas, cocinas, cunas,
-  mesas, comedores y similares. Mercado objetivo: Cúcuta y área metropolitana.
+  Sitio de decoración con guías de acabados en PVC (techos, paredes, piso) que
+  incorpora venta de muebles: camas, cocinas, cunas, mesas, comedores y similares.
+  Mercado objetivo de muebles: Cúcuta y área metropolitana.
 ES_LOCAL:       true
 COMPETIDORES:   []                      # derivar de la SERP en /seo-run
 # Candidatos vistos en SERP real (2026-10-01):
@@ -34,6 +36,11 @@ KEYWORDS_SEED:
   - "colchones cucuta"
   - "decoracion de interiores cucuta"
   - "decorando espacios"
+  # línea base de lo que ya rankea (PVC), para no perderlo durante la transición
+  - "techo pvc bogota"
+  - "cielo raso pvc madera"
+  - "laminas en pvc para pared"
+  - "techos pvc precios"
 PROFUNDIDAD:    20
 TOP_N:          20
 PRESUPUESTO:    5                       # USD, primer run
