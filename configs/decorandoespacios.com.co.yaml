@@ -1,0 +1,50 @@
+# Rank Tail · decorandoespacios.com.co · Cúcuta, Norte de Santander (Colombia)
+# Sin verificar: el sitio no fue alcanzable desde el entorno (proxy bloquea el dominio).
+#   - plataforma, catálogo real, WhatsApp, si tiene tienda física/fábrica
+#   - alias de marca
+WEB:            "decorandoespacios.com.co"
+MARCA:          "Decorando Espacios"
+MARCA_ALIAS:    ["Decorando Espacios Cúcuta", "decorandoespacios", "decorandoespacios.com.co"]
+LOCALIZACION:   "Cucuta,North Santander,Colombia"
+LOCATION_CODE:  1029301                 # resuelto vía /v3/serp/google/locations (país Colombia = 2170)
+IDIOMA:         "es"
+DISPOSITIVO:    ["mobile", "desktop"]   # mobile primero: la SERP local es móvil
+NEGOCIO:        >
+  Tienda web de decoración y muebles para el hogar: camas, cocinas, cunas,
+  mesas, comedores y similares. Mercado objetivo: Cúcuta y área metropolitana.
+ES_LOCAL:       true
+COMPETIDORES:   []                      # derivar de la SERP en /seo-run
+# Candidatos vistos en SERP real (2026-10-01):
+#   locales:      udm (Google Maps 4.8/158), industriascelco.com.co, starhouse.com.co,
+#                 penalosa.com.co, cocinasintegralescucuta.com, decoralvarez.com,
+#                 mueblerialacero.jimdofree.com, lacasadelpino.co
+#   nacionales:   lucena.com.co, alfa.com.co, homecenter.com.co, madecentro.com, corona.co, exito.com
+#   plataformas:  listado.mercadolibre.com.co, instagram.com, facebook.com, tiktok.com
+
+KEYWORDS_SEED:
+  - "muebles cucuta"
+  - "mueblerias en cucuta"
+  - "camas cucuta"
+  - "cocinas integrales cucuta"
+  - "comedores cucuta"
+  - "comedor 4 puestos"
+  - "cunas para bebe"
+  - "closets cucuta"
+  - "sofa cama"
+  - "colchones cucuta"
+  - "decoracion de interiores cucuta"
+  - "decorando espacios"
+PROFUNDIDAD:    20
+TOP_N:          20
+PRESUPUESTO:    5                       # USD, primer run
+RUTA_LOG:       "logs/decorandoespacios-es-cucuta.jsonl"
+
+PROMPTS_LLM:
+  - "¿Dónde comprar muebles en Cúcuta?"
+  - "¿Cuáles son las mejores mueblerías de Cúcuta?"
+  - "¿Cuánto cuesta una cocina integral en Cúcuta?"
+  - "Quiero amueblar mi apartamento en Cúcuta, ¿qué tienda me recomiendas?"
+  - "¿Dónde comprar una cuna para bebé en Cúcuta?"
+  - "¿Qué es Decorando Espacios y qué vende?"
+  - "Alternativas a Homecenter para comprar muebles en Cúcuta"
+  - "¿Quién hace muebles a medida en Cúcuta?"
