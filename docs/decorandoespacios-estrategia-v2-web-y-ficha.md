@@ -148,7 +148,7 @@ escritorio 590 · sofá cama 390 · muebles 390 · **mueblería 390** · mesas 3
 | Días 45–90 | Cunas, sofás, escritorios, colchones; guías; hub PVC con enlazado a muebles; 50 reseñas; primera medición con `/seo-run` |
 
 ## 7. Cómo medir
-- Posición de las 16 keywords semilla (config), mensual, móvil.
+- Posición de las 20 keywords semilla (config), mensual, móvil.
 - Ficha: vistas, llamadas, clics a WhatsApp, "cómo llegar", reseñas.
 - Web: clics y consultas en Search Console, eventos de contacto, páginas de muebles con impresiones.
 - Control: que las páginas PVC (`/techo-pvc.html`, `/paredes-pvc.html`) no pierdan posiciones durante la transición.
