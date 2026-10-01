@@ -1,0 +1,62 @@
+# Rank Tail · marcarbonymondongos.com · Mondongos & Parrilla, Chapinero (Bogotá)
+# Verificado 2026-10-01 vía DataForSEO: ficha 4,5 con 1.726 reseñas; home de 27 palabras;
+# 12 keywords posicionadas; sin schema, sitemap ni robots.
+# Sin verificar: ventas, ocupación, horario real, redes propias, si hay otras sedes.
+WEB:            "marcarbonymondongos.com"
+MARCA:          "Mondongos & Parrilla"
+MARCA_ALIAS:    ["Mondongos y Parrilla", "Mar Carbón y Mondongos", "marcarbonymondongos.com"]
+LOCALIZACION:   "Bogota,Bogota,Colombia"
+LOCATION_CODE:  1003659               # resuelto vía /v3/serp/google/locations/co
+IDIOMA:         "es"
+DISPOSITIVO:    ["mobile", "desktop"]
+NEGOCIO:        >
+  Restaurante familiar desde 1998 en Chapinero (Cl. 60 #9A-05, Bogotá). Comida típica
+  colombiana: mondongo, parrilla, pescados y cazuela de mariscos. Almuerzos, grupos,
+  celebraciones y eventos. Reservas por Google y teléfono 601 606 22 43.
+ES_LOCAL:       true
+GOOGLE_MAPS_CID: "17965533465775763904"
+COMPETIDORES:   []                    # derivar de la SERP en /seo-run
+# Candidatos vistos en Maps (2026-10-01):
+#   mondongo:   Restaurante El Poblado, Caldo Parado .69, La Vieja Antioquia, El Fogón de las Sopitas de la 46,
+#               Costillas y Mondongo Sede Norte, Costilla & Mondongo, Las Cazuelas de la Abuela
+#   cerca:      Río Chapinero alto, Salvo Patria, Chronos Fantasy
+#   plataformas: tripadvisor, rappi, instagram, tiktok, paginasamarillas.com.co
+
+KEYWORDS_SEED:
+  # marca
+  - "mondongos y parrilla"
+  - "mondongos restaurante"
+  - "mondongos carta"
+  # plato
+  - "mondongo bogota"
+  - "sopa de mondongo"
+  # zona
+  - "restaurantes chapinero"
+  - "restaurantes chapinero alto"
+  - "restaurantes calle 60 bogota"
+  # ocasión
+  - "restaurantes para cumpleaños bogota"
+  - "restaurantes para grupos bogota"
+  - "restaurantes familiares bogota"
+  # cocina y producto
+  - "comida tipica colombiana"
+  - "comida tipica bogota"
+  - "restaurantes tipicos bogota"
+  - "restaurante de pescados bogota"
+  - "cazuela de mariscos bogota"
+  - "parrilla bogota"
+  - "restaurantes cerca de mi"
+PROFUNDIDAD:    20
+TOP_N:          20
+PRESUPUESTO:    5
+RUTA_LOG:       "logs/mondongos-es-bogota.jsonl"
+
+PROMPTS_LLM:
+  - "¿Dónde comer mondongo en Bogotá?"
+  - "¿Cuál es el mejor restaurante de comida típica colombiana en Chapinero?"
+  - "Quiero celebrar un cumpleaños con comida típica en Bogotá, ¿qué restaurante me recomiendas?"
+  - "¿Qué es Mondongos & Parrilla y qué sirven?"
+  - "¿Dónde comer cazuela de mariscos en Bogotá?"
+  - "Alternativas a Caldo Parado para comer mondongo en Bogotá"
+  - "¿Qué restaurante tiene parrilla y comida típica cerca de la calle 60 en Bogotá?"
+  - "Restaurante para un almuerzo de grupo en Chapinero"
