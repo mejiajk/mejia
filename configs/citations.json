@@ -1,0 +1,19 @@
+{
+  "per_category": 3,
+  "min_snippet_chars": 90,
+  "max_snippet_chars": 320,
+  "max_age_days": 14,
+  "user_agent": "mejia-citations/1.0 (+https://github.com/mejiajk/mejia)",
+  "sources": [
+    {"category": "academic", "type": "arxiv", "query": "cat:cs.CL OR cat:cs.IR", "name": "arXiv cs.CL/cs.IR"},
+    {"category": "academic", "type": "arxiv", "query": "cat:cs.LG AND all:retrieval", "name": "arXiv cs.LG retrieval"},
+    {"category": "news", "type": "rss", "url": "https://feeds.bbci.co.uk/news/technology/rss.xml", "name": "BBC Technology"},
+    {"category": "news", "type": "rss", "url": "https://www.theguardian.com/technology/rss", "name": "The Guardian Tech"},
+    {"category": "technical", "type": "rss", "url": "https://blog.google/technology/ai/rss/", "name": "Google AI Blog"},
+    {"category": "technical", "type": "rss", "url": "https://blog.cloudflare.com/rss/", "name": "Cloudflare Blog"},
+    {"category": "technical", "type": "rss", "url": "https://github.blog/feed/", "name": "GitHub Blog"},
+    {"category": "industry", "type": "rss", "url": "https://www.eia.gov/rss/todayinenergy.xml", "name": "EIA Today in Energy"},
+    {"category": "industry", "type": "rss", "url": "https://www.nist.gov/news-events/news/rss.xml", "name": "NIST News"},
+    {"category": "industry", "type": "rss", "url": "https://blogs.worldbank.org/en/rss.xml", "name": "World Bank Blogs"}
+  ]
+}
