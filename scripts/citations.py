@@ -13,7 +13,7 @@ Salida:  citations/data/YYYY-MM-DD.jsonl   (una citación por línea)
 Opcional: SLACK_WEBHOOK_URL en el entorno publica el digest en Slack.
 Solo stdlib.
 """
-import argparse, hashlib, json, os, re, sys, urllib.parse, urllib.request
+import argparse, hashlib, html, json, os, re, sys, urllib.parse, urllib.request
 import xml.etree.ElementTree as ET
 from datetime import date, datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
@@ -154,8 +154,10 @@ def build(item, category):
     page = page_text(body, cs)
     # arXiv trae el abstract por API: se verifica que el abstract exista en la página real
     paras = [item["text"]] if item["text"] else page
-    if item["text"] and item["text"][:60] not in body.decode(cs, "replace"):
-        return None
+    if item["text"]:
+        norm = " ".join(html.unescape(re.sub(r"<[^>]+>", " ", body.decode(cs, "replace"))).split())
+        if item["text"][:60] not in norm:
+            return None
     snippet = pick_snippet(paras, CFG["min_snippet_chars"], CFG["max_snippet_chars"])
     if not snippet or snippet not in " ".join(paras):
         return None
@@ -205,7 +207,7 @@ def run(day, dry):
             for it in items:
                 if len(got) >= CFG["per_category"]:
                     break
-                if not it["url"].startswith("http") or it["published"] and it["published"] < cutoff:
+                if not it["url"].startswith("http") or not it["published"] or it["published"] < cutoff:
                     continue
                 if hashlib.sha1(it["url"].encode()).hexdigest()[:12] in seen:
                     continue
@@ -241,7 +243,10 @@ def notify(md):
         return
     req = urllib.request.Request(hook, data=json.dumps({"text": md[:38000]}).encode(),
                                  headers={"Content-Type": "application/json"})
-    urllib.request.urlopen(req, timeout=20)
+    try:
+        urllib.request.urlopen(req, timeout=20)
+    except Exception as e:
+        print(f"  ✗ Slack no notificado: {e}", file=sys.stderr)
 
 
 if __name__ == "__main__":
@@ -250,5 +255,5 @@ if __name__ == "__main__":
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
     res = run(a.date, a.dry_run)
-    print(f"\n{len(res)} citaciones verificadas", file=sys.stderr)
+    print(f"\n{len(res)} citaciones verificadas" + ("" if res else " — NINGUNA: revisa las líneas '✗ fuente caída' arriba"), file=sys.stderr)
     sys.exit(0 if res else 1)
