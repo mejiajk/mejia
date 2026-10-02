@@ -1,0 +1,21 @@
+name: daily-citations
+on:
+  schedule:
+    - cron: "17 11 * * *"   # 11:17 UTC diario (evita la hora en punto)
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/citations.py
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+      - name: Commit data
+        if: always()
+        run: |
+          git config user.name "citations-bot"; git config user.email "bot@users.noreply.github.com"
+          git add citations/data
+          git diff --cached --quiet || (git commit -m "citations: $(date -u +%F)" && git push)
