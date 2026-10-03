@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guía de prompts: lo que Ahrefs y Semrush no hacen</title>
+<style>
+:root{--bg:#fff;--fg:#1a1d23;--mut:#5b6472;--card:#f5f7fa;--bd:#dde2ea;--ac:#0b5fff;--code:#0f172a;--codefg:#e2e8f0;--ok:#0a7a3d}
+@media (prefers-color-scheme:dark){:root{--bg:#0e1116;--fg:#e6e9ef;--mut:#9aa4b2;--card:#171b22;--bd:#2a313c;--ac:#6ea0ff;--code:#05070a;--codefg:#d6dde8;--ok:#4cd68a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.w{max-width:960px;margin:0 auto;padding:24px 16px 80px}
+h1{font-size:2rem;line-height:1.2;margin:.2em 0}
+h2{font-size:1.5rem;margin:2.2em 0 .4em;padding-top:.6em;border-top:1px solid var(--bd)}
+h3{font-size:1.1rem;margin:1.6em 0 .3em}
+a{color:var(--ac)}
+.lead{color:var(--mut);font-size:1.05rem}
+.note{background:var(--card);border:1px solid var(--bd);border-left:4px solid var(--ac);padding:12px 16px;border-radius:8px;margin:16px 0}
+nav{background:var(--card);border:1px solid var(--bd);border-radius:8px;padding:12px 18px;margin:20px 0}
+nav ul{columns:2;margin:0;padding-left:18px}
+@media(max-width:600px){nav ul{columns:1}}
+table{width:100%;border-collapse:collapse;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--bd);padding:6px 10px;text-align:left;vertical-align:top}
+th{background:var(--card)}
+code{background:var(--card);padding:1px 5px;border-radius:4px;font-size:.88em}
+.tool{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:4px 16px 14px;margin:18px 0}
+.tool h3{margin-top:.8em}
+.meta{font-size:.88rem;color:var(--mut)}
+.pw{position:relative;margin:8px 0}
+pre{background:var(--code);color:var(--codefg);padding:14px 14px 14px;border-radius:8px;overflow-x:auto;white-space:pre-wrap;word-break:break-word;font-size:.85rem;line-height:1.5;margin:0}
+.cp{position:absolute;top:6px;right:6px;background:#334155;color:#fff;border:0;border-radius:6px;padding:4px 10px;font-size:.78rem;cursor:pointer}
+.cp.ok{background:var(--ok)}
+.lbl{font-size:.78rem;font-weight:600;text-transform:uppercase;letter-spacing:.04em;color:var(--mut);margin-top:10px}
+footer{margin-top:3em;color:var(--mut);font-size:.85rem}
+@media print{.cp{display:none}nav{display:none}}
+</style>
+</head>
+<body>
+<div class="w">
+
+<h1>Guía de prompts: lo que Ahrefs y Semrush no hacen (Claude + DataForSEO)</h1>
+<p class="lead">Análisis y fuentes de datos que quedan fuera del núcleo de Ahrefs y Semrush, y que sí puedes montar combinando la API de DataForSEO con el razonamiento de Claude. Cada prompt está listo para pegar.</p>
+
+<div class="note">
+<strong>Cómo leer "no lo tienen".</strong> No pude acceder a ahrefs.com ni a semrush.com desde este entorno, y las dos plataformas añaden funciones cada pocos meses. Aquí significa: no es parte central de su producto o no se obtiene con un informe estándar. Antes de usar esta guía como argumento de venta, comprueba el catálogo vigente de cada una. Los endpoints de DataForSEO tampoco están verificados contra su documentación.
+</div>
+
+<nav>
+<strong>Contenido</strong>
+<ul>
+<li><a href="#idea">1. La idea: datos + razonamiento</a></li>
+<li><a href="#mapa">2. Mapa de capacidades</a></li>
+<li><a href="#base">3. Prompt base</a></li>
+<li><a href="#demanda">4. Demanda y tendencias</a></li>
+<li><a href="#buscadores">5. Otros buscadores y superficies</a></li>
+<li><a href="#comercio">6. Comercio, apps y reputación</a></li>
+<li><a href="#analisis">7. Análisis que hace Claude</a></li>
+<li><a href="#ia">8. Modelos de IA como fuente</a></li>
+<li><a href="#gsc">9. Cruce con datos propios</a></li>
+<li><a href="#flujos">10. Flujos combinados</a></li>
+<li><a href="#tips">11. Límites y buenas prácticas</a></li>
+</ul>
+</nav>
+
+<h2 id="idea">1. La idea: datos + razonamiento</h2>
+<p>Las suites clásicas entregan informes cerrados: tú miras tablas. Con una API y un modelo puedes pedir cosas que no son un informe fijo:</p>
+<ul>
+<li><strong>Cruzar fuentes</strong> que no se cruzan solas (SERP + reseñas + tendencias + tus propios datos).</li>
+<li><strong>Preguntar en lenguaje natural</strong> ("¿qué páginas pierden tráfico aunque mantengan posición?") en vez de montar filtros.</li>
+<li><strong>Acceder a superficies</strong> que no son Google web: YouTube, Bing, Amazon, tiendas de apps, Trustpilot.</li>
+<li><strong>Interpretar</strong>: clasificar intención, detectar canibalización, proponer acciones y redactar el entregable.</li>
+</ul>
+<p class="meta">Cada prompt indica la fuente de datos. Los que dicen "Claude" no requieren API: trabajan sobre datos que ya tienes.</p>
+
+<h2 id="mapa">2. Mapa de capacidades</h2>
+<table>
+<tr><th>Capacidad</th><th>Fuente</th><th>Sección</th></tr>
+<tr><td>Estacionalidad y tendencias de demanda</td><td><code>keywords_data/google_trends/explore</code>, <code>dataforseo_trends/explore</code></td><td>4.1</td></tr>
+<tr><td>Autocompletado como señal de demanda</td><td><code>serp/google/autocomplete</code></td><td>4.2</td></tr>
+<tr><td>SEO en YouTube</td><td><code>serp/youtube/organic</code></td><td>5.1</td></tr>
+<tr><td>Bing y otros buscadores</td><td><code>serp/bing/organic</code>, <code>serp/yahoo</code>, <code>serp/baidu</code>, <code>serp/naver</code></td><td>5.2</td></tr>
+<tr><td>Google Noticias, Imágenes, Empleo, Eventos</td><td><code>serp/google/news</code>, <code>images</code>, <code>jobs</code>, <code>events</code></td><td>5.3</td></tr>
+<tr><td>Marketplaces: Google Shopping y Amazon</td><td><code>merchant/google/products</code>, <code>merchant/amazon/products</code></td><td>6.1</td></tr>
+<tr><td>ASO (tiendas de apps)</td><td><code>app_data/google</code>, <code>app_data/apple</code></td><td>6.2</td></tr>
+<tr><td>Reputación: Trustpilot, Tripadvisor, Google Reviews</td><td><code>business_data/trustpilot</code>, <code>tripadvisor</code>, <code>google/reviews</code></td><td>6.3</td></tr>
+<tr><td>Prospección de negocios (listados)</td><td><code>business_data/business_listings/search</code></td><td>6.4</td></tr>
+<tr><td>Canibalización semántica</td><td>ranked_keywords + Claude</td><td>7.1</td></tr>
+<tr><td>Decaimiento de contenido</td><td>histórico + Claude</td><td>7.2</td></tr>
+<tr><td>Autoridad temática (topical authority)</td><td>ranked_keywords + Claude</td><td>7.3</td></tr>
+<tr><td>Enlazado interno por intención</td><td><code>on_page/pages</code> + Claude</td><td>7.4</td></tr>
+<tr><td>Auditoría E-E-A-T y de entidades</td><td><code>on_page/content_parsing</code> + Claude</td><td>7.5</td></tr>
+<tr><td>Intención real de la SERP</td><td>SERP + Claude</td><td>7.6</td></tr>
+<tr><td>Preguntar a ChatGPT, Gemini, Claude y Perplexity</td><td><code>ai_optimization/*/llm_responses</code></td><td>8.1</td></tr>
+<tr><td>Cruce con Search Console y analítica</td><td>CSV propios + API</td><td>9.1</td></tr>
+</table>
+
+<h2 id="base">3. Prompt base</h2>
+<div class="pw"><pre>Eres un analista de búsqueda e inteligencia de mercado. Combinas datos de la API de DataForSEO con tus propios análisis para responder preguntas que las suites SEO clásicas no responden en un informe estándar.
+
+CONTEXTO
+- Negocio / dominio: {{dominio o marca}}
+- País, location_code e idioma: {{país}} / {{location_code}} / {{idioma}}
+- Objetivo de negocio: {{vender, captar leads, reputación, tráfico...}}
+- Datos propios disponibles: {{Search Console, analítica, CSV, ninguno}}
+
+REGLAS
+1. Antes de cada llamada indica endpoint, parámetros y coste estimado. Si el lote supera ~{{N}} USD, pregunta.
+2. Usa limit y filtros. Prefiere task_post para volumen.
+3. Separa tres cosas y etiquétalas: DATO (viene de la API o del CSV), INFERENCIA (tu conclusión a partir de datos) e HIPÓTESIS (sin evidencia suficiente, a validar).
+4. Cuando clasifiques (intención, entidad, sentimiento), enseña 5 ejemplos y el criterio antes de aplicarlo a todo el conjunto.
+5. No inventes cifras. Si falta un dato, dilo y propón cómo obtenerlo.
+6. Las credenciales van solo por entorno (DATAFORSEO_LOGIN / DATAFORSEO_PASSWORD). No las imprimas.
+
+FORMATO
+1) Respuesta directa en 5 líneas  2) Evidencia en tabla  3) Acciones priorizadas (impacto / esfuerzo)  4) Qué validar antes de actuar  5) Anexo: llamadas y coste.</pre><button class="cp">Copiar</button></div>
+
+<h2 id="demanda">4. Demanda y tendencias</h2>
+
+<div class="tool">
+<h3>4.1 Estacionalidad y tendencias</h3>
+<p class="meta">DataForSEO: <code>keywords_data/google_trends/explore/live</code> · <code>keywords_data/dataforseo_trends/explore/live</code></p>
+<div class="pw"><pre>Analiza la estacionalidad y la tendencia de estos temas en {{país}}: {{lista de 5 temas o keywords}}.
+1. Consulta tendencias de los últimos 5 años (y 12 meses con detalle semanal) y las consultas relacionadas en ascenso.
+2. Identifica: meses pico y valle, crecimiento interanual, temas emergentes y temas en declive. Marca eventos puntuales que distorsionan (pandemia, una campaña viral).
+3. Cruza con volumen mensual de keywords_data para convertir el índice relativo en un orden de magnitud aproximado. Declara que el índice de Trends es relativo (0-100), no absoluto.
+Entrega un calendario editorial: cuándo publicar cada pieza (con la anticipación de indexación que recomiendas, normalmente 6-8 semanas antes del pico) y qué temas conviene empezar a cubrir ya.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>4.2 Autocompletado como señal de demanda</h3>
+<p class="meta">DataForSEO: <code>serp/google/autocomplete/live/advanced</code></p>
+<div class="pw"><pre>Explora el autocompletado de Google para la semilla "{{semilla}}" en {{país}}/{{idioma}}.
+1. Expande con prefijos y sufijos: letras a-z, "como", "para", "vs", "mejor", "precio", "cerca de", "sin".
+2. Deduplica y clasifica por intención (aprender, comparar, comprar, problema) y por etapa del embudo.
+3. Señala búsquedas de cola larga que no aparecen en herramientas de volumen (probablemente sin dato) y que reflejan lenguaje real de usuarios.
+Entrega 40 ideas de contenido con el título propuesto y la pregunta exacta que responden.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<h2 id="buscadores">5. Otros buscadores y superficies</h2>
+
+<div class="tool">
+<h3>5.1 SEO en YouTube</h3>
+<p class="meta">DataForSEO: <code>serp/youtube/organic/live/advanced</code></p>
+<div class="pw"><pre>Analiza la oportunidad en YouTube para "{{tema}}" en {{país}}/{{idioma}}.
+1. SERP de YouTube para {{N}} búsquedas: posición, canal, título, vistas, antigüedad y duración.
+2. Detecta consultas donde rankean vídeos antiguos o de canales pequeños (oportunidad) y donde dominan canales grandes (evitar).
+3. Para las 10 mejores oportunidades, propón: título (máx. 60 caracteres), gancho de los primeros 15 segundos, estructura por capítulos y descripción con palabras clave naturales.
+Indica también en qué keywords de Google aparece un carrusel de vídeo, porque ahí un vídeo puede dar tráfico desde Google.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>5.2 Bing y buscadores alternativos</h3>
+<p class="meta">DataForSEO: <code>serp/bing/organic</code> · <code>serp/yahoo/organic</code> · <code>serp/baidu/organic</code> · <code>serp/naver/organic</code></p>
+<div class="pw"><pre>Compara mi visibilidad en Google y Bing para {{N}} keywords clave de {{dominio}} en {{país}}.
+Para cada una: posición en cada buscador, URL que rankea y diferencias en SERP features. Explica por qué puede variar (Bing pondera más señales de dominio exacto y contenido sobre enlaces, según mi conocimiento general: trátalo como hipótesis).
+Esto importa porque Bing alimenta a Copilot y a otras superficies de IA. Entrega las 15 keywords donde rankeo en Google pero no en Bing, con acciones: verificar en Bing Webmaster Tools, IndexNow, ajustes de título y contenido.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>5.3 Noticias, imágenes, empleo y eventos</h3>
+<p class="meta">DataForSEO: <code>serp/google/news</code> · <code>serp/google/images</code> · <code>serp/google/jobs</code> · <code>serp/google/events</code></p>
+<div class="pw"><pre>Elige el vertical que aplique a {{negocio}} y analízalo:
+- Noticias: quién aparece en Top Stories para {{temas}} y con qué frecuencia publica. ¿Hay hueco para cobertura especializada?
+- Imágenes: qué tipo de imágenes rankean (producto, infografía, foto real) y qué dominios las usan. Propón formatos y nombres de archivo/alt.
+- Empleo: qué empleadores aparecen para "{{puesto}}" en {{ciudad}}, qué beneficios destacan y qué falta en mis ofertas.
+- Eventos: qué eventos aparecen para "{{tema}} {{ciudad}}" y qué agenda podría publicar yo.
+Entrega el vertical con mejor relación esfuerzo/impacto y el plan para entrar.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<h2 id="comercio">6. Comercio, apps y reputación</h2>
+
+<div class="tool">
+<h3>6.1 Google Shopping y Amazon</h3>
+<p class="meta">DataForSEO: <code>merchant/google/products/task_post</code> · <code>merchant/amazon/products/task_post</code></p>
+<div class="pw"><pre>Investiga el mercado de "{{producto}}" en {{país}}.
+1. Google Shopping y Amazon: top {{N}} resultados con precio, vendedor, valoración, nº de reseñas y posición.
+2. Calcula: rango de precios, mediana, vendedores dominantes, productos con muchas reseñas y precio alto (demanda con margen) y productos nuevos que suben.
+3. Extrae los atributos que más se repiten en títulos de los líderes.
+Entrega: posicionamiento de precio recomendado para {{mi producto}}, plantilla de título y bullets por marketplace, y 10 keywords de cola larga para fichas de producto.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>6.2 ASO: tiendas de aplicaciones</h3>
+<p class="meta">DataForSEO: <code>app_data/google/app_searches</code> · <code>app_data/apple/app_searches</code> · <code>app_listings</code> · <code>app_reviews</code></p>
+<div class="pw"><pre>Haz un análisis de App Store Optimization para la categoría "{{categoría}}" en {{país}}.
+1. Búsquedas de apps para {{N}} términos en Google Play y App Store: top 20, valoración, descargas aproximadas, última actualización.
+2. Reseñas de las 5 apps líderes: temas de queja y de elogio más repetidos (clasifica y cuenta).
+3. Qué palabras repiten los líderes en título y subtítulo.
+Entrega: título, subtítulo, descripción corta y lista de keywords para mi app {{app}}, y las 10 funciones que los usuarios piden y los líderes no cubren.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>6.3 Reputación en plataformas de reseñas</h3>
+<p class="meta">DataForSEO: <code>business_data/trustpilot/search</code> · <code>tripadvisor/search</code> · <code>google/reviews</code></p>
+<div class="pw"><pre>Analiza la reputación de {{marca}} frente a {{competidores}} en Trustpilot, Tripadvisor y Google.
+1. Recoge reseñas de los últimos {{N}} meses por plataforma.
+2. Clasifica por tema (precio, atención, calidad, entrega, facturación...) y sentimiento. Enseña 5 ejemplos por tema antes de cuantificar.
+3. Compara puntuación, volumen, velocidad de reseñas y tasa de respuesta.
+Entrega: 5 problemas que más daño hacen, 5 fortalezas para usar como mensaje en landing y anuncios, y plantillas de respuesta a reseñas negativas. Recuerda que las reseñas influyen en conversión y en SEO local.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>6.4 Prospección de negocios</h3>
+<p class="meta">DataForSEO: <code>business_data/business_listings/search/live</code></p>
+<div class="pw"><pre>Construye una lista de prospectos B2B: negocios de tipo "{{categoría}}" en {{ciudad o región}}.
+Con business_listings/search filtra por categoría, ubicación, valoración mínima {{X}} y presencia de sitio web. Para cada uno devuelve nombre, web, teléfono, valoración y nº de reseñas.
+Después comprueba para los 30 mejores el dominio con backlinks/summary y on_page/instant_pages para detectar problemas visibles (sin HTTPS, sin meta description, lento). Entrega la lista con un "gancho" de contacto por prospecto basado en un problema real y comprobado. Respeta la normativa de contacto comercial y de protección de datos de {{país}}.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<h2 id="analisis">7. Análisis que hace Claude</h2>
+<p>Aquí la herramienta es el razonamiento sobre datos. Las suites muestran la tabla; esto responde la pregunta.</p>
+
+<div class="tool">
+<h3>7.1 Canibalización semántica</h3>
+<p class="meta">DataForSEO: <code>ranked_keywords</code> · <code>serp/google/organic</code></p>
+<div class="pw"><pre>Detecta canibalización en {{dominio}}.
+1. ranked_keywords (limit 1000): agrupa keywords por URL.
+2. Busca keywords o grupos de keywords casi idénticos en significado donde rankean 2 o más URLs mías, aunque no compartan las mismas palabras.
+3. Para cada caso, mira la SERP y decide: ¿Google ve esto como una sola intención o como dos?
+Para cada conflicto da el veredicto: fusionar (301 + consolidar contenido), diferenciar (cambiar enfoque de una URL), o dejar (intenciones distintas). Indica la URL ganadora y qué mover. Etiqueta como INFERENCIA lo que no sea evidente en datos.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>7.2 Decaimiento de contenido (content decay)</h3>
+<p class="meta">Datos: histórico de posiciones (log de este repo) o Search Console · DataForSEO: <code>historical_rank_overview</code></p>
+<div class="pw"><pre>Con este histórico de posiciones y clics de {{dominio}} ({{CSV o log}}):
+1. Detecta páginas con caída sostenida (3+ periodos) y distingue causa probable: (a) la SERP cambió (nueva feature, AI Overview), (b) un competidor las superó, (c) contenido desactualizado, (d) estacionalidad normal.
+2. Para cada página caída, mira la SERP actual y compara con mi página.
+3. Prioriza por tráfico perdido recuperable.
+Entrega para las 15 principales: causa (DATO / INFERENCIA / HIPÓTESIS), acción (actualizar datos, ampliar, reescribir, redirigir) y prioridad. No atribuyas una caída a un update de Google sin evidencia de fechas.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>7.3 Autoridad temática</h3>
+<p class="meta">DataForSEO: <code>ranked_keywords</code> · <code>related_keywords</code> · <code>competitors_domain</code></p>
+<div class="pw"><pre>Evalúa mi autoridad temática en "{{tema}}".
+1. Mapea el universo del tema con related_keywords y keyword_ideas y agrúpalo en subtemas.
+2. Con ranked_keywords de {{dominio}} y de 3 competidores, calcula por subtema: nº de keywords, % en top 10 y tráfico estimado.
+3. Identifica subtemas donde un competidor domina con contenido que yo no tengo.
+Entrega un mapa de cobertura (tabla subtema × dominio), los 5 huecos que más pesan y una arquitectura de pilar + clúster para cerrarlos. Declara que "topical authority" no es una métrica oficial: es un modelo tuyo y explica el criterio.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>7.4 Enlazado interno por intención</h3>
+<p class="meta">DataForSEO: <code>on_page/pages</code> · <code>on_page/links</code></p>
+<div class="pw"><pre>Mejora el enlazado interno de {{dominio}}.
+1. Con on_page, saca páginas, enlaces internos entrantes y salientes y anchors.
+2. Con ranked_keywords identifica las páginas con potencial (posiciones 4-15) y pocos enlaces internos entrantes.
+3. Para cada una, busca 5 páginas con autoridad y relación semántica real que podrían enlazarla.
+Entrega una tabla: página origen → página destino, anchor sugerido (natural, no repetido) y frase del texto donde insertarlo. Evita más de {{N}} enlaces nuevos por página. Excluye páginas noindex o con canonical a otra URL.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>7.5 Auditoría E-E-A-T y de entidades</h3>
+<p class="meta">DataForSEO: <code>on_page/content_parsing/live</code> · <code>on_page/instant_pages</code></p>
+<div class="pw"><pre>Audita {{URL}} en experiencia, pericia, autoridad y confianza, y en cobertura de entidades para "{{keyword}}".
+1. Extrae el contenido con content_parsing y también de las 5 páginas mejor posicionadas.
+2. Revisa en mi página: autor y credenciales visibles, fuentes citadas, datos o experiencia propios, fecha de actualización, página sobre nosotros y contacto, políticas, schema de Organization y Person.
+3. Lista las entidades (personas, marcas, conceptos, lugares) que cubren los líderes y yo omito.
+Entrega puntuación 0-10 por criterio con la evidencia (cita el fragmento), y cambios concretos. Aclara que E-E-A-T no es un factor medible: es una guía de calidad y esto es una revisión cualitativa.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>7.6 Intención real de la SERP</h3>
+<p class="meta">DataForSEO: <code>serp/google/organic/live/advanced</code></p>
+<div class="pw"><pre>Para estas keywords: {{lista}}, determina la intención real viendo la SERP y no solo la palabra.
+Por cada una: tipo de páginas que rankean (guía, categoría, producto, herramienta, comparativa, vídeo), SERP features presentes, y si la intención es mixta. Compara con la página que yo tengo asignada.
+Marca los desajustes (por ejemplo, mi guía larga contra una SERP de páginas de categoría) y propón el tipo de página correcto. Muestra 3 ejemplos del criterio antes de procesar todo el lote.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<h2 id="ia">8. Modelos de IA como fuente</h2>
+
+<div class="tool">
+<h3>8.1 Preguntar a varios modelos y comparar</h3>
+<p class="meta">DataForSEO: <code>ai_optimization/chat_gpt/llm_responses</code> · <code>gemini</code> · <code>claude</code> · <code>perplexity</code></p>
+<div class="pw"><pre>Lanza estas {{N}} preguntas de usuario a cada modelo disponible en la API y compara:
+{{lista de preguntas}}
+Para cada pregunta y modelo registra: marcas recomendadas y su orden, fuentes citadas, si menciona {{marca}}, y si lo que dice sobre mí es correcto.
+Entrega: (1) tabla pregunta × modelo con la presencia de mi marca, (2) afirmaciones erróneas sobre mi negocio para corregir en mi web y en fuentes que los modelos citan, (3) dominios que más citan los modelos en mi sector (objetivos de PR). Lanza cada pregunta {{3}} veces porque las respuestas varían y reporta la consistencia.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<h2 id="gsc">9. Cruce con datos propios</h2>
+
+<div class="tool">
+<h3>9.1 Search Console + analítica + DataForSEO</h3>
+<p class="meta">Datos: exportaciones de Search Console y GA4/Plausible · DataForSEO: <code>ranked_keywords</code>, <code>serp</code></p>
+<div class="pw"><pre>Te paso un CSV de Search Console (consultas, páginas, clics, impresiones, CTR, posición) y otro de analítica (sesiones, conversiones por página):
+{{adjunta o pega los datos}}
+1. Cruza por URL con datos de ranked_keywords para ver qué keywords no aparecen en Search Console (volumen potencial no capturado).
+2. Detecta: (a) consultas con muchas impresiones y CTR bajo frente a la media de su posición, (b) páginas con tráfico pero sin conversión, (c) páginas que convierten bien y reciben poco tráfico.
+3. Para (a), mira la SERP y explica el CTR bajo (AI Overview, featured snippet, anuncios, título débil).
+Entrega 10 acciones priorizadas por ingresos o conversiones potenciales, no por tráfico. Pide los datos que falten antes de concluir.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<h2 id="flujos">10. Flujos combinados</h2>
+
+<div class="tool">
+<h3>10.1 Estudio de mercado antes de lanzar un producto</h3>
+<div class="pw"><pre>Voy a lanzar "{{producto o servicio}}" en {{país}}. Ejecuta, con control de coste:
+1) Tendencia y estacionalidad (4.1)  2) Autocompletado (4.2)  3) Marketplaces (6.1) si es producto físico, o ASO (6.2) si es app  4) Reputación de los 3 competidores principales (6.3)  5) Qué dicen los modelos de IA al preguntar por esta categoría (8.1).
+Entrega: tamaño y estacionalidad de la demanda, huecos de producto o mensaje, riesgos, y una recomendación de ir / no ir con la evidencia que la sostiene.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>10.2 Revisión trimestral de contenido</h3>
+<div class="pw"><pre>Con el log de posiciones y Search Console de {{dominio}}: 1) decaimiento (7.2)  2) canibalización (7.1)  3) desajustes de intención (7.6)  4) enlazado interno (7.4).
+Entrega un plan trimestral con tres listas: actualizar, fusionar y crear, cada una con URL, motivo, esfuerzo y resultado esperado. Máximo {{N}} acciones: prioriza.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<h2 id="tips">11. Límites y buenas prácticas</h2>
+<ul>
+<li><strong>Valida lo que dice el modelo.</strong> Las inferencias de Claude son hipótesis razonadas, no medidas. Los prompts exigen etiquetar DATO, INFERENCIA e HIPÓTESIS: respétalo.</li>
+<li><strong>Clasificaciones con muestra.</strong> Que Claude enseñe 5 ejemplos y el criterio antes de clasificar miles de filas evita errores sistemáticos.</li>
+<li><strong>Índices relativos.</strong> Google Trends da 0-100 por consulta, no volúmenes. No sumes ni compares entre consultas sin normalizar.</li>
+<li><strong>Las respuestas de IA varían.</strong> Repite cada pregunta y reporta consistencia, no un único resultado.</li>
+<li><strong>Datos personales y reseñas.</strong> Para prospección y reseñas usa solo datos públicos de negocios, respeta términos de cada plataforma y la normativa de protección de datos y comunicaciones comerciales.</li>
+<li><strong>Costes.</strong> Algunos APIs (merchant, app data, business data, LLM responses) tienen precios distintos a SERP. Pide estimación antes del lote y valida con 20 filas.</li>
+<li><strong>Combina con herramientas gratuitas.</strong> Search Console, Bing Webmaster Tools, PageSpeed y CrUX aportan datos propios que ninguna suite de terceros tiene.</li>
+<li><strong>Documentación vigente:</strong> <a href="https://docs.dataforseo.com/v3/">docs.dataforseo.com</a>.</li>
+</ul>
+
+<footer>Guía generada con Claude Code. Complementa las guías de Ahrefs y Semrush de este repo. Las comparaciones con ambas plataformas no se verificaron contra sus catálogos actuales.</footer>
+</div>
+
+<script>
+document.querySelectorAll('.cp').forEach(function(b){
+  b.addEventListener('click',function(){
+    var t=b.parentNode.querySelector('pre').innerText;
+    var done=function(){b.textContent='Copiado';b.classList.add('ok');setTimeout(function(){b.textContent='Copiar';b.classList.remove('ok')},1500)};
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(done,function(){})}
+    else{var r=document.createRange();r.selectNodeContents(b.parentNode.querySelector('pre'));var s=getSelection();s.removeAllRanges();s.addRange(r);try{document.execCommand('copy');done()}catch(e){}}
+  });
+});
+</script>
+</body>
+</html>
