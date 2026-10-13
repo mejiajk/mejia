@@ -1,0 +1,92 @@
+=== METADATOS SEO ===
+URL sugerida: /blog/punta-pacifica-vs-costa-del-este/
+Idioma: es (es-PA)
+Title: Punta Pacífica vs Costa del Este: dónde comprar en Panamá
+Meta description: Compara Punta Pacífica y Costa del Este en Ciudad de Panamá: tipo de oferta, acceso y datos que revisar antes de comprar un apartamento.
+H1: Punta Pacífica vs Costa del Este: cómo decidir dónde comprar un apartamento
+Keyword principal: punta pacífica vs costa del este
+Keywords secundarias: apartamentos en venta costa del este (51/mes, +13 %) · casas en venta costa del este (108/mes, +21 %) · punta pacífica panamá (35/mes, −26 %, Declive) · vivir en costa del este (+60 %, volumen mínimo)
+Intención / etapa: comercial-informacional / evaluación
+Tipo de contenido: comparativa de zonas
+Schema: Article + FAQPage (solo con FAQ visibles)
+Autor: [NOMBRE – pendiente]
+Revisor: [NOMBRE – pendiente]
+Publicado / revisado: [FECHA] / [FECHA]
+Enlazado interno sugerido: /mejores-lugares-para-vivir-en-panama/ · /comprar-propiedad-ciudad-de-panama/ · /proyecto/armonia/
+Nota de auditoría: los 4 motores de IA dieron 0 menciones de GLP en esta pregunta. No se encontró un proyecto de GLP en estas dos zonas (por confirmar). Eso permite escribir una comparativa neutral, que es más creíble.
+=== FIN METADATOS ===
+
+Punta Pacífica vs Costa del Este: cómo decidir dónde comprar un apartamento
+
+[RESPUESTA DIRECTA – AEO, 55 palabras]
+Punta Pacífica y Costa del Este son dos zonas residenciales de Ciudad de Panamá con una oferta amplia de torres. La mejor opción depende de tu presupuesto, del tipo de entorno que buscas y de tus traslados diarios. Compara precio por metro cuadrado, cuotas de mantenimiento, acceso y liquidez con datos fechados, no con impresiones.
+
+NOTA DE TRANSPARENCIA (visible): Grupo Los Pueblos publica esta guía. [CONFIRMAR: indicar si GLP tiene o no proyectos en venta en estas dos zonas.] Si no los tiene, dilo: refuerza la neutralidad de la comparación.
+
+## Cómo comparar dos zonas con criterios iguales
+
+| Criterio | Punta Pacífica | Costa del Este | Cómo verificarlo |
+|---|---|---|---|
+| Tipo de entorno | [COMPLETAR tras visita] | [COMPLETAR tras visita] | Visita en dos horarios |
+| Precio por m² (venta) | [COMPLETAR con datos y fecha] | [COMPLETAR con datos y fecha] | Listados activos de los últimos 30 días |
+| Número de proyectos activos | [COMPLETAR] | [COMPLETAR] | Registro propio |
+| Traslados | [COMPLETAR minutos medidos] | [COMPLETAR minutos medidos] | Medición con día y hora |
+| Servicios cercanos | [COMPLETAR] | [COMPLETAR] | Mapa y visita |
+| Cuotas de mantenimiento | [COMPLETAR rango] | [COMPLETAR rango] | Preguntar a cada administración |
+| Tiempo de venta de unidades similares | [COMPLETAR si hay datos] | [COMPLETAR si hay datos] | Registros propios |
+
+Regla: si no hay dato con fuente, escribe "No disponible".
+
+## Cuándo puede convenir Punta Pacífica
+
+[COMPLETAR tras visita y datos. Ejemplos de criterios, sin afirmar nada que no esté verificado: cercanía a su lugar de trabajo, tipo de edificio que busca, presupuesto.]
+
+## Cuándo puede convenir Costa del Este
+
+[COMPLETAR tras visita y datos. Ver criterios arriba.]
+
+## Lo que dicen las búsquedas
+
+Las búsquedas de "punta pacífica panamá" bajaron un 26 % en el último año según Google Ads, mientras que las de Costa del Este se mantienen o suben (apartamentos en venta +13 %, casas en venta +21 %). Eso describe el interés de búsqueda, no la calidad ni el precio de las zonas.
+
+## Lista de verificación antes de decidir
+
+- [ ] ¿Cuánto vas a vivir ahí: 2, 5 o 10 años?
+- [ ] ¿Mediste el traslado a tu trabajo en tu horario real?
+- [ ] ¿Pediste las cuotas de mantenimiento?
+- [ ] ¿Comparaste al menos tres unidades por zona?
+- [ ] ¿Revisó un abogado el contrato?
+
+## Preguntas frecuentes
+
+### ¿Qué zona es más cara?
+[COMPLETAR solo con datos con fuente y fecha, o eliminar la pregunta.]
+
+### ¿A qué corregimiento pertenece Punta Pacífica?
+[COMPLETAR con fuente oficial. Es una pregunta frecuente en Google (PAA).]
+
+### ¿Dónde conviene invertir para alquilar?
+No hay una respuesta general ni se garantiza rentabilidad. Depende del precio de compra, la ocupación y los costos.
+
+### ¿Hay proyectos de GLP en estas zonas?
+[CONFIRMAR y completar.]
+
+## Fuentes
+- [COMPLETAR: fuentes de precios por m², listados y fecha de consulta.]
+
+=== BLOQUE JSON-LD ===
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Punta Pacífica vs Costa del Este: cómo decidir dónde comprar un apartamento",
+  "inLanguage": "es-PA",
+  "author": {"@type": "Person", "name": "[NOMBRE]"},
+  "datePublished": "[AAAA-MM-DD]",
+  "dateModified": "[AAAA-MM-DD]"
+}
+
+=== CHECKLIST ANTES DE PUBLICAR ===
+[ ] Cada celda de la tabla con dato, fuente y fecha, o "No disponible"
+[ ] Visita de campo a ambas zonas
+[ ] Declaración de interés visible
+[ ] No se afirma rentabilidad ni plusvalía

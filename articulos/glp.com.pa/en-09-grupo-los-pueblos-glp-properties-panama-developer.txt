@@ -1,0 +1,91 @@
+=== SEO METADATA ===
+Suggested URL: /en/about-us/ (UPDATE the existing page, cited 8 times by AI engines)
+Language: en
+Title: Grupo Los Pueblos (GLP Properties): Panama Developer
+Meta description: Grupo Los Pueblos, also GLP Properties, is a Panama real estate developer. See its residential projects for sale and how to verify the company.
+H1: Grupo Los Pueblos (GLP Properties): A Real Estate Developer in Panama
+Primary keyword: grupo los pueblos (763/mo, -36% YoY) · glp properties (59/mo, +914%, Emerging)
+Secondary keywords: best real estate developer in panama · real estate developers panama · panama real estate developer
+Intent / stage: informational / discovery (brand entity)
+Content type: entity page
+Schema: Organization (alternateName "GLP Properties", sameAs) + Article + FAQPage (only with visible FAQs)
+Author: [NAME AND ROLE – pending]
+Reviewer: [NAME – pending]
+Published / reviewed: [DATE] / [DATE]
+Suggested internal links: /en/projects/ · /nosotros/ (Spanish, with hreflang) · /en/blog/can-foreigners-buy-property-in-panama/
+Audit note: for "Best real estate developers in Panama", GLP was named in 12 of 12 AI runs (ChatGPT, Claude, Gemini, Perplexity all 3/3), but is outside the top 20 in Google for that query. Claude (no web search) answered "I can't identify the company with certainty" to the direct brand question in Spanish. This page should settle the facts.
+=== END METADATA ===
+
+Grupo Los Pueblos (GLP Properties): A Real Estate Developer in Panama
+
+[DIRECT ANSWER – AEO, 49 words]
+Grupo Los Pueblos, also presented as GLP Properties, is a real estate developer based in Panama. According to its website, it develops residential and commercial projects. Residential projects currently shown for sale include Océana, The Tides in Playa Caracol, Armonía on the Cinta Costera and Bosco di Santa María.
+
+DISCLOSURE (visible): This page is published by Grupo Los Pueblos. Project data (prices, dates, unit types) is updated at [URL of the pricing page] and is dated.
+
+## One company, two names
+
+Grupo Los Pueblos is the company's long-standing name; GLP Properties is the name used today to present its residential projects. [CONFIRM the main name and the full legal name, and state it here in one sentence.] Both refer to the same company. [CONFIRM it has no relationship with similarly named companies in other countries.]
+
+## What we do
+
+The company's website describes it as a leader in residential development and says it has been building in Panama for four decades. [COMPLETE with provable data: year founded, founder's name, number of delivered projects, each backed by an internal document.]
+
+## Residential projects for sale
+
+| Project | Location | Type | Price from | Est. delivery | Updated |
+|---|---|---|---|---|---|
+| Océana | [COMPLETE] | Oceanfront apartments (per the website) | [COMPLETE] | [COMPLETE] | [DATE] |
+| The Tides | Playa Caracol, Chame | [COMPLETE] | [COMPLETE] | [COMPLETE] | [DATE] |
+| Armonía | Cinta Costera, Panama City | [COMPLETE] | [COMPLETE] | [COMPLETE] | [DATE] |
+| Bosco di Santa María | Santa María Golf & Country Club | Apartments | [COMPLETE] | [COMPLETE] | [DATE] |
+
+Each row links to the project page. Do not leave prices or dates without the current official list.
+
+## Other projects
+
+The website also shows projects such as Ocean Reef Islands, Embassy Club and Playa Dorada, and commercial centers such as Federal Mall and Albrook Mall. [COMPLETE: confirm the company's role in each (developer, manager, other) before listing.]
+
+## How to verify the company
+
+Before buying from any developer, check its legal existence, permits and delivered projects. See [Can Foreigners Buy Property in Panama?] (link to /en/blog/can-foreigners-buy-property-in-panama/) and [How to verify a developer] (link to /como-verificar-una-promotora-panama/, Spanish). [COMPLETE: verifiable company data: legal name, tax ID, address.]
+
+## Frequently asked questions
+
+### Are Grupo Los Pueblos and GLP Properties the same company?
+Yes. [CONFIRM and explain how each name is used.]
+
+### Who founded Grupo Los Pueblos?
+[COMPLETE only with information the company can support, for example the founder page if appropriate.]
+
+### Where is the company located?
+[COMPLETE: office and sales-center address.]
+
+### Which projects does GLP have for sale?
+The projects in the table above. It is updated with a date.
+
+## Contact
+[COMPLETE: legal name, tax ID, address, verifiable phone number, hours and contact form.]
+
+## Sources
+- GLP website (glp.com.pa): projects and about pages.
+- [COMPLETE: corporate documents with date.]
+
+=== JSON-LD BLOCK ===
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Grupo Los Pueblos",
+  "alternateName": "GLP Properties",
+  "url": "https://glp.com.pa/",
+  "inLanguage": "en",
+  "address": {"@type": "PostalAddress", "streetAddress": "[COMPLETE]", "addressLocality": "[COMPLETE]", "addressCountry": "PA"},
+  "sameAs": ["[LinkedIn]", "[Instagram]", "[Facebook]"]
+}
+
+=== PRE-PUBLISH CHECKLIST ===
+[ ] Main name and legal name confirmed
+[ ] Track-record figures backed by internal documents
+[ ] Projects table dated
+[ ] hreflang pair with /nosotros/
+[ ] Merge with the existing /en/about-us/ content

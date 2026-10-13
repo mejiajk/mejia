@@ -1,0 +1,89 @@
+=== METADATOS SEO ===
+URL sugerida: /blog/ocean-reef-islands-que-es-desarrollador-precios/
+Idioma: es (es-PA)
+Title: Ocean Reef Islands, Panamá: qué es y cómo evaluar precios
+Meta description: Qué es Ocean Reef Islands en Panamá, qué papel tiene GLP y cómo evaluar los precios que circulan antes de comprar. Con datos fechados.
+H1: Ocean Reef Islands, Panamá: qué es, quién participa y cómo evaluar los precios
+Keyword principal: ocean reef islands (3.742/mes, +32 %, Creciente)
+Keywords secundarias: ocean reef islands panamá (293/mes) · ocean reef islands marina (480/mes) · ocean reef islands grupo los pueblos (210/mes)
+Intención / etapa: informacional / evaluación
+Tipo de contenido: página de entidad de proyecto
+Schema: Article + FAQPage (solo con FAQ visibles)
+Autor: [NOMBRE – pendiente]
+Revisor: [NOMBRE – pendiente]
+Publicado / revisado: [FECHA] / [FECHA]
+Enlazado interno sugerido: /en/proyecto/ocean-reef-islands/ · /proyecto/ocean-reef-park/ · /nosotros/ · /en/blog/is-ocean-reef-islands-a-good-investment/
+Nota de auditoría: en las IA, las respuestas de precio de Ocean Reef citan sitios de terceros (por ejemplo oceanreefislandpanamaforsale.com) y no nombran a GLP (0/12 en esos prompts). El AIO de Google sí cita glp.com.pa para "ocean reef islands".
+=== FIN METADATOS ===
+
+Ocean Reef Islands, Panamá: qué es, quién participa y cómo evaluar los precios
+
+[RESPUESTA DIRECTA – AEO, 54 palabras]
+Ocean Reef Islands es una comunidad residencial en islas con marina en Panamá, y el sitio de GLP tiene una página de proyecto dedicada. Los precios que circulan en internet varían mucho según el tipo y el tamaño de la propiedad. Antes de decidir, pide la lista oficial vigente y compárala con unidades similares.
+
+NOTA DE TRANSPARENCIA (visible): Esta página la publica Grupo Los Pueblos. [CONFIRMAR y escribir con precisión el papel de GLP en Ocean Reef Islands: desarrolladora, vendedora u otro.]
+
+## Qué es Ocean Reef Islands
+
+Ocean Reef Islands es una comunidad residencial de islas conectadas a tierra, con marina. [CONFIRMAR con documentos oficiales del proyecto y completar: ubicación exacta, número de islas, tipos de propiedad, fase de desarrollo.]
+
+## Quién está detrás
+
+La web de GLP incluye la página del proyecto en `/en/proyecto/ocean-reef-islands/`. [COMPLETAR: rol exacto de GLP y de otras empresas (marina, operador, administradora), cada una con enlace a su sitio.] Aclarar esto evita que el lector, o una IA, atribuya el proyecto a una empresa equivocada.
+
+## Qué se vende
+
+| Tipo | Rango de precios | Fuente / fecha |
+|---|---|---|
+| Apartamentos | [COMPLETAR con lista oficial] | [FECHA] |
+| Casas / residencias | [COMPLETAR] | [FECHA] |
+| Lotes | [COMPLETAR] | [FECHA] |
+
+Los asistentes de IA hoy dan rangos tomados de portales de terceros. Esos son precios de oferta, no de venta cerrada, y no están verificados por nosotros. Por eso publicamos la tabla oficial con fecha.
+
+## Cómo evaluar un precio en un proyecto de lujo
+
+1. Compara el precio por m² con el de unidades similares de la misma fase.
+2. Distingue precio de oferta de precio de cierre.
+3. Pregunta qué incluye: estacionamientos, muelle, membresías.
+4. Suma cuotas de mantenimiento, seguros e impuestos.
+5. Pregunta por la liquidez: cuánto tarda en venderse una unidad similar. [COMPLETAR con datos propios si existen.]
+
+## La marina y las amenidades
+
+Existe un sitio de la marina (oceanreefmarina.com.pa). [CONFIRMAR relación con GLP.] [COMPLETAR: lista de amenidades operativas y planificadas.]
+
+## Preguntas frecuentes
+
+### ¿Quién desarrolla Ocean Reef Islands?
+[CONFIRMAR Y COMPLETAR con precisión.]
+
+### ¿Cuánto cuesta una propiedad en Ocean Reef Islands?
+[COMPLETAR con el rango oficial vigente y su fecha. Si no se puede publicar, indica cómo solicitarlo.]
+
+### ¿Puede comprar un extranjero?
+En general los extranjeros pueden comprar inmuebles en Panamá, con restricciones en zonas concretas. Confirma tu caso con un abogado panameño.
+
+### ¿Es una buena inversión?
+Depende del precio de entrada, los costos y la liquidez. Lee el análisis en [Is Ocean Reef Islands a good investment?] (enlace a la versión en inglés).
+
+## Fuentes
+- Web de GLP: página del proyecto.
+- [COMPLETAR: documentos oficiales del proyecto y fecha de consulta.]
+
+=== BLOQUE JSON-LD ===
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Ocean Reef Islands, Panamá: qué es, quién participa y cómo evaluar los precios",
+  "inLanguage": "es-PA",
+  "author": {"@type": "Person", "name": "[NOMBRE]"},
+  "datePublished": "[AAAA-MM-DD]",
+  "dateModified": "[AAAA-MM-DD]"
+}
+
+=== CHECKLIST ANTES DE PUBLICAR ===
+[ ] Rol de GLP confirmado por escrito
+[ ] Lista de precios oficial con fecha
+[ ] Relación con la marina y otros sitios aclarada
+[ ] Sin cifras de portales de terceros sin cita y fecha
