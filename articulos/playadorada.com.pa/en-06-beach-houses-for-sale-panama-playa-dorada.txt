@@ -1,0 +1,100 @@
+=== SEO METADATA ===
+Suggested URL: /en/beach-houses-for-sale-panama/
+Language: en
+Title: Beach Houses for Sale in Panama | Playa Dorada
+Meta description: Beach houses for sale in Playa Dorada, Vacamonte, about 30 minutes from Panama City. Models, prices from [PRICE] and how to book a visit.
+H1: Beach Houses for Sale in Panama: Models and Prices at Playa Dorada
+Primary keyword: beach houses panama (93/mo, -3%, Stable)
+Secondary keywords: panama beach house for sale (16/mo, +12%) · beach homes for sale panama (10/mo) · panama beach property (23/mo) · panama beachfront property (+60%, very low volume)
+Intent / stage: transactional / decision
+Content type: category landing with offer
+Schema: CollectionPage + Product/Offer per model + BreadcrumbList + FAQPage (only with visible FAQs)
+Author: [NAME – pending]
+Reviewer: [NAME – pending]
+Published / reviewed: [DATE] / [DATE]
+Suggested internal links: /en/home/ · /casas/ (Spanish counterpart; hreflang) · /en/news-en/beach-condos-30-minutes-from-panama-city/ · /en/contact/
+Audit note: in the English SERP for "buy beach house in panama" and "panama beach property" the site is outside the top 20; portals and brokerages win. A project page with dated prices and a clear offer is the differentiator.
+=== END METADATA ===
+
+Beach Houses for Sale in Panama: Models and Prices at Playa Dorada
+
+[DIRECT ANSWER – AEO, 47 words]
+Playa Dorada offers beach houses for sale in Vacamonte, Panamá Oeste, about 30 minutes from Panama City according to its website. Models start from [PRICE] (price list valid as of [DATE]). You can view the models, tour the project virtually and book a visit before you decide.
+
+DISCLOSURE (visible): This page is published by [DEVELOPER / LEGAL NAME – CONFIRM]. Prices and availability are dated.
+
+## Houses available now
+
+| Model | Bedrooms | Bathrooms | Built area (m²) | Lot (m²) | Price from | Status | Updated |
+|---|---|---|---|---|---|---|---|
+| [MODEL 1] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [Ready / under construction] | [DATE] |
+| [MODEL 2] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [DATE] |
+| [MODEL 3] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [DATE] |
+
+Each model links to its own page. The site currently has product pages such as Altamarina 19 and Miramar [CONFIRM the official model list]. Only list availability you can confirm.
+
+## What is included
+
+[COMPLETE: finishes, kitchen, appliances, parking, lot. Separate what is included from optional extras.]
+
+## The beach and the community
+
+The site describes a project in Panamá Oeste with a beach club and amenities. [COMPLETE: confirmed amenities, marking each as open today or planned, with date. Add three original photos with alt text.]
+
+## Location
+
+Playa Dorada is in Vacamonte, Arraiján district, Panamá Oeste. [COMPLETE: drive time to Panama City measured at peak and off-peak hours, with date and tool.]
+
+## How to buy
+
+1. **Choose a model** and confirm availability.
+2. **Visit** the project or take the virtual tour.
+3. **Reserve** with the current reservation amount: [COMPLETE amount and terms].
+4. **Sign the contract** after your attorney's review.
+5. **Financing**, if needed: [COMPLETE partner banks and requirements from their official information].
+6. **Handover** as set out in the contract.
+
+## Book a visit
+
+[BUTTON: Book a visit] · [WHATSAPP: verified number] · [FORM: name, email, phone, model of interest]
+Sales center hours: [COMPLETE]. Address: [COMPLETE].
+
+## Before you decide
+
+- Who is the developer and title holder, with documents.
+- The contract: delivery, penalties, changes to specifications.
+- Monthly fees and what they cover.
+- Your real drive time.
+
+## Frequently asked questions
+
+### How much does a beach house at Playa Dorada cost?
+From [PRICE], depending on the model (price list valid as of [DATE]).
+
+### Can foreigners buy there?
+In general, foreigners can buy property in Panama, with restrictions in specific zones. Confirm your case with a Panamanian attorney.
+
+### Are houses ready to move in?
+[COMPLETE only if finished units exist, with their number and date.]
+
+### Can I finance the purchase?
+[COMPLETE with partner banks and official requirements.]
+
+## Sources
+- Playa Dorada official website (location, models, amenities).
+- [COMPLETE: official project documents with dates.]
+
+=== JSON-LD BLOCK ===
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "[MODEL] – Playa Dorada",
+  "description": "Beach house for sale in Playa Dorada, Vacamonte, Panamá Oeste.",
+  "offers": {"@type": "Offer", "priceCurrency": "USD", "price": "[PRICE]", "priceValidUntil": "[YYYY-MM-DD]", "availability": "https://schema.org/InStock", "seller": {"@type": "Organization", "name": "[LEGAL NAME]"}}
+}
+
+=== PRE-PUBLISH CHECKLIST ===
+[ ] Table with price, status and date per model; "Inquire" where there is no data
+[ ] No false scarcity
+[ ] WhatsApp and form tested
+[ ] hreflang pair with /casas/

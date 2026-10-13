@@ -1,0 +1,95 @@
+=== SEO METADATA ===
+Suggested URL: /en/prices/
+Language: en
+Title: Buy a House in Panama: Playa Dorada Prices and Reservation
+Meta description: Current prices for houses at Playa Dorada, Vacamonte: models, reservation amount, payment plan and financing. Updated [DATE].
+H1: Buy a House in Panama at Playa Dorada: Current Prices, Models and How to Reserve
+Primary keyword: buy house in panama (127/mo, +1%, Stable) · playa dorada panama (967/mo)
+Secondary keywords: playa dorada prices · panama house prices beach · financing a house in panama
+Intent / stage: transactional / decision
+Content type: price and terms page (citable by AI)
+Schema: WebPage + Product/Offer per model + FAQPage (only with visible FAQs)
+Author: [NAME – pending]
+Reviewer: [NAME – pending]
+Published / reviewed: [DATE] / [DATE] (review monthly)
+Suggested internal links: /en/beach-houses-for-sale-panama/ · /precios/ (Spanish counterpart) · /en/contact/
+Audit note: none of the four AI engines cites the site for price questions. Perplexity quotes unverified figures from third parties. A dated, official table is the missing citable source.
+=== END METADATA ===
+
+Buy a House in Panama at Playa Dorada: Current Prices, Models and How to Reserve
+
+[DIRECT ANSWER – AEO, 48 words]
+Houses at Playa Dorada, in Vacamonte, Panamá Oeste, start from [PRICE] depending on the model, according to the price list valid as of [DATE]. Reserving requires [RESERVATION AMOUNT] and the balance follows the payment plan in your contract. This page shows the models, prices and steps to reserve.
+
+DISCLOSURE (visible): Published by [DEVELOPER / LEGAL NAME – CONFIRM]. Prices may change; the date shows the last verification.
+
+## Current price list
+
+| Model | Bedrooms | m² | List price | Reservation | Status | Valid as of |
+|---|---|---|---|---|---|---|
+| [MODEL 1] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [DATE] |
+| [MODEL 2] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [DATE] |
+| [MODEL 3] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [DATE] |
+
+Rules: write "Inquire" if a price is not confirmed. Do not use "from" unless at least one unit exists at that price.
+
+## Payment plan
+
+[COMPLETE with the real plan: reservation, down payment, installments, balance and dates. Show a worked example only with the project's official numbers.]
+
+## What the price covers, and what it does not
+
+| Included | Not included (quoted separately) |
+|---|---|
+| [COMPLETE] | [COMPLETE: for example closing costs, furniture, taxes] |
+
+Closing costs and taxes depend on current rules; we do not estimate them here. [COMPLETE: links to the current DGI and Registro Público pages, plus "verify with an attorney".]
+
+## Financing
+
+If you plan to finance, ask banks directly which requirements apply, including for non-residents. [COMPLETE: partner banks and a link to their official information.]
+
+## How to reserve
+
+1. Choose a model and confirm availability.
+2. Visit or take the virtual tour.
+3. Sign the reservation with [AMOUNT].
+4. Your attorney reviews the contract.
+5. Pay according to the plan; handover as set in the contract.
+
+[BUTTON: Reserve] · [WHATSAPP] · [FORM]
+
+## Frequently asked questions
+
+### How much is a house at Playa Dorada?
+From [PRICE], depending on the model (valid as of [DATE]).
+
+### How much is the reservation?
+[COMPLETE].
+
+### Can I pay in installments?
+[COMPLETE with the real plan.]
+
+### Do prices include closing costs?
+[COMPLETE. If not included, say so.]
+
+### Can foreigners buy and finance?
+In general, foreigners can buy property in Panama, with restrictions in specific zones. Financing terms for non-residents vary by bank. Confirm with an attorney and the bank.
+
+## Sources
+- Official price list valid as of [DATE].
+- DGI and Registro Público: [LINKS to the current pages].
+
+=== JSON-LD BLOCK ===
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "[MODEL] – Playa Dorada",
+  "offers": {"@type": "Offer", "priceCurrency": "USD", "price": "[PRICE]", "priceValidUntil": "[YYYY-MM-DD]", "availability": "https://schema.org/InStock"}
+}
+
+=== PRE-PUBLISH CHECKLIST ===
+[ ] Table faithful to the official list; validity date visible
+[ ] Payment plan approved by the client
+[ ] No legal or tax figures without a source
+[ ] Monthly review scheduled
