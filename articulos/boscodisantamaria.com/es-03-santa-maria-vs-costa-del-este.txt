@@ -1,0 +1,96 @@
+=== METADATOS SEO ===
+URL sugerida: /santa-maria-vs-costa-del-este/
+Idioma: es (es-PA)
+Title: Santa María vs Costa del Este: dónde comprar apartamento
+Meta description: Compara Santa María y Costa del Este en Panamá: estilo de vida, tipo de oferta, acceso y qué datos revisar para decidir dónde comprar tu apartamento.
+H1: Santa María vs Costa del Este: dónde comprar un apartamento en Panamá
+Keyword principal: santa maria vs costa del este
+Keywords secundarias: costa del este panamá (1.375/mes) · vivir en costa del este (+60 %, Emergente) · apartamentos en venta costa del este · mejores zonas para vivir en panamá
+Intención / etapa: comercial-informacional / evaluación
+Tipo de contenido: comparativa de zonas
+Schema: Article + FAQPage (solo con FAQ visibles)
+Autor: [NOMBRE – pendiente]
+Revisor: [NOMBRE – pendiente]
+Publicado / revisado: [FECHA] / [FECHA]
+Enlazado interno sugerido: /santa-maria-golf-country-club-guia/ · /bosco-di-santa-maria/ · /preventa-vs-apartamento-listo-panama/
+=== FIN METADATOS ===
+
+Santa María vs Costa del Este: dónde comprar un apartamento en Panamá
+
+[RESPUESTA DIRECTA – AEO, 58 palabras]
+Santa María y Costa del Este son dos zonas de Ciudad de Panamá con perfiles distintos. Santa María es una comunidad planificada alrededor de un campo de golf. Costa del Este concentra una oferta amplia de torres y servicios. La mejor opción depende de tu prioridad: entorno de comunidad con golf o una oferta más extensa donde elegir.
+
+NOTA DE TRANSPARENCIA (visible): Publica este artículo el equipo de Bosco di Santa María, que está en Santa María. Por eso mostramos los criterios y los datos para que compares por tu cuenta, e indicamos dónde Costa del Este puede ser mejor.
+
+## Cómo comparar dos zonas sin sesgo
+
+Estos son los seis criterios que recomendamos revisar. Cada celda de la tabla debe llevar un dato con fuente y fecha, no una opinión.
+
+| Criterio | Santa María | Costa del Este | Cómo verificarlo |
+|---|---|---|---|
+| Tipo de entorno | Comunidad planificada con golf (según el sitio del proyecto) | Zona con amplia oferta de torres y servicios | Visita en dos horarios |
+| Precio por m² (venta) | [COMPLETAR con datos propios y fecha] | [COMPLETAR con fuente pública y fecha] | Listados activos de los últimos 30 días |
+| Variedad de oferta | [COMPLETAR: nº de proyectos activos] | [COMPLETAR: nº de proyectos activos] | Registro propio de proyectos |
+| Traslados | [COMPLETAR minutos medidos] | [COMPLETAR minutos medidos] | Medición con día y hora |
+| Servicios cercanos | [COMPLETAR] | [COMPLETAR] | Mapa y visita |
+| Cuotas de mantenimiento | [COMPLETAR rango por proyecto] | [COMPLETAR rango por proyecto] | Preguntar a cada administración |
+
+Regla de publicación: si no tienes el dato con fuente, deja la celda como "No disponible". Una celda vacía honesta rinde más que una cifra inventada.
+
+## ¿Cuándo tiene sentido Santa María?
+
+- Si te importa vivir dentro de una comunidad planificada con golf y áreas verdes.
+- Si aceptas comprar en preventa y esperar la entrega.
+- Si valoras apartamentos amplios frente a unidades compactas [CONFIRMAR con las tipologías].
+
+## ¿Cuándo tiene sentido Costa del Este?
+
+- Si quieres más variedad de proyectos entre los que elegir.
+- Si necesitas una unidad ya terminada o una entrega más cercana.
+- Si prefieres un entorno de torres con servicios a la mano.
+
+[COMPLETAR: contrasta estas afirmaciones con datos del mercado y con una visita de campo antes de publicar.]
+
+## Qué evaluar además de la zona
+
+1. El proyecto concreto: promotora, permisos, contrato y garantías.
+2. El horizonte: ¿vas a vivir ahí, a alquilar o a revender?
+3. Costos recurrentes: mantenimiento, seguros, impuestos.
+4. La liquidez: cuánto tardan en venderse unidades similares.
+
+Para la decisión entre comprar en preventa o una unidad lista, lee [Preventa vs apartamento listo en Panamá] (enlace a /preventa-vs-apartamento-listo-panama/).
+
+## Preguntas frecuentes
+
+### ¿Es mejor Santa María o Costa del Este?
+Depende de tu prioridad. Si buscas una comunidad con golf, Santa María; si priorizas variedad de oferta y servicios en torres, Costa del Este. Contrasta cada caso con los datos de la tabla.
+
+### ¿Dónde es más caro el metro cuadrado?
+[COMPLETAR solo con datos con fuente y fecha. Si no los tienes, elimina la pregunta.]
+
+### ¿Qué zona conviene para invertir en alquiler?
+No hay una respuesta general. La rentabilidad depende del precio de compra, la ocupación y los costos. No garantizamos rentabilidades. [COMPLETAR con datos verificables si se publican.]
+
+### ¿Costa del Este y Santa María están cerca?
+[COMPLETAR con el tiempo de traslado medido y la fecha de la medición.]
+
+## Fuentes
+- Sitio de Bosco di Santa María (descripción de la comunidad).
+- [COMPLETAR: fuentes de precios por m², con fecha de consulta.]
+
+=== BLOQUE JSON-LD ===
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Santa María vs Costa del Este: dónde comprar un apartamento en Panamá",
+  "inLanguage": "es-PA",
+  "author": {"@type": "Person", "name": "[NOMBRE]"},
+  "datePublished": "[AAAA-MM-DD]",
+  "dateModified": "[AAAA-MM-DD]"
+}
+
+=== CHECKLIST ANTES DE PUBLICAR ===
+[ ] Cada celda de la tabla con dato, fuente y fecha, o "No disponible"
+[ ] Visita de campo a ambas zonas
+[ ] No se afirma rentabilidad ni plusvalía sin datos citados
+[ ] Declaración de interés visible (el publicador está en una de las zonas)

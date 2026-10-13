@@ -1,0 +1,107 @@
+=== SEO METADATA ===
+Suggested URL: /en/buy-apartment-panama-foreigner/
+Language: en
+Title: Buy an Apartment in Panama as a Foreigner: Step by Step
+Meta description: Can foreigners buy an apartment in Panama? Learn the steps: vetting the developer, the contract, payments, the deed and registration. Reviewed by counsel.
+H1: How to Buy an Apartment in Panama as a Foreigner: A Step-by-Step Guide
+Primary keyword: buy apartment in panama (90/mo, +64% YoY, Emerging)
+Secondary keywords: can foreigners buy property in panama · buying property in panama as a foreigner · panama real estate for foreigners
+Intent / stage: informational / process-legal
+Content type: process guide (YMYL)
+Schema: Article + FAQPage + HowTo (only with visible steps/FAQ)
+Author: [NAME – pending]
+Legal reviewer: [PANAMANIAN ATTORNEY – name, credentials, review date – REQUIRED before publishing]
+Published / reviewed: [DATE] / [DATE]
+Suggested internal links: /en/pre-construction-condos-panama-city-guide/ · /en/what-is-bosco-di-santa-maria/ · /comprar-apartamento-preventa-panama-extranjero/ (Spanish counterpart; do not duplicate text)
+Official sources to link (specific, current page): Registro Público de Panamá · DGI (dgi.mef.gob.pa) · Migración · Superintendencia de Bancos
+=== END METADATA ===
+
+How to Buy an Apartment in Panama as a Foreigner: A Step-by-Step Guide
+
+[DIRECT ANSWER – AEO, 54 words]
+Yes, foreigners can generally buy an apartment in Panama. The process is to set a budget, vet the developer and property title, have a Panamanian attorney review the purchase contract, confirm how your payments are protected, sign the public deed and register it. Restrictions exist in specific areas, so confirm your case with an attorney.
+
+NOTICE (visible): This guide is informational and is not legal or tax advice. Rules and amounts change. Verify each point with a licensed Panamanian attorney and the official agency.
+
+## Can a foreigner buy property in Panama?
+
+In general, foreigners can buy real estate in Panama. There are restrictions in specific zones, for example border areas and islands. Before you sign, your attorney should confirm that the property is not in a restricted zone and has no liens. [VERIFY with the legal reviewer and link the current official source.]
+
+## Step 1: Set your goal and your total budget
+
+Decide whether you will live in the apartment, rent it or resell it. Add closing costs, monthly maintenance, insurance and taxes to the price. Do not rely on example figures: check current amounts with the official sources and your attorney. [COMPLETE: link to the current DGI and Registro Público pages.]
+
+## Step 2: Vet the developer and the project
+
+Before reserving a unit, ask for and review:
+- The developer's legal entity and legal representative.
+- The land title, and confirmation that it is free of liens (your attorney checks this at the Registro Público).
+- The construction permits for the project.
+- A track record of delivered projects you can visit.
+
+## Step 3: Have your attorney review the purchase agreement
+
+For off-plan purchases this is the most important document. Check:
+- The exact unit: area, floor plan, parking, storage.
+- The delivery date and what happens if it slips.
+- What changes the developer may make to plans or finishes.
+- What happens if you withdraw, or if the developer defaults.
+- Who pays each closing cost.
+
+## Step 4: Confirm how your payments are protected
+
+Ask in writing where installment payments are held and under what guarantee, such as a trust or a bank guarantee. [COMPLETE with the project's actual policy and supporting document.] Do not pay into any account the contract does not name.
+
+## Step 5: Financing
+
+If you plan to finance, ask banks directly which requirements apply to non-residents and foreign nationals. Requirements and rates change. [COMPLETE: link to the Superintendencia de Bancos and the banks consulted, with date.]
+
+## Step 6: Public deed and registration
+
+At closing a public deed is signed and recorded at the Registro Público. Your attorney coordinates the taxes and fees currently due. [COMPLETE: taxes and fees with the current figure, the official source and the date. Do not publish percentages without that source.]
+
+## Step 7: Handover and inspection
+
+At handover, inspect the unit against the contract: areas, finishes, installations. Put every observation and correction deadline in writing.
+
+## Does buying property give you residency?
+
+Buying real estate does not automatically grant residency. If you are interested in an investor residency program, check current requirements with Migración and an immigration attorney. [COMPLETE: current official link.]
+
+## Frequently asked questions
+
+### Do I have to be in Panama to buy?
+[VERIFY with the legal reviewer: signing methods and powers of attorney. Do not state without confirmation.]
+
+### How much are closing costs?
+They depend on taxes, registry fees, attorney fees and the contract. [COMPLETE with current figures and the official source, or link to a dedicated closing-costs article.]
+
+### What are the risks of buying off-plan?
+Delivery delays, changes to specifications and tied-up capital. See our guide to [how pre-construction purchases work] (link to /en/pre-construction-condos-panama-city-guide/).
+
+### Can I buy through a company?
+[VERIFY with the legal and tax reviewers; do not recommend structures without professional advice.]
+
+## Sources
+- Registro Público de Panamá: [LINK to the specific current page]
+- Dirección General de Ingresos (dgi.mef.gob.pa): [LINK to the specific current page]
+- Migración: [LINK to the specific current page]
+- Superintendencia de Bancos: [LINK to the specific current page]
+
+=== JSON-LD BLOCK ===
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How to Buy an Apartment in Panama as a Foreigner: A Step-by-Step Guide",
+  "inLanguage": "en",
+  "author": {"@type": "Person", "name": "[NAME]"},
+  "reviewedBy": {"@type": "Person", "name": "[ATTORNEY]"},
+  "datePublished": "[YYYY-MM-DD]",
+  "dateModified": "[YYYY-MM-DD]"
+}
+
+=== PRE-PUBLISH CHECKLIST ===
+[ ] Legal review signed by a Panamanian attorney (name and date visible)
+[ ] No tax figure without an official source and date
+[ ] Links to current official pages
+[ ] "Not legal advice" notice visible
