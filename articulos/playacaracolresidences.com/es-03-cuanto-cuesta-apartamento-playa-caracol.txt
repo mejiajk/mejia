@@ -1,0 +1,96 @@
+=== METADATOS SEO ===
+URL sugerida: /precios/
+Idioma: es (es-PA)
+Title: ¿Cuánto cuesta un apartamento en Playa Caracol? Precios
+Meta description: Precios vigentes de apartamentos y casas en Playa Caracol, Punta Chame: por proyecto, qué incluye, reserva, plan de pago y calculadora. Al [FECHA].
+H1: ¿Cuánto cuesta un apartamento en Playa Caracol? Precios vigentes por proyecto
+Keyword principal: playa caracol cuánto cuesta un apartamento (N/D; PAA en Google) · playa caracol apartamentos (27/mes)
+Keywords secundarias: precios playa caracol · playa caracol precio apartamento · calculadora playa caracol
+Intención / etapa: transaccional / decisión (precio)
+Tipo de contenido: página de precios y condiciones (citable por IA)
+Schema: WebPage + Product/Offer por proyecto + FAQPage (solo con FAQ visibles)
+Autor: [NOMBRE – pendiente]
+Revisor: [NOMBRE – pendiente]
+Publicado / revisado: [FECHA] / [FECHA] (revisar cada mes)
+Enlazado interno sugerido: /apartamentos-en-venta-playa-caracol/ · /calculadora/ · /contacto/
+Nota de auditoría: ante "¿cuánto cuesta un apartamento en Playa Caracol?" ninguna IA te menciona (0/12). Perplexity cita "US$199.900 a US$408.139" y ChatGPT "US$249.000 a US$375.000": son precios de anuncios de terceros, no verificados. Esta página es la fuente oficial que falta.
+=== FIN METADATOS ===
+
+¿Cuánto cuesta un apartamento en Playa Caracol? Precios vigentes por proyecto
+
+[RESPUESTA DIRECTA – AEO, 52 palabras]
+Los precios de los apartamentos en Playa Caracol dependen del proyecto, el tamaño y la vista. En esta página publicamos la lista oficial, con precios desde [PRECIO] y fecha de vigencia [FECHA]. Los anuncios de terceros pueden diferir porque son precios de oferta, no de venta cerrada. Para una cotización exacta, escríbenos.
+
+NOTA DE TRANSPARENCIA (visible): Publica [DESARROLLADORA / RAZÓN SOCIAL – CONFIRMAR]. Los precios pueden cambiar; la fecha indica la última verificación.
+
+## Lista de precios vigente
+
+| Proyecto | Tipología | Recámaras | m² | Precio de lista | Reserva | Estado | Vigente al |
+|---|---|---|---|---|---|---|---|
+| The Tides | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+| Olas del Mar | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+| Brisas del Mar | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+| Sky View | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+
+Reglas: "Consultar" si un precio no está confirmado; no uses "desde" si no existe al menos una unidad a ese precio.
+
+## Por qué los precios de internet no coinciden
+
+Los portales y las corredoras publican precios de anuncio, que pueden ser de unidades usadas, con muebles o con otra vista. Compara siempre el precio por m², lo que incluye y la fecha del anuncio.
+
+## Qué incluye el precio
+
+| Incluido | No incluido (cotiza aparte) |
+|---|---|
+| [COMPLETAR: acabados, mobiliario, estacionamiento] | [COMPLETAR: gastos de cierre, impuestos, mobiliario opcional] |
+
+Los gastos de cierre e impuestos dependen de la normativa vigente; no los estimamos aquí. [COMPLETAR: enlace a la página oficial vigente de la DGI y el Registro Público, y "verificar con abogado".]
+
+## Plan de pago y financiamiento
+
+[COMPLETAR con el plan real: reserva, pago inicial, pagos hasta la entrega y saldo. Bancos con los que el proyecto trabaja y enlace a su información oficial.]
+
+## Calculadora
+
+El sitio ofrece una calculadora (`/calculadora/`). [COMPLETAR: qué calcula, con qué supuestos, quién los revisó y la fecha. No presentes resultados como garantía de rentabilidad.]
+
+## Cómo reservar
+
+1. Elige proyecto y tipología.
+2. Confirma disponibilidad.
+3. Firma la reserva con [MONTO].
+4. Tu abogado revisa el contrato.
+
+[BOTÓN: Reservar / Pedir cotización] · [WHATSAPP] · [FORMULARIO]
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta un apartamento en Playa Caracol?
+Desde [PRECIO] según el proyecto (lista vigente al [FECHA]).
+
+### ¿Cuánto es la reserva?
+[COMPLETAR.]
+
+### ¿Los precios incluyen gastos de cierre?
+[COMPLETAR. Si no, dilo.]
+
+### ¿Se puede pagar en cuotas?
+[COMPLETAR con el plan real.]
+
+## Fuentes
+- Lista de precios oficial vigente al [FECHA].
+- DGI y Registro Público: [ENLACES a las páginas vigentes].
+
+=== BLOQUE JSON-LD ===
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "[PROYECTO / TIPOLOGÍA] – Playa Caracol",
+  "offers": {"@type": "Offer", "priceCurrency": "USD", "price": "[PRECIO]", "priceValidUntil": "[AAAA-MM-DD]", "availability": "https://schema.org/InStock"}
+}
+
+=== CHECKLIST ANTES DE PUBLICAR ===
+[ ] Tabla fiel a la lista oficial; fecha de vigencia visible
+[ ] Sin cifras legales ni de impuestos sin fuente
+[ ] Supuestos de la calculadora publicados
+[ ] Revisión mensual programada

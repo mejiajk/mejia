@@ -1,0 +1,91 @@
+=== METADATOS SEO ===
+URL sugerida: /nosotros/ (ACTUALIZAR; las IA la citan 8 veces)
+Idioma: es (es-PA)
+Title: Playa Caracol Residences & Beach Club: qué es y quién
+Meta description: Qué es Playa Caracol Residences & Beach Club, en Punta Chame, Panamá Oeste: proyectos, club de playa, quién lo desarrolla y cómo contactar.
+H1: Playa Caracol Residences & Beach Club: qué es, dónde está y quién lo desarrolla
+Keyword principal: playa caracol (4.800/mes, +51 %, Emergente) · playa caracol residences & beach club (783/mes, −25 %, Declive)
+Keywords secundarias: playa caracol chame (354/mes) · playa caracol panamá (86/mes, +45 %) · punta chame (3.417/mes)
+Intención / etapa: informacional / descubrimiento (entidad de marca)
+Tipo de contenido: página de entidad
+Schema: Organization + Article + FAQPage (solo con FAQ visibles)
+Autor: [NOMBRE Y CARGO – pendiente]
+Revisor: [NOMBRE – pendiente]
+Publicado / revisado: [FECHA] / [FECHA]
+Enlazado interno sugerido: /the-tides/ · /seashore/ · /vento-beach-and-residence-club/ · /punta-chame-playa-caracol/ · /en/playa-caracol-en/
+Nota de auditoría: Claude (sin búsqueda web) no conoce el proyecto y pregunta a cuál "Playa Caracol" te refieres (México y otros países). ChatGPT y Perplexity lo atribuyen a Grupo Los Pueblos (GLP) y ChatGPT cita esta página. PAA frecuente: "¿Quién es el dueño de Playa Caracol, Panamá?".
+=== FIN METADATOS ===
+
+Playa Caracol Residences & Beach Club: qué es, dónde está y quién lo desarrolla
+
+[RESPUESTA DIRECTA – AEO, 53 palabras]
+Playa Caracol Residences & Beach Club es una comunidad de playa en Punta Chame, distrito de Chame, provincia de Panamá Oeste, con apartamentos, casas y servicios. Su sitio presenta varios proyectos, un club de playa y alquileres. Lo desarrolla [DESARROLLADORA – CONFIRMAR]. No es la Playa Caracol de México ni de otros países.
+
+NOTA DE TRANSPARENCIA (visible): Esta página la publica [DESARROLLADORA / RAZÓN SOCIAL – CONFIRMAR]. Los datos comerciales llevan fecha y se actualizan en [URL de la página de precios].
+
+## Qué es
+
+Playa Caracol Residences & Beach Club es una comunidad frente al mar en Punta Chame, Chame, Panamá Oeste. [COMPLETAR: año de inicio, extensión, número de unidades entregadas y en construcción, solo con documentos.] El nombre se usa para varias cosas distintas: el lugar, el conjunto residencial y un hotel. Esta página explica cuál es cuál.
+
+## Quién lo desarrolla
+
+[CONFIRMAR Y COMPLETAR: razón social del desarrollador, papel de Grupo Los Pueblos (GLP) y de otras empresas (hotel, club, alquileres), con enlace al sitio oficial de cada una.] Una de las preguntas más buscadas en Google es "¿quién es el dueño de Playa Caracol?". Responde con documentos y sin afirmar titularidad que no puedas probar.
+
+## Proyectos y colecciones
+
+| Proyecto / colección | Tipo | Precio desde | Entrega | Actualizado |
+|---|---|---|---|---|
+| The Tides | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+| Seashore | Villas frente a la playa (según el sitio) | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+| Olas del Mar | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+| Brisas del Mar | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+| Colección del Mar (Villas del Mar) | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+| Sky View | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+
+Cada fila enlaza a su página. No publiques precios ni fechas sin la lista oficial vigente.
+
+## Servicios en la comunidad
+
+El sitio muestra un club de playa (Vento Beach & Residence Club), un hotel (Surfside), un spa y un centro comercial [CONFIRMAR cuáles están abiertos y cuáles planificados, con fecha].
+
+## Cómo no confundirlo
+
+- **Otras playas con el mismo nombre:** existen varias en el mundo hispanohablante. Esta está en Panamá, Panamá Oeste.
+- **Sitios relacionados:** [COMPLETAR: relación con playacaracolrentals.com, playacaracol.org y la página del proyecto en glp.com.pa, si la hay].
+
+## Preguntas frecuentes
+
+### ¿Dónde queda Playa Caracol?
+En Punta Chame, distrito de Chame, provincia de Panamá Oeste. [COMPLETAR: tiempo de trayecto medido; ver la guía de cómo llegar.]
+
+### ¿Quién es el dueño de Playa Caracol?
+[CONFIRMAR Y COMPLETAR.]
+
+### ¿Qué proyectos hay en venta?
+Los de la tabla de arriba, con fecha de actualización.
+
+### ¿Se puede alquilar una propiedad?
+Sí, el sitio tiene una sección de alquileres [COMPLETAR condiciones].
+
+## Contacto
+[COMPLETAR: razón social, RUC, dirección, teléfono verificable, horario y formulario.]
+
+## Fuentes
+- Sitio oficial de Playa Caracol Residences.
+- [COMPLETAR: documentos corporativos con fecha.]
+
+=== BLOQUE JSON-LD ===
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Playa Caracol Residences & Beach Club",
+  "url": "https://playacaracolresidences.com/",
+  "address": {"@type": "PostalAddress", "addressLocality": "Punta Chame, Chame", "addressRegion": "Panamá Oeste", "addressCountry": "PA"},
+  "sameAs": ["[Instagram]", "[Facebook]", "[sitio de la desarrolladora]"]
+}
+
+=== CHECKLIST ANTES DE PUBLICAR ===
+[ ] Desarrolladora y papel de cada empresa confirmados por escrito
+[ ] Tabla con precios y entregas oficiales y fechadas
+[ ] Relación con otros dominios aclarada
+[ ] Fusionar con el contenido actual de /nosotros/

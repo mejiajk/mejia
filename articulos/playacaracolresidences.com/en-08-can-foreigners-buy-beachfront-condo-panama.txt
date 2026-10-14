@@ -1,0 +1,105 @@
+=== SEO METADATA ===
+Suggested URL: /en/buy-beachfront-condo-panama-foreigner/
+Language: en
+Title: Can Foreigners Buy a Beachfront Condo in Panama?
+Meta description: Can foreigners buy a beachfront condo in Panama? The general rule, the steps from reservation to deed, beach-specific checks and official sources.
+H1: Can Foreigners Buy a Beachfront Condo in Panama? Steps, Checks and Official Sources
+Primary keyword: can foreigners buy a beachfront condo in panama (volume N/D; PAA "Can foreigners own beachfront property in Panama?")
+Secondary keywords: buy beachfront condo panama · panama real estate for foreigners · golden visa panama real estate (N/D)
+Intent / stage: informational-transactional / process-legal
+Content type: process guide (YMYL)
+Schema: Article + HowTo + FAQPage (only with visible steps/FAQs)
+Author: [NAME – pending]
+Legal reviewer: [PANAMANIAN ATTORNEY – name, credentials, review date – REQUIRED before publishing]
+Published / reviewed: [DATE] / [DATE]
+Suggested internal links: /en/beachfront-condos-for-sale-panama/ · /en/prices/ · /en/rent-out-your-condo-playa-caracol/
+Official sources to link (specific, current page): Registro Público de Panamá · DGI (dgi.mef.gob.pa) · Migración · Superintendencia de Bancos
+Audit note: the site appeared in 0 of 24 runs for the foreign-buyer process questions; the engines cite registro-publico.gob.pa (15) and dgi.mef.gob.pa (13). The site also has a Golden Visa page (not crawled, so its reviewer cannot be verified): have an immigration attorney review it or remove it.
+=== END METADATA ===
+
+Can Foreigners Buy a Beachfront Condo in Panama? Steps, Checks and Official Sources
+
+[DIRECT ANSWER – AEO, 57 words]
+Foreigners can generally buy property in Panama, including condos near the coast, with restrictions in specific zones. For a beachfront condo, have a Panamanian attorney confirm the legal status of the property and shoreline, review the contract, check how your payments are protected, then sign the public deed and register it. Confirm your case before you pay.
+
+NOTICE (visible): Informational, not legal or tax advice. Rules and amounts change. Verify each point with a licensed Panamanian attorney and the official agency.
+
+DISCLOSURE (visible): Published by [DEVELOPER / LEGAL NAME – CONFIRM].
+
+## The general rule, and its exceptions
+
+In general, foreigners can buy real estate in Panama. There are restrictions in specific zones, for example border areas and islands. [VERIFY with the legal reviewer; link the current official source.]
+
+## Checks specific to a beachfront property
+
+Ask your attorney to confirm the legal status of the property and of any land near the shoreline, including whether any part is state land or subject to a concession, and that it is not in a restricted zone. [VERIFY with the legal reviewer; cite the official source and date. Do not state rules from memory.]
+
+## Step 1: Choose a project and unit
+
+See current projects and prices: [Prices] (link to /en/prices/). Book a visit or video call.
+
+## Step 2: Reserve
+
+Reserving requires [COMPLETE amount and terms, including whether it is refundable and under what conditions].
+
+## Step 3: Have your attorney review the contract
+
+Check: the exact unit, the delivery date and delay terms, what changes the developer may make, what happens if you withdraw or the developer defaults, and who pays each closing cost.
+
+## Step 4: Confirm how your payments are protected
+
+Ask in writing where installments are held and under what guarantee. [COMPLETE with the project's real policy and document.]
+
+## Step 5: Financing
+
+Banks decide requirements for non-residents and foreigners, and they change. [COMPLETE: partner banks and a link to their official information, with date.]
+
+## Step 6: Public deed and registration
+
+A public deed is signed and recorded at the Registro Público. Your attorney coordinates taxes and fees currently due. [COMPLETE: taxes and fees with the current figure, official source and date. Do not publish percentages without that source.]
+
+## Step 7: Handover
+
+Inspect the unit against the contract. Put every observation and deadline in writing.
+
+## Does buying give you residency?
+
+Not automatically. Residency programs have their own requirements, which change. [COMPLETE: link to the current official Migración page and advice to consult an immigration attorney. Do not publish investment thresholds or processing times without an official source and date.]
+
+## Frequently asked questions
+
+### Do I need to be in Panama to buy?
+[VERIFY with the legal reviewer: signing methods and powers of attorney.]
+
+### How much are closing costs?
+They depend on taxes, registry fees, attorney fees and the contract. [COMPLETE with current figures, source and date.]
+
+### Can I buy through a company?
+[VERIFY with the legal and tax reviewers; do not recommend structures without professional advice.]
+
+### Can I rent out the condo afterwards?
+[COMPLETE with the project's official rules.] See [Rent out your condo in Playa Caracol] (link to /en/rent-out-your-condo-playa-caracol/).
+
+## Sources
+- Registro Público de Panamá: [LINK to the specific current page]
+- Dirección General de Ingresos (dgi.mef.gob.pa): [LINK]
+- Migración: [LINK]
+- Superintendencia de Bancos: [LINK]
+
+=== JSON-LD BLOCK ===
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Can Foreigners Buy a Beachfront Condo in Panama? Steps, Checks and Official Sources",
+  "inLanguage": "en",
+  "author": {"@type": "Person", "name": "[NAME]"},
+  "reviewedBy": {"@type": "Person", "name": "[ATTORNEY]"},
+  "datePublished": "[YYYY-MM-DD]",
+  "dateModified": "[YYYY-MM-DD]"
+}
+
+=== PRE-PUBLISH CHECKLIST ===
+[ ] Legal review signed by a Panamanian attorney (name and date visible)
+[ ] No tax or investment-threshold figure without an official source and date
+[ ] Links to current official pages
+[ ] "Not legal advice" notice visible

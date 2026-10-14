@@ -1,0 +1,86 @@
+=== SEO METADATA ===
+Suggested URL: /en/about-us/ (UPDATE or create)
+Language: en
+Title: Playa Caracol, Panama: What It Is and Who Develops It
+Meta description: Playa Caracol Residences & Beach Club is a beachfront community in Punta Chame, Panamá Oeste. See its projects, who develops it and how to contact.
+H1: Playa Caracol, Panama: What It Is, Where It Is and Who Develops It
+Primary keyword: playa caracol panama (3,550/mo, -4%, Stable)
+Secondary keywords: playa caracol residences (64/mo) · punta chame panama (301/mo, +30%) · playa caracol resort
+Intent / stage: informational / discovery (brand entity)
+Content type: entity page
+Schema: Organization + Article + FAQPage (only with visible FAQs)
+Author: [NAME AND ROLE – pending]
+Reviewer: [NAME – pending]
+Published / reviewed: [DATE] / [DATE]
+Suggested internal links: /nosotros/ (Spanish; hreflang) · /en/beachfront-condos-for-sale-panama/ · /en/playa-caracol-vs-coronado/
+Audit note: in the English test, ChatGPT, Gemini and Perplexity described the project but Claude (no web search) said it had no reliable information and warned that "Playa Caracol" is a common name. The SERP's PAA includes "Who owns Playa Caracol, Panama?".
+=== END METADATA ===
+
+Playa Caracol, Panama: What It Is, Where It Is and Who Develops It
+
+[DIRECT ANSWER – AEO, 53 words]
+Playa Caracol Residences & Beach Club is a beachfront community in Punta Chame, Chame district, Panamá Oeste province, Panama. Its website presents several residential projects, a beach club and rentals. It is developed by [DEVELOPER – CONFIRM]. It is not related to other places called Playa Caracol, such as the one in Mexico.
+
+DISCLOSURE (visible): Published by [DEVELOPER / LEGAL NAME – CONFIRM]. Commercial data is dated.
+
+## What it is
+
+Playa Caracol is a community on the Pacific coast in Punta Chame, Panamá Oeste. [COMPLETE: year it began, size, units delivered and under construction, only with documents.] The name is used for the place, the residential community and a hotel. This page explains which is which.
+
+## Who develops it
+
+[CONFIRM AND COMPLETE: the developer's legal name, the role of Grupo Los Pueblos (GLP) and of other companies (hotel, club, rentals), each linked to its official site.] One of the most-searched questions is "Who owns Playa Caracol, Panama?" Answer with documents and do not claim ownership you cannot prove.
+
+## Projects and collections
+
+| Project | Type | Price from | Delivery | Updated |
+|---|---|---|---|---|
+| The Tides | [COMPLETE] | [COMPLETE] | [COMPLETE] | [DATE] |
+| Seashore | Beachfront villas (per the website) | [COMPLETE] | [COMPLETE] | [DATE] |
+| Olas del Mar | [COMPLETE] | [COMPLETE] | [COMPLETE] | [DATE] |
+| Brisas del Mar | [COMPLETE] | [COMPLETE] | [COMPLETE] | [DATE] |
+
+## Services in the community
+
+The website shows a beach club (Vento Beach & Residence Club), a hotel (Surfside), a spa and a retail center [CONFIRM which are open and which are planned, with date].
+
+## Not to be confused with
+
+Other places named Playa Caracol exist in Spanish-speaking countries. This one is in Punta Chame, Panamá Oeste. Related sites: [COMPLETE: relationship with playacaracolrentals.com, playacaracol.org and the project page on glp.com.pa, if any].
+
+## Frequently asked questions
+
+### Where is Playa Caracol?
+In Punta Chame, Chame district, Panamá Oeste province.
+
+### Who owns Playa Caracol?
+[CONFIRM AND COMPLETE.]
+
+### Which projects are for sale?
+The ones in the table above, dated.
+
+### Can I rent a property there?
+Yes, the website has a rentals section. [COMPLETE conditions.]
+
+## Contact
+[COMPLETE: legal name, tax ID, address, verifiable phone number, hours and contact form.]
+
+## Sources
+- Playa Caracol Residences official website.
+- [COMPLETE: corporate documents with date.]
+
+=== JSON-LD BLOCK ===
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Playa Caracol Residences & Beach Club",
+  "url": "https://playacaracolresidences.com/",
+  "address": {"@type": "PostalAddress", "addressLocality": "Punta Chame, Chame", "addressRegion": "Panamá Oeste", "addressCountry": "PA"},
+  "sameAs": ["[Instagram]", "[Facebook]", "[developer website]"]
+}
+
+=== PRE-PUBLISH CHECKLIST ===
+[ ] Developer and each company's role confirmed in writing
+[ ] Dated table of projects
+[ ] hreflang pair with /nosotros/
+[ ] Relationship with related domains clarified

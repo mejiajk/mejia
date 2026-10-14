@@ -1,0 +1,93 @@
+=== SEO METADATA ===
+Suggested URL: /en/playa-caracol-vs-coronado/
+Language: en
+Title: Playa Caracol vs Coronado: Which Beach Area to Buy In?
+Meta description: Compare Playa Caracol and Coronado for buying a beach property in Panama: setting, access, services, costs and the data to check before you decide.
+H1: Playa Caracol vs Coronado: How to Choose Where to Buy a Beach Property in Panama
+Primary keyword: playa caracol vs coronado (volume N/D)
+Secondary keywords: coronado panama real estate (124/mo, +20%) · coronado panama homes for sale (29/mo) · best beach areas near panama city · panama beach communities
+Intent / stage: commercial-informational / evaluation
+Content type: area comparison
+Schema: Article + FAQPage (only with visible FAQs)
+Author: [NAME – pending]
+Reviewer: [NAME – pending]
+Published / reviewed: [DATE] / [DATE]
+Suggested internal links: /en/beachfront-condos-for-sale-panama/ · /en/how-to-get-to-playa-caracol/ · /en/about-us/
+Audit note: in the Spanish "Playa Caracol or Coronado?" prompt no engine named the site (0/12). "Coronado" is the natural comparison for beach buyers near the city (124 EN searches a month, +20%).
+=== END METADATA ===
+
+Playa Caracol vs Coronado: How to Choose Where to Buy a Beach Property in Panama
+
+[DIRECT ANSWER – AEO, 57 words]
+Playa Caracol and Coronado are two beach areas on Panama's Pacific coast with different settings, distances and types of property. The right one depends on your travel time to Panama City, budget, use (home, weekend or rental) and the services you need nearby. Compare dated figures for price per square meter, fees and drive time before deciding.
+
+DISCLOSURE (visible): Published by [DEVELOPER / LEGAL NAME – CONFIRM], which sells in Playa Caracol. We show the criteria and the data sources so you can compare for yourself, and we say where Coronado may fit you better.
+
+## How to compare the two areas
+
+| Criterion | Playa Caracol | Coronado | How to verify |
+|---|---|---|---|
+| Setting | Beachfront community in Punta Chame [COMPLETE after a visit] | [COMPLETE after a visit] | Visit at two different times |
+| Drive time to Panama City | [COMPLETE measured, with date] | [COMPLETE measured, with date] | Measure at peak and off-peak |
+| Price per m² | [COMPLETE with source and date] | [COMPLETE with source and date] | Active listings from the last 30 days |
+| Types of property | Condos, villas and homes [COMPLETE] | [COMPLETE] | Project lists |
+| Services nearby | [COMPLETE] | [COMPLETE] | Map and visit |
+| Monthly fees | [COMPLETE range] | [COMPLETE range] | Ask each administration |
+| Rental rules | [COMPLETE] | [COMPLETE] | Project rules |
+
+Rule: if there is no sourced figure, write "Not available."
+
+## When Playa Caracol may fit
+
+[COMPLETE after a visit and with data. Possible criteria, only if verified: a planned community with a beach club, a quieter setting, furnished units for rental.]
+
+## When Coronado may fit
+
+[COMPLETE after a visit and with data. Possible criteria, only if verified: shorter drive to the city, established services, a wider choice of resale properties.]
+
+## Questions to ask in either area
+
+1. Who is the developer or seller, and what documents can I see?
+2. What are the monthly fees and what do they cover?
+3. Can I rent the unit short term?
+4. What is the delivery date and what does the contract say about delays?
+5. How long do similar units take to sell?
+
+## What we cannot say
+
+We do not state which area has higher returns or faster appreciation, because we have no comparable, sourced data. If you need numbers, ask us for the dated price list and compare it with listings you can verify.
+
+## Frequently asked questions
+
+### Is Playa Caracol better than Coronado?
+It depends on your priorities. Use the table above with dated figures.
+
+### Which is closer to Panama City?
+[COMPLETE with measured drive times for both.]
+
+### Which is cheaper?
+[COMPLETE with price per m² from sources and dates, or remove the question.]
+
+### Can foreigners buy in both?
+In general, yes, with restrictions in specific zones. See [Can Foreigners Buy a Beachfront Condo in Panama?] (link to /en/buy-beachfront-condo-panama-foreigner/).
+
+## Sources
+- Dated measurements and listings: [COMPLETE].
+- Playa Caracol Residences official website.
+
+=== JSON-LD BLOCK ===
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Playa Caracol vs Coronado: How to Choose Where to Buy a Beach Property in Panama",
+  "inLanguage": "en",
+  "author": {"@type": "Person", "name": "[NAME]"},
+  "datePublished": "[YYYY-MM-DD]",
+  "dateModified": "[YYYY-MM-DD]"
+}
+
+=== PRE-PUBLISH CHECKLIST ===
+[ ] Every cell sourced and dated, or "Not available"
+[ ] Visit to both areas
+[ ] No claim of higher returns or appreciation
+[ ] Disclosure visible
