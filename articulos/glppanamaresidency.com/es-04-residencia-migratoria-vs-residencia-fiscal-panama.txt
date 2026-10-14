@@ -1,0 +1,89 @@
+=== METADATOS SEO ===
+URL sugerida: /residencia-fiscal-panama/ (ACTUALIZAR la página existente) o /residencia-migratoria-vs-residencia-fiscal-panama/
+Idioma: es
+Title: Residencia migratoria y residencia fiscal en Panamá
+Meta description: Tener residencia en Panamá no es lo mismo que ser residente fiscal. Qué las distingue, por qué importa y qué consultar con un abogado y un contador.
+H1: Residencia migratoria y residencia fiscal en Panamá: son cosas distintas
+Keyword principal: residencia fiscal panamá (N/D; SERP dominada por despachos)
+Keywords secundarias: certificado de residencia fiscal panamá · residencia panamá impuestos
+Intención / etapa: informacional / evaluación
+Tipo de contenido: explicación conceptual (YMYL)
+Schema: Article + FAQPage (solo con FAQ visibles)
+Autor: [NOMBRE – pendiente]
+Revisor legal y fiscal: [ABOGADO/A Y CONTADOR/A – nombres, idoneidad y fecha – OBLIGATORIO]
+Publicado / revisado: [FECHA] / [FECHA]
+Enlazado interno sugerido: /qip-vs-friendly-nations-vs-pensionado/ · /faqs/
+Fuentes oficiales a enlazar: autoridad migratoria · administración tributaria (DGI)
+Nota de auditoría: la página actual posiciona fuera del top 20; ganan despachos (limitlesslegal, legal500, anorco). PAA: "¿Qué es la residencia fiscal?", "¿Cómo saco un certificado de residencia fiscal?".
+=== FIN METADATOS ===
+
+Residencia migratoria y residencia fiscal en Panamá: son cosas distintas
+
+[RESPUESTA DIRECTA – AEO, 55 palabras]
+La residencia migratoria es el permiso para vivir en Panamá y la otorgan las autoridades de inmigración. La residencia fiscal es una condición tributaria que determina dónde y cómo tributas, y se rige por las normas fiscales. Tener una no implica automáticamente la otra. Consulta a un abogado y a un contador para tu caso.
+
+AVISO (visible): Contenido informativo, no es asesoría legal ni fiscal. Las normas cambian y dependen de tu país de origen. No repetimos cifras de memoria.
+
+NOTA DE TRANSPARENCIA (visible): Publica [PRESTADOR – CONFIRMAR]. No ofrecemos planificación fiscal; te remitimos a profesionales independientes.
+
+## Dos conceptos que se confunden
+
+| | Residencia migratoria | Residencia fiscal |
+|---|---|---|
+| Qué es | permiso para vivir en el país | condición que determina tu tributación |
+| Quién la regula | autoridad migratoria [COMPLETAR con fuente] | administración tributaria [COMPLETAR con fuente] |
+| Cómo se obtiene | trámite migratorio [COMPLETAR con fuente] | según la norma fiscal y los hechos de tu caso [COMPLETAR con fuente] |
+| Qué documento la acredita | [COMPLETAR con fuente] | [COMPLETAR: p. ej., certificado de residencia fiscal, según la fuente oficial] |
+
+## Por qué importa
+
+Obtener residencia migratoria no resuelve por sí sola tu situación tributaria en Panamá ni en tu país de origen. Algunos países gravan a sus ciudadanos o residentes por su renta mundial; otros no. [VERIFICAR con el revisor fiscal: no afirmar reglas de países concretos sin fuente.]
+
+## Lo que no debes asumir
+
+- Que residir en Panamá te libera de obligaciones fiscales en tu país de origen.
+- Que un trámite de residencia incluye planificación fiscal.
+- Que las reglas actuales seguirán iguales: revisa la fecha de cada norma.
+
+## Qué preguntar a un profesional
+
+1. ¿Qué obligaciones fiscales tengo en mi país de origen si resido en Panamá?
+2. ¿Qué acredito para ser considerado residente fiscal en Panamá, y para qué sirve?
+3. ¿Qué cambia si compro una propiedad o recibo ingresos de alquiler?
+4. ¿Existe un convenio entre mi país y Panamá que afecte mi caso?
+
+## Preguntas frecuentes
+
+### ¿Qué es la residencia fiscal?
+Es la condición que determina en qué jurisdicción tributas. [COMPLETAR con la definición de la fuente oficial vigente.]
+
+### ¿Cómo se obtiene un certificado de residencia fiscal?
+[COMPLETAR con el procedimiento oficial vigente y enlace.]
+
+### ¿Tener residencia permanente me hace residente fiscal?
+No necesariamente. [VERIFICAR con el revisor fiscal.]
+
+### ¿Debo declarar mis ingresos en mi país de origen?
+Depende de las normas de tu país. Consulta a un contador con experiencia internacional.
+
+## Fuentes
+- Administración tributaria de Panamá: [ENLACE a la página específica vigente]
+- Autoridad migratoria: [ENLACE]
+
+=== BLOQUE JSON-LD ===
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Residencia migratoria y residencia fiscal en Panamá: son cosas distintas",
+  "inLanguage": "es",
+  "author": {"@type": "Person", "name": "[NOMBRE]"},
+  "reviewedBy": {"@type": "Person", "name": "[ABOGADO/A Y CONTADOR/A]"},
+  "datePublished": "[AAAA-MM-DD]",
+  "dateModified": "[AAAA-MM-DD]"
+}
+
+=== CHECKLIST ANTES DE PUBLICAR ===
+[ ] Revisión legal y fiscal firmada
+[ ] Ninguna regla de un país concreto sin fuente
+[ ] Aviso de "no es asesoría legal ni fiscal" visible
+[ ] Fusionar con el contenido actual de /residencia-fiscal-panama/

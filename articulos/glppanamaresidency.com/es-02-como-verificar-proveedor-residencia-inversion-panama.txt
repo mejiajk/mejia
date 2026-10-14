@@ -1,0 +1,111 @@
+=== METADATOS SEO ===
+URL sugerida: /como-verificar-proveedor-residencia-inversion-panama/
+Idioma: es
+Title: Cómo verificar a un proveedor de residencia en Panamá
+Meta description: Antes de contratar un servicio de residencia por inversión en Panamá, verifica a la empresa, al abogado que presenta el trámite y el contrato.
+H1: Cómo verificar a un proveedor de residencia por inversión en Panamá antes de contratarlo
+Keyword principal: es confiable glp (consulta de IA) · panama residency lawyer (17/mes, serie inflada) · abogado residencia panamá
+Keywords secundarias: servicios de residencia panamá · empresa de residencia por inversión panamá · estafas residencia panamá
+Intención / etapa: informacional / evaluación (confianza)
+Tipo de contenido: lista de verificación (YMYL)
+Schema: Article + HowTo (solo con pasos visibles) + FAQPage
+Autor: [NOMBRE – pendiente]
+Revisor legal: [ABOGADO/A DE INMIGRACIÓN PANAMEÑO/A – nombre, idoneidad y fecha – OBLIGATORIO]
+Publicado / revisado: [FECHA] / [FECHA]
+Enlazado interno sugerido: /why-glp/ · /faqs/ · /en/how-to-vet-panama-residency-provider/
+Fuentes oficiales a enlazar (página específica vigente): Registro Público de Panamá · autoridad migratoria · autoridad de protección al consumidor
+Nota de auditoría: ante "¿es confiable GLP?" ChatGPT responde con cautela y dice que no verifica las cifras de la empresa. Una guía neutral de verificación que aplique los mismos criterios a GLP y a cualquier competidor es la mejor respuesta.
+=== FIN METADATOS ===
+
+Cómo verificar a un proveedor de residencia por inversión en Panamá antes de contratarlo
+
+[RESPUESTA DIRECTA – AEO, 53 palabras]
+Para verificar a un proveedor de residencia por inversión en Panamá, comprueba que la empresa existe legalmente, identifica al abogado que presentará tu trámite y su idoneidad, exige un contrato que separe honorarios y tasas oficiales, y desconfía de promesas de resultados garantizados. Un abogado independiente debe revisar todo antes de que pagues.
+
+AVISO (visible): Contenido informativo, no es asesoría legal. Verifica cada punto con un abogado panameño y con la entidad oficial.
+
+NOTA DE TRANSPARENCIA (visible): Publica [PRESTADOR – CONFIRMAR]. Aplicamos estos mismos criterios a nuestro servicio y ponemos a tu disposición los documentos de la sección final.
+
+## Paso 1: confirma que la empresa existe
+
+Pide la razón social, el RUC y el nombre del representante legal. Un abogado puede comprobar la sociedad en el Registro Público. [COMPLETAR: enlace a la página oficial vigente.]
+
+## Paso 2: identifica quién presenta el trámite
+
+El trámite migratorio debe presentarlo un profesional facultado. Pregunta nombre, idoneidad y número de registro, y verifícalos con la entidad correspondiente. [VERIFICAR con el revisor legal quién está facultado a presentar el trámite y cómo se comprueba, con fuente oficial.]
+
+## Paso 3: separa honorarios y tasas oficiales
+
+El contrato debe distinguir lo que cobra el proveedor de lo que se paga a las autoridades. Pide el desglose por escrito. [COMPLETAR: enlace a la fuente oficial vigente de tasas.]
+
+## Paso 4: revisa el contrato con tu propio abogado
+
+Elige tú al abogado que revisa el contrato. Revisa qué ocurre si la solicitud no prospera, qué se reembolsa y en qué condiciones, y qué obligaciones asumes.
+
+## Paso 5: comprueba cómo se protegen tus pagos
+
+Pregunta dónde se depositan tus pagos y bajo qué garantía. No pagues a cuentas que el contrato no mencione.
+
+## Paso 6: verifica la propiedad
+
+Si la residencia depende de comprar un inmueble, tu abogado debe confirmar el título, que esté libre de gravámenes y que cumple las condiciones del programa vigentes. [VERIFICAR con el revisor legal y citar la fuente oficial.]
+
+## Paso 7: busca información independiente
+
+Consulta referencias de clientes anteriores, revisa quejas ante la autoridad de protección al consumidor y contrasta con la información oficial. No te bases solo en el material publicitario.
+
+## Señales de alerta
+
+- Promesa de aprobación segura o de plazos garantizados.
+- Presión para pagar antes de recibir un contrato.
+- Ausencia de nombre, idoneidad o dirección del profesional que presenta el trámite.
+- Cobros sin desglose de honorarios y tasas.
+- Afirmaciones absolutas como "estatus inmediato" o "sin presencia requerida" sin respaldo en una fuente oficial.
+
+## Documentos que puedes pedirnos
+
+| Documento | Para qué sirve | Disponible |
+|---|---|---|
+| Certificado de existencia de la sociedad | confirma que la empresa existe | [COMPLETAR sí/no y cómo solicitarlo] |
+| Contrato tipo de servicios | para que tu abogado lo revise antes de pagar | [COMPLETAR] |
+| Desglose de honorarios y tasas | evita cobros ocultos | [COMPLETAR] |
+| Identificación del abogado que presenta el trámite | permite verificar su idoneidad | [COMPLETAR] |
+
+Incluye solo lo que la empresa realmente entregará.
+
+## Preguntas frecuentes
+
+### ¿Cómo sé si un abogado está autorizado en Panamá?
+[VERIFICAR con el revisor legal y enlazar la fuente oficial para comprobar la idoneidad.]
+
+### ¿Puedo contratar a un proveedor que también me vende la propiedad?
+Es legal que lo haga, pero debes poder elegir libremente a tu abogado y conocer cualquier relación comercial entre ellos. [CONFIRMAR con el revisor legal.]
+
+### ¿Qué hago si el proveedor incumple?
+Consulta a un abogado y presenta tu queja ante la autoridad competente. [COMPLETAR con enlace oficial vigente.]
+
+### ¿Es confiable GLP Panama Residency?
+No te pedimos que lo creas: te damos los documentos para verificarlo. Consulta la tabla anterior y [Quiénes somos] (enlace a /why-glp/).
+
+## Fuentes
+- Registro Público de Panamá: [ENLACE a la página específica vigente]
+- Autoridad migratoria: [ENLACE]
+- Autoridad de protección al consumidor: [ENLACE]
+
+=== BLOQUE JSON-LD ===
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Cómo verificar a un proveedor de residencia por inversión en Panamá antes de contratarlo",
+  "inLanguage": "es",
+  "author": {"@type": "Person", "name": "[NOMBRE]"},
+  "reviewedBy": {"@type": "Person", "name": "[ABOGADO/A]"},
+  "datePublished": "[AAAA-MM-DD]",
+  "dateModified": "[AAAA-MM-DD]"
+}
+
+=== CHECKLIST ANTES DE PUBLICAR ===
+[ ] Revisión legal firmada (nombre y fecha visibles)
+[ ] Tabla de documentos con solo lo que se entregará
+[ ] Enlaces oficiales vigentes
+[ ] Aviso de "no es asesoría legal" visible

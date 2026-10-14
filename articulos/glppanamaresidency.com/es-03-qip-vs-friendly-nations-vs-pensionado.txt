@@ -1,0 +1,96 @@
+=== METADATOS SEO ===
+URL sugerida: /qip-vs-friendly-nations-vs-pensionado/
+Idioma: es
+Title: Inversionista, Friendly Nations o Pensionado: cuál elegir
+Meta description: Compara tres vías de residencia en Panamá: inversionista calificado, Friendly Nations y Pensionado. Para quién es cada una y qué verificar.
+H1: Inversionista calificado, Friendly Nations o Pensionado: cómo elegir la vía de residencia en Panamá
+Keyword principal: visa friendly nations panamá · visa pensionado panamá · visa inversionista panamá (N/D en español)
+Keywords secundarias: tipos de residencia panamá · residencia panamá requisitos
+Intención / etapa: informacional / evaluación
+Tipo de contenido: comparativa (YMYL)
+Schema: Article + FAQPage (solo con FAQ visibles)
+Autor: [NOMBRE – pendiente]
+Revisor legal: [ABOGADO/A DE INMIGRACIÓN PANAMEÑO/A – nombre, idoneidad y fecha – OBLIGATORIO]
+Publicado / revisado: [FECHA] / [FECHA]
+Enlazado interno sugerido: /faqs/ · /panama-retirement-visa/ · /en/qualified-investor-vs-friendly-nations-vs-pensionado/
+Nota de auditoría: en inglés, esta comparación tiene 0 visibilidad en las IA. La vía de pensionado es la que crece en búsquedas y no exige comprar propiedad: una comparativa honesta que incluya los casos en que invertir no hace falta gana credibilidad.
+=== FIN METADATOS ===
+
+Inversionista calificado, Friendly Nations o Pensionado: cómo elegir la vía de residencia en Panamá
+
+[RESPUESTA DIRECTA – AEO, 55 palabras]
+Panamá ofrece varias vías de residencia con requisitos distintos. La del inversionista calificado se basa en una inversión; la de Friendly Nations, en vínculos económicos o profesionales con el país; la de Pensionado, en contar con una pensión. La mejor depende de tu situación. Confirma los requisitos vigentes con un abogado y la fuente oficial.
+[VERIFICAR con el revisor legal la descripción de cada vía antes de publicar: está escrita en términos generales, sin fuente oficial.]
+
+AVISO (visible): Contenido informativo, no es asesoría legal. Los requisitos cambian; no los repetimos de memoria. Cada celda con [FUENTE] debe completarse con la norma vigente.
+
+NOTA DE TRANSPARENCIA (visible): Publica [PRESTADOR – CONFIRMAR], que ofrece servicios ligados a la vía del inversionista. Explicamos también los casos en que otra vía puede convenirte más.
+
+## Comparación por criterios
+
+| Criterio | Inversionista calificado | Friendly Nations | Pensionado |
+|---|---|---|---|
+| En qué se basa | una inversión que cumpla la norma [COMPLETAR con fuente] | [COMPLETAR con fuente] | contar con una pensión [COMPLETAR con fuente] |
+| Requisito económico | [COMPLETAR solo con la cifra de la fuente oficial vigente] | [COMPLETAR] | [COMPLETAR] |
+| ¿Hay que comprar una propiedad? | [COMPLETAR según la norma vigente] | [COMPLETAR] | [COMPLETAR] |
+| Tipo de residencia que otorga | [COMPLETAR con fuente] | [COMPLETAR con fuente] | [COMPLETAR con fuente] |
+| Beneficios asociados | [COMPLETAR con fuente] | [COMPLETAR con fuente] | [COMPLETAR con fuente] |
+| Obligaciones de presencia en el país | [COMPLETAR con fuente] | [COMPLETAR con fuente] | [COMPLETAR con fuente] |
+| Quién tramita | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] |
+| Fuente oficial y fecha | [ENLACE] | [ENLACE] | [ENLACE] |
+
+Regla de publicación: si una celda no tiene fuente oficial y fecha, escribe "Consultar con un abogado". No llenes la tabla de memoria.
+
+## Cuándo puede convenir cada vía
+
+### Inversionista calificado
+Puede interesar a quien ya piensa comprar una propiedad en Panamá o invertir en el país y busca un estatus de largo plazo. [COMPLETAR solo con criterios respaldados por la norma vigente.]
+
+### Friendly Nations
+Puede interesar a quien tiene vínculos que la norma reconoce, sin necesidad de una inversión inmobiliaria. [COMPLETAR con la norma vigente.]
+
+### Pensionado
+Puede interesar a quien recibe una pensión que cumple lo que exige la norma. [COMPLETAR con la norma vigente.]
+
+## Lo que conviene considerar en cualquiera de las tres
+
+- Los requisitos y los beneficios pueden cambiar; verifica la fecha de la norma.
+- Ninguna vía garantiza el resultado: decide la autoridad.
+- Una vía distinta puede costar menos que otra o no requerir inmueble; compara con la ayuda de un abogado.
+- Los asuntos fiscales son un tema aparte; lee [Residencia migratoria y residencia fiscal] (enlace a /residencia-migratoria-vs-residencia-fiscal-panama/).
+
+## Preguntas frecuentes
+
+### ¿Cuál es la más fácil?
+No hay una respuesta general: depende de tu perfil y de la norma vigente.
+
+### ¿Necesito comprar una propiedad?
+Depende de la vía. [COMPLETAR con la norma vigente.]
+
+### ¿Puedo cambiar de vía más adelante?
+[VERIFICAR con el revisor legal.]
+
+### ¿Cuánto cuesta cada una?
+[COMPLETAR solo con tasas oficiales vigentes y la fecha, o remitir a la fuente.]
+
+## Fuentes
+- Autoridad migratoria de Panamá: [ENLACE a cada página vigente]
+- Gaceta Oficial: [ENLACE a la norma vigente]
+
+=== BLOQUE JSON-LD ===
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Inversionista calificado, Friendly Nations o Pensionado: cómo elegir la vía de residencia en Panamá",
+  "inLanguage": "es",
+  "author": {"@type": "Person", "name": "[NOMBRE]"},
+  "reviewedBy": {"@type": "Person", "name": "[ABOGADO/A]"},
+  "datePublished": "[AAAA-MM-DD]",
+  "dateModified": "[AAAA-MM-DD]"
+}
+
+=== CHECKLIST ANTES DE PUBLICAR ===
+[ ] Cada celda con fuente oficial y fecha, o "Consultar con un abogado"
+[ ] Revisión legal firmada
+[ ] Ninguna cifra de memoria
+[ ] Declaración de interés visible
