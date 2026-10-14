@@ -1,0 +1,98 @@
+=== METADATOS SEO ===
+URL sugerida: /apartamentos/ (ACTUALIZAR; hoy casi no tiene tráfico)
+Idioma: es (es-PA)
+Title: Apartamentos en venta en Playa Dorada, Panamá Oeste
+Meta description: Apartamentos de playa en venta en Playa Dorada, Vacamonte. Tipologías, precios desde [PRECIO], amenidades y cómo reservar tu unidad.
+H1: Apartamentos en venta en Playa Dorada: tipologías, precios y reserva
+Keyword principal: apartamentos de playa panamá oeste (sin volumen medible; N/D) · playa dorada (1.035/mes)
+Keywords secundarias: apartamentos en playa dorada · apartamentos frente al mar panamá oeste · playa dorada residences (1.600/mes, informacional)
+Intención / etapa: transaccional / decisión
+Tipo de contenido: página de categoría con oferta
+Schema: CollectionPage + Product/Offer + BreadcrumbList
+Autor: [NOMBRE – pendiente]
+Revisor: [NOMBRE – pendiente]
+Publicado / revisado: [FECHA] / [FECHA]
+Enlazado interno sugerido: /casas/ · /club-de-playa/ · /tour-virtual/ · /en/news-en/beach-condos-30-minutes-from-panama-city/
+Nota de auditoría: Perplexity y ChatGPT describen el proyecto con "casas y apartamentos". [CONFIRMAR que hay apartamentos a la venta; la web tiene la URL /apartamentos/ pero no pude leerla.] Si no hay inventario, no publicar esta pieza.
+=== FIN METADATOS ===
+
+Apartamentos en venta en Playa Dorada: tipologías, precios y reserva
+
+[RESPUESTA DIRECTA – AEO, 46 palabras]
+Playa Dorada incluye apartamentos de playa en Vacamonte, Panamá Oeste, según su sitio y las descripciones públicas del proyecto [CONFIRMAR]. Las tipologías y los precios desde [PRECIO] están en la tabla de esta página, con fecha de actualización. Puedes reservar o agendar una visita desde aquí.
+
+NOTA DE TRANSPARENCIA (visible): Publica [DESARROLLADORA / RAZÓN SOCIAL – CONFIRMAR]. Disponibilidad y precios llevan fecha.
+
+## Tipologías disponibles
+
+| Tipología | Recámaras | m² | Terraza (m²) | Precio desde | Estado | Actualizado |
+|---|---|---|---|---|---|---|
+| [TIPO 1] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+| [TIPO 2] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+
+Si el proyecto no tiene apartamentos, elimina esta página y su URL (redirige a /casas/).
+
+## Qué incluye
+
+[COMPLETAR: acabados, estacionamientos, depósito, vista. Separa lo incluido de lo opcional.]
+
+## Amenidades
+
+El proyecto cuenta con club de playa y amenidades [COMPLETAR lista confirmada, con estado: operativa / planificada].
+
+## Plano y vistas
+
+[COMPLETAR: plano de cada tipología descargable y 3 fotos propias o renders etiquetados como renders.]
+
+## Cómo reservar
+
+1. Elige tipología y confirma disponibilidad.
+2. Visita el proyecto o usa el tour virtual.
+3. Reserva con [COMPLETAR monto y condiciones].
+4. Revisa el contrato con tu abogado.
+5. Financiamiento, si lo necesitas: [COMPLETAR].
+
+[BOTÓN: Reservar / Agendar visita] · [WHATSAPP] · [FORMULARIO]
+
+## Apartamento o casa: cómo elegir
+
+| Criterio | Apartamento | Casa |
+|---|---|---|
+| Espacio | [COMPLETAR] | [COMPLETAR] |
+| Mantenimiento | [COMPLETAR cuotas] | [COMPLETAR] |
+| Precio de entrada | [COMPLETAR] | [COMPLETAR] |
+| Privacidad | [COMPLETAR] | [COMPLETAR] |
+
+Mira también las [casas de playa en venta] (enlace a /casas/).
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta un apartamento en Playa Dorada?
+Desde [PRECIO], según la tipología (lista vigente al [FECHA]).
+
+### ¿Hay apartamentos con entrega inmediata?
+[COMPLETAR solo si existen.]
+
+### ¿Cuánto es la cuota de mantenimiento?
+[COMPLETAR con el rango y qué cubre.]
+
+### ¿Puede comprar un extranjero?
+En general sí, con restricciones en zonas específicas. Confirma con un abogado.
+
+## Fuentes
+- Sitio de Playa Dorada.
+- [COMPLETAR: documentos oficiales con fecha.]
+
+=== BLOQUE JSON-LD ===
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "[TIPOLOGÍA] – Playa Dorada",
+  "offers": {"@type": "Offer", "priceCurrency": "USD", "price": "[PRECIO]", "priceValidUntil": "[AAAA-MM-DD]", "availability": "https://schema.org/InStock"}
+}
+
+=== CHECKLIST ANTES DE PUBLICAR ===
+[ ] Confirmar que hay apartamentos a la venta
+[ ] Tipologías y precios con fecha
+[ ] Cuotas de mantenimiento reales
+[ ] Renders etiquetados

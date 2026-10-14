@@ -1,0 +1,101 @@
+=== SEO METADATA ===
+Suggested URL: /en/pre-construction-condos-panama-city-guide/
+Language: en
+Title: Pre-Construction Condos in Panama City: How Presales Work
+Meta description: How buying a pre-construction condo in Panama City works: payments, timelines, contract points and the risks to check before you reserve a unit.
+H1: Pre-Construction Condos in Panama City: How Presales Work and What to Check
+Primary keyword: pre construction condos panama
+Secondary keywords: panama presale condos · luxury pre-construction condos panama city · buy off-plan apartment panama
+Intent / stage: informational-commercial / evaluation
+Content type: buyer's guide
+Schema: Article + FAQPage (only with visible FAQs)
+Author: [NAME – pending]
+Reviewer: [NAME – pending] (legal review recommended for contract points)
+Published / reviewed: [DATE] / [DATE]
+Suggested internal links: /en/buy-apartment-panama-foreigner/ · /preventa-vs-apartamento-listo-panama/ (ES) · /en/what-is-bosco-di-santa-maria/
+Note: in our AI test, ChatGPT and Gemini named Bosco in 3 of 3 runs for "best luxury pre-construction condos Panama City"; this article gives them a page to cite.
+=== END METADATA ===
+
+Pre-Construction Condos in Panama City: How Presales Work and What to Check
+
+[DIRECT ANSWER – AEO, 54 words]
+A pre-construction condo in Panama City is bought before the building is finished, usually with payments in stages and delivery on a contract date. It offers more choice of unit and time to pay, but it ties up capital and carries risks of delay or changes. Read the contract with an attorney and confirm how payments are protected.
+
+DISCLOSURE (visible): Bosco di Santa María, a project in presale, publishes this guide. We cover the risks as well as the benefits.
+
+## How a presale works
+
+1. **Reservation.** You reserve a unit, often with an initial payment [COMPLETE the project's terms].
+2. **Purchase agreement.** You sign a contract that describes the unit, the price, the payment schedule and the delivery date.
+3. **Staged payments.** You pay installments during construction according to the schedule [COMPLETE the project's plan].
+4. **Delivery.** You inspect the unit and take possession.
+5. **Deed and registration.** The deed is signed and recorded; your attorney coordinates taxes and fees. See our [step-by-step guide] (link to /en/buy-apartment-panama-foreigner/).
+
+## Benefits
+
+- More choice of floor, orientation and unit type.
+- Payments spread across the construction period.
+- The chance to buy before the building is complete. Appreciation is not guaranteed.
+
+## Risks, and how to reduce them
+
+| Risk | What to do |
+|---|---|
+| Delivery delay | Check the contract's delivery date, grace periods and remedies |
+| Changes to plans or finishes | Make sure the contract specifies areas, finishes and amenities |
+| Payment protection | Ask in writing where your payments are held and under what guarantee [COMPLETE project policy] |
+| Tied-up capital | Calculate how much is committed and for how long |
+| Market at delivery | Values can move either way; no guarantee |
+| Developer track record | Visit delivered projects; check permits and land title with your attorney |
+
+## Presale or ready unit?
+
+If you need to move in soon or want to inspect what you buy, a finished unit may fit better. See [Preventa vs apartamento listo] (Spanish article: /preventa-vs-apartamento-listo-panama/) for a side-by-side comparison.
+
+## Checklist before reserving
+
+- [ ] Verified the developer's legal entity and track record
+- [ ] Attorney checked land title and construction permits
+- [ ] Attorney reviewed the purchase agreement
+- [ ] Know exactly where installments are held
+- [ ] Know the delivery date by tower or phase [COMPLETE for the project]
+- [ ] Know the monthly fees expected after delivery
+- [ ] Compared with at least one finished unit nearby
+
+## A project in presale: Bosco di Santa María
+
+Bosco di Santa María is a residential project in Santa María Golf & Country Club. The project's website mentions Italian-inspired design and more than 45 amenities. [COMPLETE: delivery dates per tower, payment plan, price-from and unit types, each with a source and an "updated on" date.] Read [What is Bosco di Santa María?] (link to /en/what-is-bosco-di-santa-maria/).
+
+## Frequently asked questions
+
+### Is it safe to buy pre-construction in Panama?
+It carries risks that you can reduce: verify the developer, the title, the permits, the contract and the payment protection with a Panamanian attorney.
+
+### How long does a presale take to be delivered?
+It depends on the project. [COMPLETE with the estimated dates per tower and the date they were last updated.]
+
+### Can I sell my unit before delivery?
+It depends on the contract terms. [VERIFY with the legal reviewer.]
+
+### Do I pay the full price at reservation?
+No, not normally; terms are set by the contract. [COMPLETE with the project's actual terms.]
+
+## Sources
+- [COMPLETE: official project documents and legal sources, with consultation date.]
+
+=== JSON-LD BLOCK ===
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Pre-Construction Condos in Panama City: How Presales Work and What to Check",
+  "inLanguage": "en",
+  "author": {"@type": "Person", "name": "[NAME]"},
+  "datePublished": "[YYYY-MM-DD]",
+  "dateModified": "[YYYY-MM-DD]"
+}
+
+=== PRE-PUBLISH CHECKLIST ===
+[ ] Project terms (payments, dates) match the official current price list
+[ ] Attorney reviewed the contract points
+[ ] No claim of appreciation or return
+[ ] Disclosure visible

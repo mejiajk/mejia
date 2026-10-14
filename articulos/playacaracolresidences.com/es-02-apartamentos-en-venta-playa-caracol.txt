@@ -1,0 +1,92 @@
+=== METADATOS SEO ===
+URL sugerida: /apartamentos-en-venta-playa-caracol/ (nueva) o renovar /apartamentos-para-comprar-en-panama-con-excelente-ubicacion/
+Idioma: es (es-PA)
+Title: Apartamentos en venta en Playa Caracol, Punta Chame
+Meta description: Apartamentos y casas frente al mar en venta en Playa Caracol, Chame. Proyectos, tipologías, precios desde [PRECIO] y cómo reservar.
+H1: Apartamentos en venta en Playa Caracol: proyectos, tipologías y cómo reservar
+Keyword principal: playa caracol apartamentos (27/mes, +52 %, Emergente; la web ya está en pos. 2, 6 y 13)
+Keywords secundarias: apartamentos en venta chame (N/D) · apartamentos en venta punta chame (N/D) · playa caracol chame (354/mes) · casas en venta chame (10/mes)
+Intención / etapa: transaccional / decisión
+Tipo de contenido: categoría con oferta
+Schema: CollectionPage + Product/Offer por proyecto + BreadcrumbList + FAQPage (solo con FAQ visibles)
+Autor: [NOMBRE – pendiente]
+Revisor: [NOMBRE – pendiente]
+Publicado / revisado: [FECHA] / [FECHA]
+Enlazado interno sugerido: /the-tides/ · /seashore/ · /precios/ · /como-llegar-playa-caracol/ · /contacto/
+Nota de auditoría: en la SERP de "apartamentos en venta chame" ya sales en la pos. 7 y el AI Overview cita tu dominio; ganan los portales. Diferencia tu página con proyectos, precios fechados y llamada a la acción.
+=== FIN METADATOS ===
+
+Apartamentos en venta en Playa Caracol: proyectos, tipologías y cómo reservar
+
+[RESPUESTA DIRECTA – AEO, 45 palabras]
+Playa Caracol, en Punta Chame, Panamá Oeste, tiene apartamentos y casas frente al mar en venta, repartidos en varios proyectos. Los precios parten desde [PRECIO] según el proyecto y la tipología (lista vigente al [FECHA]). Puedes ver cada proyecto, comparar tipologías y agendar una visita.
+
+NOTA DE TRANSPARENCIA (visible): Publica [DESARROLLADORA / RAZÓN SOCIAL – CONFIRMAR]. Precios y disponibilidad llevan fecha.
+
+## Proyectos con unidades en venta
+
+| Proyecto | Tipologías | Recámaras | m² | Precio desde | Estado | Actualizado |
+|---|---|---|---|---|---|---|
+| The Tides | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+| Olas del Mar | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+| Brisas del Mar | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+| Sky View | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+
+Si una tipología no tiene unidades, quítala de la tabla ese día. Si no hay dato, escribe "Consultar".
+
+## Qué incluye
+
+El sitio habla de apartamentos amueblados en alquiler (título "Furnished Beach Apartments Chame Panama"); en venta [COMPLETAR: si se entregan amueblados o sin amueblar, y qué incluye cada precio].
+
+## La comunidad
+
+[COMPLETAR: amenidades confirmadas (club de playa, piscinas, servicios), indicando cuáles están operativas y cuáles planificadas, con fecha. Añade 3 fotos propias con `alt`; etiqueta los renders.]
+
+## Cómo comprar paso a paso
+
+1. Elige proyecto y tipología.
+2. Visita o agenda una videollamada: [BOTÓN] · [WHATSAPP] · [FORMULARIO].
+3. Reserva con [COMPLETAR monto y condiciones].
+4. Firma el contrato tras la revisión de tu abogado.
+5. Financiamiento, si lo necesitas: [COMPLETAR bancos aliados].
+6. Entrega según el contrato.
+
+## Antes de decidir
+
+- Quién desarrolla y es titular del proyecto, con documentos.
+- El contrato: entrega, penalidades, cambios.
+- Cuotas de mantenimiento y qué cubren.
+- Reglas de alquiler: lee [Invertir en Playa Caracol] (enlace a /invertir-playa-caracol/).
+- Tu tiempo real de traslado: [Cómo llegar a Playa Caracol] (enlace a /como-llegar-playa-caracol/).
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta un apartamento en Playa Caracol?
+Desde [PRECIO], según el proyecto (lista vigente al [FECHA]). Detalle en [Precios] (enlace a /precios/).
+
+### ¿Hay apartamentos con entrega inmediata?
+[COMPLETAR solo si existen, con número y fecha.]
+
+### ¿Puede comprar un extranjero?
+En general los extranjeros pueden comprar inmuebles en Panamá, con restricciones en zonas específicas. Confirma tu caso con un abogado panameño.
+
+### ¿Cuánto es el mantenimiento?
+[COMPLETAR rango y qué cubre.]
+
+## Fuentes
+- Sitio oficial de Playa Caracol Residences.
+- [COMPLETAR: documentos oficiales con fecha.]
+
+=== BLOQUE JSON-LD ===
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "[PROYECTO / TIPOLOGÍA] – Playa Caracol",
+  "offers": {"@type": "Offer", "priceCurrency": "USD", "price": "[PRECIO]", "priceValidUntil": "[AAAA-MM-DD]", "availability": "https://schema.org/InStock"}
+}
+
+=== CHECKLIST ANTES DE PUBLICAR ===
+[ ] Tabla con precio, estado y fecha por proyecto
+[ ] Sin escasez falsa
+[ ] Renders etiquetados; fotos propias
+[ ] WhatsApp y formulario probados

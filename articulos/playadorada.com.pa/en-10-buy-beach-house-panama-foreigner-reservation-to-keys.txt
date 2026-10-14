@@ -1,0 +1,101 @@
+=== SEO METADATA ===
+Suggested URL: /en/buy-beach-house-panama-foreigner/
+Language: en
+Title: Buy a Beach House in Panama as a Foreigner | Playa Dorada
+Meta description: How to buy a beach house at Playa Dorada as a foreign buyer: reservation, contract review, payment, deed and handover. Book a visit.
+H1: Buy a Beach House in Panama as a Foreign Buyer: From Reservation to Keys at Playa Dorada
+Primary keyword: buy beach house in panama (volume N/D; PAA in Google) · buy house in panama (127/mo)
+Secondary keywords: can foreigners buy a beach house in panama · panama beach property for foreigners · panama real estate for foreigners
+Intent / stage: transactional / decision (foreign buyer)
+Content type: purchase-process landing (YMYL)
+Schema: Article + HowTo + FAQPage (only with visible steps/FAQs)
+Author: [NAME – pending]
+Legal reviewer: [PANAMANIAN ATTORNEY – name, credentials, review date – REQUIRED before publishing]
+Published / reviewed: [DATE] / [DATE]
+Suggested internal links: /en/prices/ · /en/beach-houses-for-sale-panama/ · /en/contact/
+Official sources to link (specific, current page): Registro Público de Panamá · DGI (dgi.mef.gob.pa) · Migración · Superintendencia de Bancos
+Audit note: in the AI test, Playa Dorada appeared in 0 of 24 runs for the English and Spanish foreign-buyer process questions. Engines cite official sources (dgi.mef.gob.pa 14, panamadigital.gob.pa 13, registro-publico.gob.pa 7). Without official links and a named reviewer this page will not be cited.
+=== END METADATA ===
+
+Buy a Beach House in Panama as a Foreign Buyer: From Reservation to Keys at Playa Dorada
+
+[DIRECT ANSWER – AEO, 54 words]
+Foreigners can generally buy property in Panama, with restrictions in specific zones. At Playa Dorada the process is: choose a model, reserve, have a Panamanian attorney review the contract, confirm how payments are protected, sign the public deed and register it, then take handover. Confirm your case with an attorney before you pay anything.
+
+NOTICE (visible): Informational, not legal or tax advice. Rules and amounts change. Verify each point with a licensed Panamanian attorney and the official agency.
+
+DISCLOSURE (visible): Published by [DEVELOPER / LEGAL NAME – CONFIRM].
+
+## Step 1: Choose a model and confirm availability
+
+See current models and prices on [Buy a House in Panama at Playa Dorada: Current Prices] (link to /en/prices/). Book a visit or take the virtual tour. [BUTTON] · [WHATSAPP]
+
+## Step 2: Reserve
+
+Reserving requires [COMPLETE amount and terms, including whether it is refundable and under what conditions].
+
+## Step 3: Have your attorney review the contract
+
+Check: the exact unit, the delivery date and delay terms, what changes the developer may make, what happens if you withdraw or the developer defaults, and who pays each closing cost. Foreign buyers often use an attorney in Panama; [COMPLETE: whether the sales team can recommend independent attorneys, stating that the buyer chooses freely].
+
+## Step 4: Confirm how your payments are protected
+
+Ask in writing where installments are held and under what guarantee. [COMPLETE with the project's real policy and its document.] Do not pay into accounts the contract does not name.
+
+## Step 5: Financing
+
+Banks decide requirements for non-residents and foreign nationals, and they change. [COMPLETE: partner banks and a link to their official information, with date.]
+
+## Step 6: Public deed and registration
+
+A public deed is signed and recorded at the Registro Público. Your attorney coordinates taxes and fees currently due. [COMPLETE: taxes and fees with the current figure, official source and date. Do not publish percentages without that source.]
+
+## Step 7: Handover
+
+Inspect the unit against the contract. Put every observation and correction deadline in writing.
+
+## Does buying give you residency?
+
+Not automatically. If you are interested in a residency program, check current requirements with Migración and an immigration attorney. [COMPLETE: current official link.]
+
+## Checks specific to a beach property
+
+Ask your attorney to confirm the property's legal status and that no part of it is state land or subject to a concession, and that it is not in a restricted zone. [VERIFY with the legal reviewer; cite the official source and date.]
+
+## Frequently asked questions
+
+### Do I need to be in Panama to buy?
+[VERIFY with the legal reviewer: signing methods and powers of attorney.]
+
+### How much are closing costs?
+They depend on taxes, registry fees, attorney fees and the contract. [COMPLETE with current figures, source and date.]
+
+### Can I buy through a company?
+[VERIFY with the legal and tax reviewers; do not recommend structures without professional advice.]
+
+### Can I get financing as a foreigner?
+It depends on the bank. [COMPLETE with partner banks' official information.]
+
+## Sources
+- Registro Público de Panamá: [LINK to the specific current page]
+- Dirección General de Ingresos (dgi.mef.gob.pa): [LINK]
+- Migración: [LINK]
+- Superintendencia de Bancos: [LINK]
+
+=== JSON-LD BLOCK ===
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Buy a Beach House in Panama as a Foreign Buyer: From Reservation to Keys at Playa Dorada",
+  "inLanguage": "en",
+  "author": {"@type": "Person", "name": "[NAME]"},
+  "reviewedBy": {"@type": "Person", "name": "[ATTORNEY]"},
+  "datePublished": "[YYYY-MM-DD]",
+  "dateModified": "[YYYY-MM-DD]"
+}
+
+=== PRE-PUBLISH CHECKLIST ===
+[ ] Legal review signed by a Panamanian attorney (name and date visible)
+[ ] No tax figure without an official source and date
+[ ] Links to current official pages
+[ ] "Not legal advice" notice visible

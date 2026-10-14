@@ -1,0 +1,86 @@
+=== METADATOS SEO ===
+URL sugerida: /blog/noticias-es/venta-casas-vacamonte/ (ACTUALIZAR; las IA la citan 9 veces)
+Idioma: es (es-PA)
+Title: Casas en venta en Vacamonte, Panamá Oeste | Playa Dorada
+Meta description: Casas en venta en Vacamonte, Panamá Oeste, en un residencial frente a la playa. Modelos, precios desde [PRECIO] y visita al proyecto.
+H1: Casas en venta en Vacamonte: residencial frente a la playa en Panamá Oeste
+Keyword principal: casas en venta vacamonte (10/mes) · casas en vacamonte (43/mes, Estable)
+Keywords secundarias: vacamonte panamá (37/mes, +63 %) · casas en venta panamá oeste (21/mes) · playa dorada vacamonte (387/mes, +93 %, Emergente)
+Intención / etapa: transaccional / evaluación-decisión
+Tipo de contenido: landing local con oferta
+Schema: Product/Offer + BreadcrumbList + FAQPage (solo con FAQ visibles)
+Autor: [NOMBRE – pendiente]
+Revisor: [NOMBRE – pendiente]
+Publicado / revisado: [FECHA] / [FECHA]
+Enlazado interno sugerido: /casas/ · /ubicacion/ · /blog/conectividad-y-accesos-como-llegar-a-playa-dorada-desde-ciudad-de-panama/
+Nota de auditoría: en la SERP de "casas en venta vacamonte" ganan portales (icasas, inmopanama, gprovivienda) y hay un PAA "¿Dónde queda Vacamonte?". Esta página responde a eso y ofrece lo que los listados no: modelos y precios del proyecto, con fecha.
+=== FIN METADATOS ===
+
+Casas en venta en Vacamonte: residencial frente a la playa en Panamá Oeste
+
+[RESPUESTA DIRECTA – AEO, 47 palabras]
+Playa Dorada es un residencial en Vacamonte, distrito de Arraiján, Panamá Oeste, con casas en venta a unos 30 minutos de la ciudad según su sitio. Los modelos parten desde [PRECIO] (lista vigente al [FECHA]). Puedes agendar una visita o recorrer el proyecto en el tour virtual.
+
+NOTA DE TRANSPARENCIA (visible): Contenido publicado por [DESARROLLADORA / RAZÓN SOCIAL – CONFIRMAR]. Precios y disponibilidad llevan fecha.
+
+## ¿Dónde queda Vacamonte?
+
+Vacamonte está en el distrito de Arraiján, provincia de Panamá Oeste. [COMPLETAR: corregimiento, referencias y tiempos de traslado medidos, con fecha.]
+
+## Casas en venta en Playa Dorada
+
+| Modelo | Recámaras | m² construidos | Precio desde | Estado | Actualizado |
+|---|---|---|---|---|---|
+| [MODELO 1] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+| [MODELO 2] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+| [MODELO 3] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+
+## Por qué mirar este residencial
+
+Basa esta sección solo en hechos que puedas respaldar:
+- Ubicación en Vacamonte, a unos 30 minutos de la ciudad [COMPLETAR con medición propia].
+- Club de playa y amenidades [COMPLETAR lista confirmada, con estado operativo].
+- [COMPLETAR: seguridad, accesos y servicios, solo si están confirmados.]
+
+## Servicios cerca
+
+[COMPLETAR: supermercados, colegios, salud y transporte en Vacamonte con nombre y distancia medida, y la fecha de verificación. Hay búsquedas locales de estos servicios en la zona, así que esta sección también atrae tráfico útil.]
+
+## Cómo avanzar
+
+1. Agenda una visita: [BOTÓN] · [WHATSAPP] · [FORMULARIO].
+2. Elige modelo y confirma disponibilidad.
+3. Reserva con [COMPLETAR monto y condiciones].
+4. Revisa el contrato con tu abogado.
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta una casa en Vacamonte?
+En Playa Dorada, desde [PRECIO] (lista vigente al [FECHA]). Otros proyectos de la zona tienen precios distintos.
+
+### ¿Qué tan lejos está de la Ciudad de Panamá?
+Alrededor de 30 minutos según el sitio del proyecto. [COMPLETAR con tu medición en hora pico.]
+
+### ¿Se puede comprar a crédito?
+[COMPLETAR con los bancos aliados y requisitos, según su información oficial.]
+
+### ¿Puede comprar un extranjero?
+En general sí, con restricciones en zonas específicas. Confirma con un abogado.
+
+## Fuentes
+- Sitio de Playa Dorada.
+- [COMPLETAR: fuentes de servicios y distancias con fecha.]
+
+=== BLOQUE JSON-LD ===
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "[MODELO] – Playa Dorada, Vacamonte",
+  "offers": {"@type": "Offer", "priceCurrency": "USD", "price": "[PRECIO]", "priceValidUntil": "[AAAA-MM-DD]", "availability": "https://schema.org/InStock"}
+}
+
+=== CHECKLIST ANTES DE PUBLICAR ===
+[ ] Distancias y tiempos medidos con fecha
+[ ] Lista de servicios verificada
+[ ] Precios con fecha de vigencia
+[ ] Fusionar con el contenido actual de la entrada

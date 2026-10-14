@@ -1,0 +1,109 @@
+=== SEO METADATA ===
+Suggested URL: /en/blog/playa-caracol-panama-buyers-guide/
+Language: en
+Title: Playa Caracol, Panama: A Buyer's Guide to Chame's Beach
+Meta description: Playa Caracol in Chame, Panama: where it is, what is for sale, costs to check and questions to ask before you buy or rent a beachfront condo.
+H1: Playa Caracol, Panama: A Buyer's Guide to Chame's Beachfront
+Primary keyword: playa caracol panama (3,550/mo in English, -4% YoY, Stable)
+Secondary keywords: playa caracol panama chame · playa caracol rentals (480/mo) · playa caracol residences vacation rental (590/mo) · panama beach condos
+Intent / stage: informational-commercial / evaluation
+Content type: area and buyer's guide
+Schema: Article + FAQPage (only with visible FAQs)
+Author: [NAME – pending]
+Reviewer: [NAME – pending]
+Published / reviewed: [DATE] / [DATE]
+Suggested internal links: /proyecto/playa-caracol/ · /guia-completa-playa-caracol/ (Spanish counterpart; do not duplicate the text) · /en/buy-property-panama-city/
+PAA to answer: Where is Playa Caracol? · Who owns Playa Caracol, Panama? · How much does an apartment in Playa Caracol cost?
+Audit note: in the English SERP the project's own microsite (playacaracolresidences.com) ranks #2; its relationship with GLP is to be confirmed. GLP was mentioned in only 1 of 12 AI answers about Playa Caracol.
+=== END METADATA ===
+
+Playa Caracol, Panama: A Buyer's Guide to Chame's Beachfront
+
+[DIRECT ANSWER – AEO, 53 words]
+Playa Caracol is a beach area in the Chame district, in Panama Oeste province. It has several residential projects, including The Tides by Grupo Los Pueblos according to its website. Before buying or renting, confirm who owns and develops the project, the monthly fees, the short-term rental rules and your actual travel time.
+
+DISCLOSURE (visible): Grupo Los Pueblos publishes this guide and promotes a project in Playa Caracol. We give criteria so you can compare any project in the area.
+
+## Where is Playa Caracol?
+
+Playa Caracol is in Chame, Panama Oeste province. [COMPLETE: distance and drive time from Panama City, measured by the author with date, time of day and tool. Add the access route.]
+
+## Who owns Playa Caracol?
+
+"Playa Caracol" can mean the place, a hotel, and several different residential projects. [COMPLETE: a list of projects and operators present, each with a link to its official site and the date checked. State which one is GLP's and what relationship, if any, it has with other sites using the name.] Do not claim land ownership without a document.
+
+## What is for sale
+
+GLP's website presents The Tides in Playa Caracol, Chame. [COMPLETE: unit types, sizes and confirmed amenities; separate what is open today from what is planned.]
+
+| Fact | The Tides | Source / date |
+|---|---|---|
+| Location | Playa Caracol, Chame | GLP website |
+| Unit types | [COMPLETE] | [COMPLETE] |
+| Price from | [COMPLETE from the official price list] | [DATE] |
+| Estimated delivery | [COMPLETE] | [DATE] |
+| Monthly fees | [COMPLETE range] | [DATE] |
+| Short-term rental rules | [COMPLETE] | [DATE] |
+
+## How much does an apartment cost?
+
+Price depends on the project, floor, view and size. Third-party listings show wide ranges and are asking prices, not closed sales. [COMPLETE: GLP's official range with date. Do not quote portal prices without citing the source and date.]
+
+## Can you rent it out short term?
+
+There is search interest in vacation rentals in the area, but the rules depend on each project's regulations. [COMPLETE with the official project rules.] Avoid promising returns.
+
+## Checklist before you buy
+
+1. Who develops the project, who holds title, with documents.
+2. Construction permits and building status.
+3. The contract: delivery date, penalties, changes to plans.
+4. Monthly fees and what they cover.
+5. Rental rules and common-area use.
+6. Real travel time at peak hours.
+7. A Panamanian attorney reviews the contract.
+
+For the purchase process as a foreigner, read [Can Foreigners Buy Property in Panama?] (link to /en/blog/can-foreigners-buy-property-in-panama/).
+
+## What daily life is like
+
+Publish this section only with verifiable experience. Instructions for the author: visit at two different times, note what you see and measure the drive. Add three original photos with alt text.
+Template: "We visited Playa Caracol on [DATE] at [TIME]. We noticed [OBSERVATION]. The drive to [DESTINATION] took [MINUTES] minutes."
+
+## Frequently asked questions
+
+### Where is Playa Caracol?
+In Chame, Panama Oeste province. [COMPLETE with references.]
+
+### Who owns Playa Caracol?
+[COMPLETE with the clarification above, without claiming ownership without a document.]
+
+### How much does an apartment in Playa Caracol cost?
+[COMPLETE with the official current range and date.]
+
+### Is Playa Caracol a good place to buy?
+It depends on whether you want a home to enjoy, a rental or an investment. Treat it as a purchase for use rather than counting on guaranteed rental income or appreciation.
+
+### Can foreigners buy there?
+In general, foreigners can buy property in Panama, with restrictions in specific zones. Confirm your case with an attorney.
+
+## Sources
+- GLP website (project page).
+- [COMPLETE: official sources and dates checked.]
+
+=== JSON-LD BLOCK ===
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Playa Caracol, Panama: A Buyer's Guide to Chame's Beachfront",
+  "inLanguage": "en",
+  "author": {"@type": "Person", "name": "[NAME]"},
+  "datePublished": "[YYYY-MM-DD]",
+  "dateModified": "[YYYY-MM-DD]"
+}
+
+=== PRE-PUBLISH CHECKLIST ===
+[ ] No price without a source and date
+[ ] Original site visit and photos
+[ ] Relationship with other "Playa Caracol" sites clarified with the client
+[ ] hreflang pair with the Spanish guide

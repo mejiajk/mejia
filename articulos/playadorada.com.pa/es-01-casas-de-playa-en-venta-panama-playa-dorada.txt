@@ -1,0 +1,104 @@
+=== METADATOS SEO ===
+URL sugerida: /casas/ (ACTUALIZAR la categoría existente; hoy posiciona `casa de playa` en pos. 14)
+Idioma: es (es-PA)
+Title: Casas de playa en venta en Panamá | Playa Dorada
+Meta description: Casas de playa en venta en Playa Dorada, Vacamonte, a 30 minutos de la ciudad. Modelos, precios desde [PRECIO] y cómo agendar tu visita.
+H1: Casas de playa en venta en Panamá: modelos y precios en Playa Dorada
+Keyword principal: casas de playa en panamá (320/mes, Labs; en vivo la web ya es #1 y #2 en "casas de playa panamá")
+Keywords secundarias: casa de playa panamá (20/mes, +20 %) · casas de playa en venta panamá (40/mes) · casa de playa (210/mes) · playa en panamá oeste (210/mes)
+Intención / etapa: transaccional / decisión
+Tipo de contenido: página de categoría con oferta (landing comercial)
+Schema: CollectionPage + Product/Offer por modelo + BreadcrumbList + FAQPage (solo con FAQ visibles)
+Autor: [NOMBRE Y CARGO – pendiente]
+Revisor: [NOMBRE – pendiente]
+Publicado / revisado: [FECHA] / [FECHA]
+Enlazado interno sugerido: /producto/<modelo>/ (una por modelo) · /club-de-playa/ · /ubicacion/ · /tour-virtual/ · /contacto/
+Nota de auditoría: ya ocupas el #1 y el #2 para "casas de playa panamá". Esta pieza defiende la posición y convierte: oferta visible, precio con fecha y llamada a la acción.
+=== FIN METADATOS ===
+
+Casas de playa en venta en Panamá: modelos y precios en Playa Dorada
+
+[RESPUESTA DIRECTA – AEO, 48 palabras]
+Playa Dorada ofrece casas de playa en venta en Vacamonte, Panamá Oeste, a unos 30 minutos de la ciudad según su sitio. Hay varios modelos, con precios desde [PRECIO] (lista vigente al [FECHA]). Puedes ver los modelos, recorrer el proyecto en el tour virtual y agendar una visita.
+
+NOTA DE TRANSPARENCIA (visible): Este contenido lo publica [DESARROLLADORA / RAZÓN SOCIAL – CONFIRMAR]. Los precios y las fechas se actualizan en esta página y llevan fecha.
+
+## Casas disponibles hoy
+
+| Modelo | Recámaras | Baños | Construcción (m²) | Terreno (m²) | Precio desde | Estado | Actualizado |
+|---|---|---|---|---|---|---|---|
+| [MODELO 1] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [Entrega inmediata / en construcción] | [FECHA] |
+| [MODELO 2] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+| [MODELO 3] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+
+Cada modelo enlaza a su ficha. La web tiene hoy páginas de producto como Altamarina 19 y Miramar [CONFIRMAR lista oficial de modelos]. No publiques disponibilidad que no esté confirmada.
+
+## Qué incluye tu casa
+
+[COMPLETAR con lo que incluye el precio: acabados, cocina, línea blanca, estacionamientos, terreno. Separa lo incluido de lo opcional.]
+
+## La vida en Playa Dorada
+
+La web describe un proyecto en Panamá Oeste con club de playa y amenidades. [COMPLETAR: lista de amenidades confirmadas, separando las operativas de las planificadas, con fecha. Añade 3 fotos propias con `alt`.]
+
+## Ubicación
+
+Playa Dorada está en Vacamonte, distrito de Arraiján, Panamá Oeste. [COMPLETAR: tiempo de traslado a la Ciudad de Panamá medido en hora pico y en hora valle, con fecha y herramienta.]
+
+## Cómo comprar paso a paso
+
+1. **Elige modelo** y confirma disponibilidad con el equipo comercial.
+2. **Visita el proyecto** o recórrelo en el tour virtual.
+3. **Reserva** con el monto de reserva vigente: [COMPLETAR monto y condiciones].
+4. **Firma el contrato** tras la revisión de tu abogado.
+5. **Financiamiento**, si lo necesitas: [COMPLETAR bancos aliados y requisitos según su información oficial].
+6. **Entrega** de la casa según el contrato.
+
+## Agenda tu visita
+
+[BOTÓN: Agendar visita] · [WHATSAPP: número verificado] · [FORMULARIO: nombre, correo, teléfono, modelo de interés]
+Horario de la sala de ventas: [COMPLETAR]. Dirección: [COMPLETAR].
+
+## Antes de decidir, revisa
+
+- Quién es el titular y desarrollador del proyecto, con documentos.
+- El contrato: entrega, penalidades, cambios de especificaciones.
+- Cuotas de mantenimiento y qué cubren.
+- Tu tiempo real de traslado.
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta una casa de playa en Playa Dorada?
+Desde [PRECIO], según el modelo (lista vigente al [FECHA]).
+
+### ¿Hay casas con entrega inmediata?
+[COMPLETAR solo si hay unidades terminadas, con su número y fecha.]
+
+### ¿Puedo comprar siendo extranjero?
+En general los extranjeros pueden comprar inmuebles en Panamá, con restricciones en zonas específicas. Confirma tu caso con un abogado panameño.
+
+### ¿Qué incluye el club de playa?
+[COMPLETAR con las amenidades confirmadas.]
+
+### ¿Cómo reservo?
+Escríbenos o agenda una visita: [CTA]. Te explicamos el monto de reserva y el contrato.
+
+## Fuentes
+- Sitio oficial de Playa Dorada (ubicación, modelos y amenidades).
+- [COMPLETAR: documentos oficiales del proyecto con fecha.]
+
+=== BLOQUE JSON-LD (completar y validar) ===
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "[MODELO] – Playa Dorada",
+  "description": "Casa de playa en venta en Playa Dorada, Vacamonte, Panamá Oeste.",
+  "offers": {"@type": "Offer", "priceCurrency": "USD", "price": "[PRECIO]", "availability": "https://schema.org/InStock", "priceValidUntil": "[AAAA-MM-DD]", "seller": {"@type": "Organization", "name": "[RAZÓN SOCIAL]"}}
+}
+
+=== CHECKLIST ANTES DE PUBLICAR ===
+[ ] Tabla con precio, estado y fecha por modelo; si no hay dato, "Consultar"
+[ ] Sin escasez falsa ("últimas unidades") salvo que sea verificable
+[ ] Número de WhatsApp y formulario probados
+[ ] Fotos propias; renders etiquetados
+[ ] Fusionar con el contenido actual de /casas/

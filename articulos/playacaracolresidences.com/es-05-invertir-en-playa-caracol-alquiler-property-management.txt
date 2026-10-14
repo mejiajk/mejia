@@ -1,0 +1,94 @@
+=== METADATOS SEO ===
+URL sugerida: /invertir-playa-caracol/ (ACTUALIZAR; las IA la citan 7 veces)
+Idioma: es (es-PA)
+Title: Invertir en Playa Caracol: alquiler, costos y riesgos
+Meta description: ¿Conviene invertir en Playa Caracol? Alquiler de corta estancia, administración, costos y riesgos explicados con datos fechados.
+H1: Invertir en Playa Caracol: cómo funciona el alquiler, qué costos hay y qué riesgos considerar
+Keyword principal: invertir en playa caracol (N/D) · playa caracol rentals (510/mes) · airbnb playa caracol (38/mes†)
+Keywords secundarias: playa caracol alquiler (27/mes, +60 %) · playa caracol residences vacation rental (590/mes)
+Intención / etapa: comercial-informacional / evaluación
+Tipo de contenido: análisis de inversión (YMYL)
+Schema: Article + FAQPage (solo con FAQ visibles)
+Autor: [NOMBRE – pendiente]
+Revisor: [NOMBRE – pendiente]
+Publicado / revisado: [FECHA] / [FECHA]
+Enlazado interno sugerido: /alquiler-playa-caracol/ · /calculadora/ · /precios/ · /como-comprar-extranjero/ [CONFIRMAR]
+Nota de auditoría: Perplexity responde que "se puede ganar dinero" con alquiler de corta estancia y el programa de administración del complejo, pero advierte que depende de varios factores. PAA: "Is Playa Caracol, Panama a good investment?". † La serie de "airbnb playa caracol" tiene 5 meses en cero: su +283 % está inflado.
+=== FIN METADATOS ===
+
+Invertir en Playa Caracol: cómo funciona el alquiler, qué costos hay y qué riesgos considerar
+
+[RESPUESTA DIRECTA – AEO, 51 palabras]
+Comprar en Playa Caracol para alquilar puede generar ingresos, pero no están garantizados. El resultado depende del precio de compra, la ocupación, las tarifas, las comisiones de administración y las reglas del proyecto. Calcula con datos reales y escenarios prudentes, y compara con la opción de usar la propiedad tú mismo.
+
+AVISO (visible): Informativo, no es asesoría financiera ni legal. No garantizamos rentabilidades.
+
+NOTA DE TRANSPARENCIA (visible): Publica [DESARROLLADORA / RAZÓN SOCIAL – CONFIRMAR], que vende propiedades en Playa Caracol.
+
+## Cómo funciona el alquiler
+
+El sitio tiene una sección de alquileres y las IA mencionan un programa de administración de propiedades. [CONFIRMAR Y COMPLETAR: qué incluye (marketing, limpieza, mantenimiento, atención al huésped, informes), quién lo presta, cuánto cobra y cuál es el contrato.]
+
+## Qué ingresos y costos considerar
+
+| Concepto | Dato real | Fuente / fecha |
+|---|---|---|
+| Tarifa por noche (rango) | [COMPLETAR con datos reales de ocupación] | [FUENTE] |
+| Ocupación media | [COMPLETAR] | [FUENTE] |
+| Comisión de administración | [COMPLETAR %] | contrato tipo |
+| Cuota de mantenimiento | [COMPLETAR] | administración |
+| Seguros e impuestos | [COMPLETAR con fuente oficial] | [FUENTE] |
+| Mobiliario y reposición | [COMPLETAR] | [FUENTE] |
+
+No publiques una "rentabilidad" sin esta tabla y sin escenarios (bajo, medio, alto). Si no hay datos, di que no los hay.
+
+## Escenarios (ejemplo de estructura)
+
+[COMPLETAR solo con cifras oficiales: tres escenarios de ocupación con ingresos brutos, costos y resultado neto, y los supuestos escritos.] La calculadora del sitio ([enlace a /calculadora/]) debe mostrar sus supuestos.
+
+## Riesgos
+
+1. **Temporada y ocupación variable.** Los ingresos cambian a lo largo del año [COMPLETAR con datos].
+2. **Reglas del proyecto.** El alquiler de corta estancia puede tener condiciones [COMPLETAR].
+3. **Costos recurrentes** que reducen el resultado neto.
+4. **Liquidez al vender.** Puede tardar [COMPLETAR con datos reales si existen].
+5. **Regulación y plataformas.** Las reglas pueden cambiar; verifica con un abogado.
+
+## Uso propio o alquiler: cómo decidir
+
+Si piensas usar la propiedad varias semanas al año, el alquiler cubre solo parte del año. Define cuántas semanas la usarás y calcula con el resto.
+
+## Preguntas frecuentes
+
+### ¿Es buena inversión Playa Caracol?
+Depende del precio de entrada, los costos y la ocupación. No hay una respuesta general ni se garantiza rentabilidad.
+
+### ¿Se puede alquilar con Airbnb?
+[COMPLETAR con las reglas del proyecto.]
+
+### ¿Quién administra la propiedad?
+[COMPLETAR.]
+
+### ¿Cuánto se gana al mes?
+No hay una cifra garantizada. [COMPLETAR solo con un rango real y documentado, con fecha.]
+
+## Fuentes
+- Datos de ocupación y tarifas: [COMPLETAR con fuente y fecha].
+- Contrato tipo de administración: [COMPLETAR].
+
+=== BLOQUE JSON-LD ===
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Invertir en Playa Caracol: cómo funciona el alquiler, qué costos hay y qué riesgos considerar",
+  "inLanguage": "es-PA",
+  "author": {"@type": "Person", "name": "[NOMBRE]"},
+  "datePublished": "[AAAA-MM-DD]",
+  "dateModified": "[AAAA-MM-DD]"
+}
+
+=== CHECKLIST ANTES DE PUBLICAR ===
+[ ] Ninguna rentabilidad sin datos documentados y escenarios
+[ ] Comisiones y costos reales
+[ ] Aviso de "no garantizamos rentabilidades" visible
+[ ] Fusionar con el contenido actual de /invertir-playa-caracol/

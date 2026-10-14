@@ -1,0 +1,92 @@
+=== SEO METADATA ===
+Suggested URL: /panama-retirement-visa/ (UPDATE the existing page) or /en/panama-pensionado-visa-who-is-it-for/
+Language: en
+Title: Panama Pensionado Visa: Who Is It For?
+Meta description: Is the Panama Pensionado visa right for you? Who it suits, what to verify with the current rule and when another route may fit better.
+H1: Panama Pensionado Visa: Who Is It For and What Should You Verify?
+Primary keyword: panama pensionado visa (933/mo, +85%, Emerging)
+Secondary keywords: pensionado visa panama (1,000/mo, Labs) · panama retirement visa (1,291/mo, -13%) · pensionado visa for us citizens (50/mo) · panama pensionado visa lawyer (110/mo, commercial)
+Intent / stage: informational / evaluation
+Content type: guide (YMYL)
+Schema: Article + FAQPage (only with visible FAQs)
+Author: [NAME – pending]
+Legal reviewer: [PANAMANIAN IMMIGRATION ATTORNEY – name, credentials, review date – REQUIRED]
+Published / reviewed: [DATE] / [DATE]
+Suggested internal links: /en/qualified-investor-vs-friendly-nations-vs-pensionado/ · /en/about-us/ · /us-veterans-retire-in-panama/
+Audit note: this is the fastest-growing topic in the English market and the existing page ranks at positions 85 to 109, which produce no traffic. The route does not depend on buying property, so the page also builds credibility by saying so (if confirmed by the legal reviewer).
+=== END METADATA ===
+
+Panama Pensionado Visa: Who Is It For and What Should You Verify?
+
+[DIRECT ANSWER – AEO, 56 words]
+The Panama Pensionado visa is a residency route for people who receive a qualifying pension. It may suit retirees who want to live in Panama without making an investment, and it comes with associated benefits. Requirements and benefits are set by the current rule, so confirm them with an attorney and the official source before applying.
+
+NOTICE (visible): Informational, not legal advice. Requirements and benefits change; this page does not repeat them from memory.
+
+DISCLOSURE (visible): Published by [PROVIDER – CONFIRM], which also offers services tied to an investment-based route. We include this guide because the Pensionado route may be the better fit for some readers.
+
+## What the route is
+
+[COMPLETE with the definition from the current official source: what a qualifying pension is and what status the route grants.]
+
+## Who it may suit
+
+- People who receive a pension that meets the rule's requirements. [COMPLETE per the current rule.]
+- Retirees who do not want to buy property to qualify. [VERIFY with the legal reviewer whether the route requires or not a property.]
+- People who prefer a lower financial commitment than an investment route. Compare with an attorney.
+
+## Who it may not suit
+
+- People without a qualifying pension.
+- People who plan to work in Panama, since the rights attached to the route matter. [COMPLETE per the current rule; VERIFY.]
+- People who want a status based on an investment.
+
+## What to verify before applying
+
+| Item | Where to verify | Status |
+|---|---|---|
+| Type and amount of qualifying pension | current rule [LINK] | [COMPLETE] |
+| Documents required from your country | immigration authority [LINK] | [COMPLETE] |
+| Who files and how | your attorney | [COMPLETE] |
+| Benefits and how to claim them | current rule [LINK] | [COMPLETE] |
+| Obligations to keep the status | current rule [LINK] | [COMPLETE] |
+
+## Pensionado or an investment route?
+
+Read [Qualified Investor vs Friendly Nations vs Pensionado] (link to /en/qualified-investor-vs-friendly-nations-vs-pensionado/). The right choice depends on your income, your plans and the current rule.
+
+## Frequently asked questions
+
+### Do I need to buy property for the Pensionado visa?
+[VERIFY with the legal reviewer and cite the official source.]
+
+### Can I work on this visa?
+[COMPLETE per the current rule.]
+
+### What benefits does it give?
+[COMPLETE per the current rule, with source and date.]
+
+### Can US citizens apply?
+[COMPLETE per the current rule.]
+
+## Sources
+- Panama's immigration authority: [LINK to the current official page]
+- Gaceta Oficial: [LINK to the current rule]
+
+=== JSON-LD BLOCK ===
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Panama Pensionado Visa: Who Is It For and What Should You Verify?",
+  "inLanguage": "en",
+  "author": {"@type": "Person", "name": "[NAME]"},
+  "reviewedBy": {"@type": "Person", "name": "[ATTORNEY]"},
+  "datePublished": "[YYYY-MM-DD]",
+  "dateModified": "[YYYY-MM-DD]"
+}
+
+=== PRE-PUBLISH CHECKLIST ===
+[ ] Legal review signed
+[ ] No requirement or benefit stated without an official source and date
+[ ] Disclosure visible
+[ ] Merge with the existing /panama-retirement-visa/ content

@@ -1,0 +1,108 @@
+=== SEO METADATA ===
+Suggested URL: /investing-in-panama-real-estate/ (UPDATE the existing page) or /en/can-americans-buy-property-in-panama/
+Language: en
+Title: Can Americans Buy Property in Panama? Steps and Risks
+Meta description: Can Americans buy property in Panama? The general answer, the main steps, the risks to check and the official sources to rely on.
+H1: Can Americans Buy Property in Panama? Steps, Risks and Official Sources
+Primary keyword: can americans buy property in panama (57/mo, +3%, Stable)
+Secondary keywords: buy property in panama (184/mo, -25%) · can foreigners buy property in panama (10/mo) · panama real estate for americans (10/mo)
+Intent / stage: informational / process-legal
+Content type: process guide (YMYL)
+Schema: Article + HowTo (only with visible steps) + FAQPage
+Author: [NAME – pending]
+Legal reviewer: [PANAMANIAN ATTORNEY – name, credentials, review date – REQUIRED]
+Published / reviewed: [DATE] / [DATE]
+Suggested internal links: /en/how-to-vet-panama-residency-provider/ · /en/about-us/ · /faqs/
+Official sources to link (specific, current page): Registro Público de Panamá · DGI (dgi.mef.gob.pa) · immigration authority · Superintendencia de Bancos
+Audit note: the site was named in 0 of 12 AI runs for this question, and the SERP's AI Overview and top results come from tax-for-expats sites, law firms and forums. Without official links and a named reviewer this page will not be cited.
+=== END METADATA ===
+
+Can Americans Buy Property in Panama? Steps, Risks and Official Sources
+
+[DIRECT ANSWER – AEO, 56 words]
+Americans can generally buy property in Panama, with restrictions in specific zones. The usual steps are to vet the seller and the title, have a Panamanian attorney review the contract, confirm how payments are protected, sign the public deed and register it. Buying property is a separate matter from residency. Confirm your case with an attorney.
+
+NOTICE (visible): Informational, not legal or tax advice. Rules and amounts change. Verify each point with a licensed Panamanian attorney and the official agency.
+
+DISCLOSURE (visible): Published by [PROVIDER – CONFIRM].
+
+## The general rule and its exceptions
+
+In general, foreigners, including Americans, can buy real estate in Panama. There are restrictions in specific zones, for example border areas and islands, and the status of land near the shoreline needs confirmation. Your attorney must confirm the property is not in a restricted zone and has no liens. [VERIFY with the legal reviewer; link the current official source.]
+
+## Buying property is not the same as getting residency
+
+Buying a property does not by itself grant residency. Some residency routes involve an investment and others do not. Read [Qualified Investor vs Friendly Nations vs Pensionado] (link to /en/qualified-investor-vs-friendly-nations-vs-pensionado/).
+
+## Step 1: Set your goal and budget
+
+Decide whether you will live in the property, rent it or resell it. Add closing costs, fees, insurance and taxes to the price. Use current amounts from official sources and your attorney, not examples. [COMPLETE: links to the current DGI and Registro Público pages.]
+
+## Step 2: Vet the seller and the project
+
+Ask for the seller's legal entity, the land title free of liens (your attorney checks at the Registro Público), construction permits for new projects and a record of delivered work.
+
+## Step 3: Have your attorney review the contract
+
+Check the exact property, the delivery date and delay terms, what changes the seller may make, what happens if you withdraw or the seller defaults, and who pays each closing cost.
+
+## Step 4: Confirm how payments are protected
+
+Ask in writing where payments are held and under what guarantee. Do not pay into accounts the contract does not name.
+
+## Step 5: Financing
+
+Banks decide the requirements for non-residents and foreigners, and they change. [COMPLETE: banks consulted and links to their official information, with date.]
+
+## Step 6: Public deed and registration
+
+A public deed is signed and recorded at the Registro Público. Your attorney coordinates the taxes and fees currently due. [COMPLETE: taxes and fees with the current figure, official source and date. Do not publish percentages without that source.]
+
+## Step 7: Handover and ongoing costs
+
+Inspect the property against the contract and put every observation in writing. Plan for ongoing costs such as maintenance, insurance and property taxes. [COMPLETE with official sources.]
+
+## Risks to consider
+
+- Buying without independent legal advice.
+- Paying into accounts the contract does not mention.
+- Assuming a purchase gives residency or tax benefits.
+- Expecting income or appreciation without documented basis.
+
+## Frequently asked questions
+
+### Do I need to be in Panama to buy?
+[VERIFY with the legal reviewer: signing methods and powers of attorney.]
+
+### What are the closing costs?
+They depend on taxes, registry fees, attorney fees and the contract. [COMPLETE with current figures, source and date.]
+
+### Can I buy through a company?
+[VERIFY with the legal and tax reviewers; do not recommend structures without professional advice.]
+
+### Does my US tax situation change?
+[VERIFY with a tax professional with international experience; do not state rules without a source.]
+
+## Sources
+- Registro Público de Panamá: [LINK to the specific current page]
+- Dirección General de Ingresos (dgi.mef.gob.pa): [LINK]
+- Immigration authority: [LINK]
+- Superintendencia de Bancos: [LINK]
+
+=== JSON-LD BLOCK ===
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Can Americans Buy Property in Panama? Steps, Risks and Official Sources",
+  "inLanguage": "en",
+  "author": {"@type": "Person", "name": "[NAME]"},
+  "reviewedBy": {"@type": "Person", "name": "[ATTORNEY]"},
+  "datePublished": "[YYYY-MM-DD]",
+  "dateModified": "[YYYY-MM-DD]"
+}
+
+=== PRE-PUBLISH CHECKLIST ===
+[ ] Legal review signed (name and date visible)
+[ ] No tax figure without an official source and date
+[ ] Links to current official pages
+[ ] "Not legal advice" notice visible
