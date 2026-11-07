@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guía de prompts: productos Semrush con Claude y DataForSEO</title>
+<style>
+:root{--bg:#fff;--fg:#1a1d23;--mut:#5b6472;--card:#f5f7fa;--bd:#dde2ea;--ac:#0b5fff;--code:#0f172a;--codefg:#e2e8f0;--ok:#0a7a3d}
+@media (prefers-color-scheme:dark){:root{--bg:#0e1116;--fg:#e6e9ef;--mut:#9aa4b2;--card:#171b22;--bd:#2a313c;--ac:#6ea0ff;--code:#05070a;--codefg:#d6dde8;--ok:#4cd68a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.w{max-width:960px;margin:0 auto;padding:24px 16px 80px}
+h1{font-size:2rem;line-height:1.2;margin:.2em 0}
+h2{font-size:1.5rem;margin:2.2em 0 .4em;padding-top:.6em;border-top:1px solid var(--bd)}
+h3{font-size:1.1rem;margin:1.6em 0 .3em}
+a{color:var(--ac)}
+.lead{color:var(--mut);font-size:1.05rem}
+.note{background:var(--card);border:1px solid var(--bd);border-left:4px solid var(--ac);padding:12px 16px;border-radius:8px;margin:16px 0}
+nav{background:var(--card);border:1px solid var(--bd);border-radius:8px;padding:12px 18px;margin:20px 0}
+nav ul{columns:2;margin:0;padding-left:18px}
+@media(max-width:600px){nav ul{columns:1}}
+table{width:100%;border-collapse:collapse;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--bd);padding:6px 10px;text-align:left;vertical-align:top}
+th{background:var(--card)}
+code{background:var(--card);padding:1px 5px;border-radius:4px;font-size:.88em}
+.tool{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:4px 16px 14px;margin:18px 0}
+.tool h3{margin-top:.8em}
+.meta{font-size:.88rem;color:var(--mut)}
+.pw{position:relative;margin:8px 0}
+pre{background:var(--code);color:var(--codefg);padding:14px 14px 14px;border-radius:8px;overflow-x:auto;white-space:pre-wrap;word-break:break-word;font-size:.85rem;line-height:1.5;margin:0}
+.cp{position:absolute;top:6px;right:6px;background:#334155;color:#fff;border:0;border-radius:6px;padding:4px 10px;font-size:.78rem;cursor:pointer}
+.cp.ok{background:var(--ok)}
+.lbl{font-size:.78rem;font-weight:600;text-transform:uppercase;letter-spacing:.04em;color:var(--mut);margin-top:10px}
+footer{margin-top:3em;color:var(--mut);font-size:.85rem}
+@media print{.cp{display:none}nav{display:none}}
+</style>
+</head>
+<body>
+<div class="w">
+
+<h1>Guía de prompts: productos Semrush con Claude y DataForSEO</h1>
+<p class="lead">Para cada toolkit de Semrush: qué hace, qué endpoint de DataForSEO cubre lo mismo y un prompt listo para pegar en Claude (o en Claude Code, con el cliente <code>scripts/dfs.sh</code> de este repo).</p>
+
+<div class="note">
+<strong>Sobre la fuente.</strong> Intenté leer <code>semrush.com</code>, pero el acceso desde este entorno está bloqueado. El inventario sale de fuentes públicas (<a href="https://bloggingpursuits.com/semrush-toolkits-explained/">resumen de toolkits</a>, <a href="https://www.semrush.com/kb/811-semrush-social">Semrush KB</a>, <a href="https://targetinternet.com/resources/sem-rush-review/">reseña 2026</a>) y de lo que conozco del catálogo. Semrush anuncia más de 50 herramientas y cambia nombres a menudo. Si falta alguna, pásame la lista y amplío la guía.
+</div>
+
+<nav>
+<strong>Contenido</strong>
+<ul>
+<li><a href="#como">1. Cómo usar la guía</a></li>
+<li><a href="#mapa">2. Mapa Semrush → DataForSEO</a></li>
+<li><a href="#base">3. Prompt base (contexto)</a></li>
+<li><a href="#seo">4. SEO Toolkit: dominio y keywords</a></li>
+<li><a href="#links">5. SEO Toolkit: backlinks</a></li>
+<li><a href="#tec">6. SEO Toolkit: técnico y tracking</a></li>
+<li><a href="#cont">7. Content Toolkit</a></li>
+<li><a href="#local">8. Local Toolkit</a></li>
+<li><a href="#traf">9. Traffic &amp; Market</a></li>
+<li><a href="#ads">10. Advertising Toolkit</a></li>
+<li><a href="#ai">11. AI Visibility Toolkit</a></li>
+<li><a href="#fuera">12. Lo que DataForSEO no cubre</a></li>
+<li><a href="#flujos">13. Flujos combinados</a></li>
+<li><a href="#tips">14. Buenas prácticas y costes</a></li>
+</ul>
+</nav>
+
+<h2 id="como">1. Cómo usar la guía</h2>
+<ol>
+<li><strong>Elige la herramienta de Semrush</strong> cuyo informe quieres replicar.</li>
+<li><strong>Pega el prompt base</strong> (sección 3) una vez por conversación.</li>
+<li><strong>Pega el prompt de la herramienta</strong> y sustituye los campos <code>{{entre llaves}}</code>.</li>
+<li><strong>Dónde se ejecuta:</strong>
+  <ul>
+  <li><em>Claude Code con este repo:</em> llama a <code>./scripts/dfs.sh</code>.</li>
+  <li><em>Claude con un conector/MCP de DataForSEO:</em> usa las herramientas del MCP.</li>
+  <li><em>Claude sin acceso a la API:</em> te devuelve el JSON de la petición, lo ejecutas y le pegas la respuesta.</li>
+  </ul>
+</li>
+</ol>
+<p class="meta">Si ya tienes la guía de Ahrefs, el prompt base y los endpoints son los mismos: solo cambia el nombre de la herramienta que replicas.</p>
+
+<h2 id="mapa">2. Mapa Semrush → DataForSEO</h2>
+<table>
+<tr><th>Semrush</th><th>Qué hace</th><th>DataForSEO (API v3)</th><th>Cobertura</th></tr>
+<tr><td>Domain Overview</td><td>Autoridad, tráfico y keywords de un dominio</td><td><code>dataforseo_labs/google/domain_rank_overview</code>, <code>backlinks/summary</code></td><td>Alta</td></tr>
+<tr><td>Organic Research</td><td>Keywords, páginas y competidores orgánicos</td><td><code>ranked_keywords</code>, <code>relevant_pages</code>, <code>competitors_domain</code></td><td>Alta</td></tr>
+<tr><td>Keyword Overview</td><td>Volumen, KD, intención, SERP features</td><td><code>keyword_overview</code>, <code>search_intent</code>, <code>bulk_keyword_difficulty</code></td><td>Alta</td></tr>
+<tr><td>Keyword Magic Tool</td><td>Ideas y clústeres de keywords</td><td><code>keyword_ideas</code>, <code>keyword_suggestions</code>, <code>related_keywords</code></td><td>Alta</td></tr>
+<tr><td>Keyword Gap</td><td>Keywords que tienen otros y tú no</td><td><code>dataforseo_labs/google/domain_intersection</code></td><td>Alta</td></tr>
+<tr><td>Keyword Strategy Builder</td><td>Pilares y clústeres temáticos</td><td>Labs + agrupación hecha por Claude</td><td>Media</td></tr>
+<tr><td>Backlink Analytics</td><td>Perfil de enlaces</td><td><code>backlinks/summary</code>, <code>backlinks</code>, <code>referring_domains</code>, <code>anchors</code>, <code>history</code></td><td>Alta</td></tr>
+<tr><td>Backlink Gap</td><td>Quién enlaza a competidores y no a ti</td><td><code>backlinks/domain_intersection</code></td><td>Alta</td></tr>
+<tr><td>Backlink Audit</td><td>Detectar enlaces tóxicos</td><td><code>backlinks/backlinks</code> + criterios de Claude (no hay "toxic score" propio)</td><td>Media</td></tr>
+<tr><td>Link Building Tool</td><td>Prospectos y outreach</td><td>Backlink Gap + <code>content_analysis</code></td><td>Media</td></tr>
+<tr><td>Bulk Analysis</td><td>Métricas de muchos dominios</td><td><code>backlinks/bulk_ranks</code>, <code>bulk_backlinks</code>, <code>bulk_traffic_estimation</code></td><td>Alta</td></tr>
+<tr><td>Position Tracking</td><td>Seguimiento diario de posiciones</td><td><code>serp/google/organic</code> + log propio (este repo)</td><td>Alta</td></tr>
+<tr><td>Site Audit</td><td>Crawler técnico</td><td><code>on_page/task_post</code>, <code>summary</code>, <code>pages</code>, <code>lighthouse</code></td><td>Media-alta</td></tr>
+<tr><td>On Page SEO Checker</td><td>Recomendaciones por URL</td><td><code>on_page/instant_pages</code> + SERP del top 10</td><td>Media</td></tr>
+<tr><td>Log File Analyzer</td><td>Análisis de logs del servidor</td><td>No existe equivalente</td><td>Ninguna</td></tr>
+<tr><td>Topic Research / SEO Content Template</td><td>Temas, preguntas y brief</td><td><code>serp</code> (PAA, related), <code>related_keywords</code></td><td>Alta</td></tr>
+<tr><td>SEO Writing Assistant</td><td>Puntuación del texto</td><td>Claude + SERP del top 10</td><td>Media</td></tr>
+<tr><td>Brand Monitoring</td><td>Menciones de marca</td><td><code>content_analysis/search</code>, <code>sentiment_analysis</code></td><td>Media</td></tr>
+<tr><td>Listing Management / Map Rank Tracker</td><td>Fichas y ranking local</td><td><code>serp/google/maps</code>, <code>business_data/google/my_business_info</code>, <code>reviews</code></td><td>Media</td></tr>
+<tr><td>Traffic Analytics / Market Explorer</td><td>Tráfico y cuota de mercado de competidores</td><td><code>bulk_traffic_estimation</code>, <code>competitors_domain</code>, <code>domain_analytics</code></td><td>Media</td></tr>
+<tr><td>Advertising Research / PPC Keyword Tool</td><td>Anuncios y keywords de pago</td><td><code>serp/google/ads_search</code>, <code>keywords_data/google_ads/*</code></td><td>Media</td></tr>
+<tr><td>AI Visibility Toolkit</td><td>Visibilidad de marca en IA</td><td><code>ai_optimization/llm_mentions</code>, <code>llm_responses</code></td><td>Media-alta</td></tr>
+<tr><td>Social Toolkit (Poster, Tracker)</td><td>Publicación y métricas sociales</td><td>No existe equivalente</td><td>Ninguna</td></tr>
+</table>
+<p class="meta">Comprueba rutas, parámetros y precios en <a href="https://docs.dataforseo.com/v3/">docs.dataforseo.com</a> antes de gastar créditos.</p>
+
+<h2 id="base">3. Prompt base (contexto)</h2>
+<div class="pw"><pre>Eres un analista SEO senior. Trabajas con la API de DataForSEO como fuente de datos y replicas informes que normalmente haría Semrush.
+
+CONTEXTO
+- Sitio / dominio: {{dominio}}
+- País y location_code: {{país}} / {{location_code}}
+- Idioma: {{es|en|...}} (language_code)
+- Negocio: {{una línea}}
+- Competidores conocidos: {{lista o "ninguno"}}
+
+REGLAS
+1. Antes de cada llamada indica: endpoint, parámetros clave y coste estimado. Si el lote supera ~{{N}} USD, pregunta antes de ejecutar.
+2. Usa siempre limit y filtros. Nunca pidas listados enteros sin necesidad.
+3. Prefiere endpoints "live" para consultas puntuales y "task_post" para volumen.
+4. No inventes cifras ni métricas propietarias de Semrush (Authority Score, Toxic Score, Traffic Cost). Si necesitas un equivalente, calcúlalo con datos de la API, explica la fórmula y márcalo como "aproximación".
+5. Distingue dato (viene de la API) de interpretación (tuya).
+6. Las credenciales van solo por entorno (DATAFORSEO_LOGIN / DATAFORSEO_PASSWORD). No las imprimas.
+
+FORMATO DE SALIDA
+1) Resumen en 5 líneas  2) Tabla con los datos clave  3) Hallazgos priorizados (impacto / esfuerzo)  4) Siguiente acción concreta  5) Anexo: llamadas realizadas y coste total.</pre><button class="cp">Copiar</button></div>
+
+<h2 id="seo">4. SEO Toolkit: dominio y keywords</h2>
+
+<div class="tool">
+<h3>4.1 Domain Overview</h3>
+<p class="meta">DataForSEO: <code>domain_rank_overview/live</code> · <code>backlinks/summary/live</code></p>
+<div class="pw"><pre>Haz el "Domain Overview" de {{dominio}} y compáralo con {{competidor_1}}, {{competidor_2}} y {{competidor_3}}.
+- domain_rank_overview: tráfico orgánico estimado, nº de keywords, distribución por posición (top 3, 4-10, 11-20), valor estimado del tráfico.
+- backlinks/summary: rank, backlinks, dominios de referencia, % dofollow.
+Como Semrush muestra "Authority Score" y aquí no existe, construye un índice comparable (0-100) con rank, dominios de referencia y keywords en top 10. Explica la fórmula.
+Entrega tabla comparativa y 3 conclusiones: dónde voy por delante, dónde por detrás y qué métrica lo explica.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>4.2 Organic Research</h3>
+<p class="meta">DataForSEO: <code>ranked_keywords/live</code> · <code>relevant_pages/live</code> · <code>competitors_domain/live</code></p>
+<div class="pw"><pre>Replica "Organic Research" para {{dominio}}.
+1. ranked_keywords, limit 500, orden por volumen, posiciones 1-30.
+2. Agrupa por URL e intención. Marca las oportunidades cercanas (posiciones 4-15, volumen &gt; {{N}}).
+3. relevant_pages: top 20 páginas por tráfico estimado.
+4. competitors_domain: 10 competidores orgánicos reales (descarta marketplaces y medios generalistas).
+Entrega tabla de oportunidades con URL, posición, volumen y una acción de una línea por fila. Señala canibalizaciones (varias URLs para la misma keyword).</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>4.3 Keyword Magic Tool</h3>
+<p class="meta">DataForSEO: <code>keyword_ideas</code> · <code>keyword_suggestions</code> · <code>related_keywords</code> · <code>search_intent</code></p>
+<div class="pw"><pre>Replica "Keyword Magic Tool" con la semilla "{{keyword}}" para {{país}} en {{idioma}}.
+1. keyword_ideas (limit 700) + keyword_suggestions + related_keywords (profundidad 2). Deduplica.
+2. Añade volumen, CPC, KD e intención.
+3. Agrupa en clústeres semánticos (máx. {{N}}), nombra cada uno y elige keyword principal.
+4. Filtra como en Semrush: coincidencia amplia, frase y exacta; palabras a incluir {{lista}} y a excluir {{lista}}.
+Entrega tabla de clústeres (keyword principal, volumen total, KD medio, intención, tipo de página) y un calendario de 12 piezas.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>4.4 Keyword Gap</h3>
+<p class="meta">DataForSEO: <code>dataforseo_labs/google/domain_intersection/live</code></p>
+<div class="pw"><pre>Replica "Keyword Gap" entre {{dominio}} y {{competidor_1}}, {{competidor_2}}, {{competidor_3}}.
+Con domain_intersection, clasifica las keywords en:
+- Missing: rankean todos los competidores y yo no.
+- Weak: yo rankeo peor que todos ellos.
+- Strong: yo rankeo mejor que todos.
+- Untapped: rankea al menos un competidor y yo no.
+- Unique: solo yo.
+Filtra volumen &gt; {{N}} y KD &lt; {{KD}}. Entrega las 30 mejores de Missing y Untapped con la URL que debería rankear (existente o nueva) y el tipo de contenido.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<h2 id="links">5. SEO Toolkit: backlinks</h2>
+
+<div class="tool">
+<h3>5.1 Backlink Analytics</h3>
+<p class="meta">DataForSEO: <code>backlinks/summary</code> · <code>referring_domains</code> · <code>anchors</code> · <code>backlinks</code> · <code>history</code></p>
+<div class="pw"><pre>Replica "Backlink Analytics" para {{dominio}}.
+1. summary + history (24 meses): dominios de referencia, backlinks, tendencia.
+2. referring_domains: top 100 por rank, con país y TLD.
+3. anchors: distribución (marca, URL, exacta, genérica, otros). Alerta si la exacta supera el {{umbral}}%.
+4. backlinks: dofollow nuevos y perdidos en 90 días.
+Señala patrones de riesgo (picos, dominios similares en red, anchors repetidos) y propón un plan.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>5.2 Backlink Gap + Link Building</h3>
+<p class="meta">DataForSEO: <code>backlinks/domain_intersection</code> · <code>content_analysis/search</code></p>
+<div class="pw"><pre>Replica "Backlink Gap". Con backlinks/domain_intersection busca dominios que enlazan a al menos 2 de {{competidores}} y no a {{dominio}}.
+Filtra spam (dominios sin tráfico, directorios masivos, anchors comerciales sospechosos). Clasifica cada prospecto como: directorio, medio, blog, recurso/lista, institución.
+Entrega 40 prospectos con: dominio, qué competidores enlaza, tipo y ángulo de contacto sugerido en una línea. Redacta un correo corto para cada tipo.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>5.3 Backlink Audit (limpieza)</h3>
+<div class="pw"><pre>Semrush calcula un "Toxic Score"; DataForSEO no. Haz una auditoría equivalente de {{dominio}} con backlinks/backlinks:
+- Marca sospechosos con señales objetivas: dominio de rank muy bajo, TLD de riesgo, anchors de casino/farmacia/adultos, enlaces sitewide, mismo IP o patrón repetido.
+- Para cada uno indica las señales que disparó y un nivel (bajo, medio, alto).
+- NO recomiendes desautorizar nada de nivel bajo o medio. Para alto, propón primero contactar al webmaster y, si no hay respuesta, preparar el archivo de disavow como último recurso.
+Entrega tabla y justifica cada decisión. Declara que es una aproximación, no una puntuación de Semrush.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>5.4 Bulk Analysis</h3>
+<p class="meta">DataForSEO: <code>backlinks/bulk_ranks</code> · <code>bulk_backlinks</code> · <code>bulk_referring_domains</code> · <code>bulk_traffic_estimation</code></p>
+<div class="pw"><pre>Evalúa en lote estos dominios:
+{{lista}}
+Para cada uno: rank, backlinks, dominios de referencia y tráfico orgánico estimado. Ordénalos, descarta los de baja calidad y clasifica el resto en A / B / C para outreach. Explica los criterios.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<h2 id="tec">6. SEO Toolkit: técnico y tracking</h2>
+
+<div class="tool">
+<h3>6.1 Position Tracking</h3>
+<p class="meta">DataForSEO: <code>serp/google/organic</code> · en este repo: <code>/seo-setup</code>, <code>/seo-run</code>, <code>/seo-frases</code></p>
+<div class="pw"><pre>Ejecuta un run de seguimiento para {{dominio}} con estas keywords:
+{{lista}}
+Por keyword: posición de mi dominio y de {{competidores}}, URL que rankea, AI Overview y pack local. Compara con el run anterior del log y calcula delta.
+Calcula como en Position Tracking: Visibility % (suma de CTR esperado por posición dividido por el máximo posible), posición media y estimated traffic. Declara la curva de CTR que uses.
+Entrega ganadores y perdedores (±3 o más), entradas y salidas del top 10, canibalizaciones y una acción por cada caída importante. Añade una línea por keyword al log JSONL.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>6.2 Site Audit</h3>
+<p class="meta">DataForSEO: <code>on_page/task_post</code> → <code>summary</code> · <code>pages</code> · <code>duplicate_tags</code> · <code>non_indexable</code> · <code>lighthouse</code></p>
+<div class="pw"><pre>Lanza un rastreo de {{dominio}} con on_page/task_post (max_crawl_pages {{N}}, enable_javascript {{true|false}}). Cuando termine, extrae con summary y pages.
+Clasifica como Semrush en Errores, Advertencias y Avisos, con recuento y 3 URLs de ejemplo por incidencia:
+- Indexación: noindex accidental, canonicals incoherentes, robots.txt, sitemap.
+- Códigos: cadenas 3xx, 4xx, 5xx.
+- On-page: títulos y descripciones ausentes, duplicados o largos; H1.
+- Contenido: páginas finas o duplicadas.
+- Enlazado: huérfanas, enlaces internos rotos, profundidad &gt; 4.
+- Rendimiento: lighthouse en las 10 plantillas principales.
+Calcula un "Site Health" aproximado y explica la fórmula. Entrega plan por impacto/esfuerzo con responsable (dev, contenido, SEO).</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>6.3 On Page SEO Checker</h3>
+<p class="meta">DataForSEO: <code>on_page/instant_pages</code> · <code>serp/google/organic/live/advanced</code></p>
+<div class="pw"><pre>Optimiza {{URL}} para "{{keyword}}".
+1. instant_pages de mi URL (título, meta, H1-H3, palabras, enlaces, imágenes sin alt, schema).
+2. SERP top 10 de la keyword y análisis de esas páginas con instant_pages.
+3. Compara: longitud, estructura de encabezados, entidades y preguntas que cubren y yo no.
+Entrega recomendaciones en cuatro grupos (estrategia, contenido, enlaces internos, técnico) con el cambio exacto: texto actual → texto propuesto.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<h2 id="cont">7. Content Toolkit</h2>
+
+<div class="tool">
+<h3>7.1 Topic Research y SEO Content Template</h3>
+<p class="meta">DataForSEO: <code>serp/google/organic/live/advanced</code> · <code>related_keywords</code> · <code>keyword_suggestions</code></p>
+<div class="pw"><pre>Para el tema "{{tema}}" en {{país}}/{{idioma}}:
+1. related_keywords y keyword_suggestions: subtemas con volumen.
+2. SERP de la keyword principal: People Also Ask, búsquedas relacionadas, tipo de páginas y longitud media del top 10.
+3. Redacta el "SEO Content Template": keyword principal y secundarias, longitud objetivo, esquema H2/H3, preguntas a responder, entidades, enlaces internos y externos sugeridos, schema recomendado.
+No copies texto de las páginas de la competencia: resume el patrón y propón un ángulo diferencial.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>7.2 SEO Writing Assistant (revisión de un borrador)</h3>
+<div class="pw"><pre>Te paso un borrador para la keyword "{{keyword}}":
+{{texto}}
+Obtén el SERP top 10 con la API y puntúa mi texto (0-10) en: legibilidad, longitud frente al top 10, cobertura de subtemas y preguntas, uso natural de la keyword, tono y originalidad. Devuelve cambios concretos por párrafo. No rellenes con keywords: si una sugerencia empeora la lectura, descártala y explica por qué.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>7.3 Brand Monitoring</h3>
+<p class="meta">DataForSEO: <code>content_analysis/search</code> · <code>summary</code> · <code>sentiment_analysis</code></p>
+<div class="pw"><pre>Monitoriza menciones de "{{marca}}" en {{idioma}}, últimos {{N}} meses, con content_analysis.
+- search: top 100 menciones con dominio, fecha y sentimiento.
+- summary: distribución por dominio, país y sentimiento.
+- Identifica menciones sin enlace (oportunidad de link reclamation) y focos de sentimiento negativo.
+Entrega una lista de 20 menciones sin enlace con mensaje sugerido de petición de enlace y un resumen de riesgos reputacionales.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<h2 id="local">8. Local Toolkit</h2>
+
+<div class="tool">
+<h3>8.1 Map Rank Tracker y Listing Management</h3>
+<p class="meta">DataForSEO: <code>serp/google/maps/live/advanced</code> · <code>business_data/google/my_business_info</code> · <code>business_data/google/reviews</code></p>
+<div class="pw"><pre>Analiza la visibilidad local de "{{negocio}}" en {{ciudad}}.
+1. Maps SERP para {{N}} búsquedas ("{{servicio}} cerca de mí", "{{servicio}} {{barrio}}"…): posición de mi ficha y del top 3.
+2. my_business_info: categorías, horario, atributos, fotos y completitud de mi ficha y de la de 3 competidores.
+3. reviews: volumen, nota media, frecuencia y respuestas del propietario.
+Entrega: diferencias frente al top 3, errores de NAP detectables, y 10 acciones (categorías, fotos, publicaciones, reseñas, páginas locales). Tabla de posición por búsqueda y por punto de la ciudad si te doy coordenadas.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<h2 id="traf">9. Traffic &amp; Market</h2>
+
+<div class="tool">
+<h3>9.1 Traffic Analytics y Market Explorer</h3>
+<p class="meta">DataForSEO: <code>bulk_traffic_estimation</code> · <code>competitors_domain</code> · <code>domain_analytics</code></p>
+<div class="pw"><pre>Analiza el mercado de "{{sector}}" en {{país}}.
+1. competitors_domain a partir de 3 dominios semilla: lista de 20 actores del mercado.
+2. bulk_traffic_estimation: tráfico orgánico estimado de cada uno.
+3. Calcula cuota de mercado, ranking, y clasifica en líderes, retadores, nicho y emergentes.
+4. Para los 5 principales: temas que dominan (ranked_keywords agrupadas) y dónde son débiles.
+Aviso: es tráfico ESTIMADO solo de búsqueda orgánica de Google. Semrush Traffic Analytics usa otras fuentes (panel y clickstream) y no es comparable cifra a cifra.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<h2 id="ads">10. Advertising Toolkit</h2>
+
+<div class="tool">
+<h3>10.1 Advertising Research y PPC Keyword Tool</h3>
+<p class="meta">DataForSEO: <code>serp/google/ads_search</code> · <code>keywords_data/google_ads/search_volume</code> · <code>keywords_for_keywords</code></p>
+<div class="pw"><pre>Investiga la publicidad de pago en "{{keyword o categoría}}" en {{país}}.
+1. SERP: anuncios que aparecen (posición, título, descripción, dominio) en {{N}} keywords.
+2. Google Ads data: volumen, CPC mín/máx y competencia de cada keyword.
+3. Resume los mensajes y ofertas que repiten los anunciantes y los que nadie usa.
+4. Propón 3 grupos de anuncios con 10 títulos (máx. 30 caracteres) y 4 descripciones (máx. 90) por grupo, más keywords negativas.
+Entrega también qué keywords conviene atacar en orgánico en vez de pagar (CPC alto + KD bajo).</pre><button class="cp">Copiar</button></div>
+</div>
+
+<h2 id="ai">11. AI Visibility Toolkit</h2>
+
+<div class="tool">
+<h3>11.1 Brand Performance en IA y Prompt Research</h3>
+<p class="meta">DataForSEO: <code>ai_optimization/llm_mentions/search</code> · <code>ai_optimization/*/llm_responses</code> · <code>ai_keyword_data</code></p>
+<div class="pw"><pre>Mide la visibilidad de {{marca}} ({{dominio}}) en respuestas de IA.
+1. llm_mentions: menciones y citas del dominio frente a {{competidores}} en {{país}}/{{idioma}}, por plataforma disponible.
+2. Prompt research: propón {{N}} preguntas realistas de usuario por etapa (descubrir, comparar, decidir) y lánzalas a los modelos disponibles. Registra: ¿aparece la marca?, ¿en qué posición?, ¿con enlace?, ¿qué fuentes se citan?
+3. Calcula visibilidad, share of voice y sentimiento por competidor y por tipo de pregunta.
+Entrega: fuentes más citadas, huecos donde no aparezco y 10 acciones (datos propios, comparativas, definiciones claras, schema, menciones en fuentes que la IA ya cita). Repite el sondeo para medir cambios, porque las respuestas de IA varían entre ejecuciones.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<h2 id="fuera">12. Lo que DataForSEO no cubre</h2>
+<ul>
+<li><strong>Log File Analyzer.</strong> Pide a Claude que analice tus logs de acceso exportados (Googlebot, códigos, frecuencia de rastreo por sección).</li>
+<li><strong>Social Toolkit.</strong> Poster, Tracker y Influencer necesitan las APIs de cada red social o una herramienta de gestión social.</li>
+<li><strong>Datos propietarios.</strong> Authority Score, Toxic Score y Traffic Analytics (panel/clickstream) no existen en DataForSEO. Los prompts de esta guía piden aproximaciones declaradas, nunca cifras fingidas.</li>
+</ul>
+<div class="pw"><pre>Te paso un export de logs de acceso de {{servidor}} de los últimos {{N}} días. Filtra por user-agent de Googlebot (verifica por rango de IP o rDNS si el log lo permite). Calcula: peticiones por día, distribución de códigos (200, 3xx, 4xx, 5xx), secciones más rastreadas, URLs con parámetros que consumen presupuesto de rastreo, y URLs importantes que Googlebot no visita. Entrega recomendaciones (robots.txt, enlazado interno, canonicals, sitemap).</pre><button class="cp">Copiar</button></div>
+
+<h2 id="flujos">13. Flujos combinados</h2>
+
+<div class="tool">
+<h3>13.1 Auditoría express de un dominio nuevo</h3>
+<div class="pw"><pre>Cliente nuevo: {{dominio}}. Ejecuta en este orden y pregúntame solo si el coste acumulado supera {{N}} USD:
+1) Domain Overview (4.1)
+2) Organic Research y oportunidades (4.2)
+3) Keyword Gap (4.4) y Backlink Gap (5.2)
+4) Site Audit de hasta {{N}} páginas (6.2)
+5) AI Visibility con {{N}} preguntas (11.1)
+Entrega: diagnóstico en una página, 10 quick wins, plan a 90 días con responsables y anexo con llamadas y coste.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>13.2 De Keyword Gap a calendario de contenidos</h3>
+<div class="pw"><pre>1) Keyword Gap entre {{dominio}} y {{competidores}} (4.4).  2) Agrupa Missing y Untapped en clústeres (4.3).  3) Para los 8 mejores clústeres, SERP y brief (7.1).
+Entrega un calendario de 12 semanas: pieza, keyword principal, intención, brief resumido, URL, enlaces internos y KPI (posición objetivo y plazo).</pre><button class="cp">Copiar</button></div>
+</div>
+
+<h2 id="tips">14. Buenas prácticas y costes</h2>
+<ul>
+<li><strong>Cuida los créditos.</strong> Pide estimación antes del lote, usa <code>limit</code> y filtros, y cachea los JSON en <code>raw/</code> (fuera de git).</li>
+<li><strong>Live vs. en cola.</strong> Live para consultas puntuales; <code>task_post</code> es más barato para volumen y rastreos.</li>
+<li><strong>Los datos no coinciden con Semrush.</strong> Cada proveedor tiene su índice: volúmenes, KD y tráfico estimado difieren. Compara tendencias, no cifras absolutas.</li>
+<li><strong>Métricas propias, declaradas.</strong> Si pides un índice tipo Authority Score o Site Health, exige la fórmula y la etiqueta "aproximación".</li>
+<li><strong>Pide siempre el anexo de llamadas</strong> para poder auditar cada número.</li>
+<li><strong>Itera en dos pasos.</strong> Primero 20 filas para validar el formato; luego el lote completo.</li>
+<li><strong>Credenciales.</strong> Solo por variables de entorno.</li>
+<li><strong>Verifica la documentación vigente</strong> en <a href="https://docs.dataforseo.com/v3/">docs.dataforseo.com</a>.</li>
+</ul>
+
+<footer>Guía generada con Claude Code. Inventario de productos Semrush basado en fuentes públicas; <code>semrush.com</code> no fue accesible desde el entorno de generación.</footer>
+</div>
+
+<script>
+document.querySelectorAll('.cp').forEach(function(b){
+  b.addEventListener('click',function(){
+    var t=b.parentNode.querySelector('pre').innerText;
+    var done=function(){b.textContent='Copiado';b.classList.add('ok');setTimeout(function(){b.textContent='Copiar';b.classList.remove('ok')},1500)};
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(done,function(){})}
+    else{var r=document.createRange();r.selectNodeContents(b.parentNode.querySelector('pre'));var s=getSelection();s.removeAllRanges();s.addRange(r);try{document.execCommand('copy');done()}catch(e){}}
+  });
+});
+</script>
+</body>
+</html>

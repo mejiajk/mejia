@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guía de prompts: productos Ahrefs con Claude y DataForSEO</title>
+<style>
+:root{--bg:#fff;--fg:#1a1d23;--mut:#5b6472;--card:#f5f7fa;--bd:#dde2ea;--ac:#0b5fff;--code:#0f172a;--codefg:#e2e8f0;--ok:#0a7a3d}
+@media (prefers-color-scheme:dark){:root{--bg:#0e1116;--fg:#e6e9ef;--mut:#9aa4b2;--card:#171b22;--bd:#2a313c;--ac:#6ea0ff;--code:#05070a;--codefg:#d6dde8;--ok:#4cd68a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.w{max-width:960px;margin:0 auto;padding:24px 16px 80px}
+h1{font-size:2rem;line-height:1.2;margin:.2em 0}
+h2{font-size:1.5rem;margin:2.2em 0 .4em;padding-top:.6em;border-top:1px solid var(--bd)}
+h3{font-size:1.1rem;margin:1.6em 0 .3em}
+a{color:var(--ac)}
+.lead{color:var(--mut);font-size:1.05rem}
+.note{background:var(--card);border:1px solid var(--bd);border-left:4px solid var(--ac);padding:12px 16px;border-radius:8px;margin:16px 0}
+nav{background:var(--card);border:1px solid var(--bd);border-radius:8px;padding:12px 18px;margin:20px 0}
+nav ul{columns:2;margin:0;padding-left:18px}
+@media(max-width:600px){nav ul{columns:1}}
+table{width:100%;border-collapse:collapse;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--bd);padding:6px 10px;text-align:left;vertical-align:top}
+th{background:var(--card)}
+code{background:var(--card);padding:1px 5px;border-radius:4px;font-size:.88em}
+.tool{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:4px 16px 14px;margin:18px 0}
+.tool h3{margin-top:.8em}
+.meta{font-size:.88rem;color:var(--mut)}
+.pw{position:relative;margin:8px 0}
+pre{background:var(--code);color:var(--codefg);padding:14px 14px 14px;border-radius:8px;overflow-x:auto;white-space:pre-wrap;word-break:break-word;font-size:.85rem;line-height:1.5;margin:0}
+.cp{position:absolute;top:6px;right:6px;background:#334155;color:#fff;border:0;border-radius:6px;padding:4px 10px;font-size:.78rem;cursor:pointer}
+.cp.ok{background:var(--ok)}
+.lbl{font-size:.78rem;font-weight:600;text-transform:uppercase;letter-spacing:.04em;color:var(--mut);margin-top:10px}
+footer{margin-top:3em;color:var(--mut);font-size:.85rem}
+@media print{.cp{display:none}nav{display:none}}
+</style>
+</head>
+<body>
+<div class="w">
+
+<h1>Guía de prompts: productos Ahrefs con Claude y DataForSEO</h1>
+<p class="lead">Para cada producto de Ahrefs: qué hace, qué endpoint de DataForSEO cubre lo mismo y un prompt listo para pegar en Claude (o en Claude Code, con el cliente <code>scripts/dfs.sh</code> de este repo).</p>
+
+<div class="note">
+<strong>Sobre la fuente.</strong> Intenté leer <code>ahrefs.com/all</code>, pero el acceso desde este entorno está bloqueado. El inventario de productos sale de fuentes públicas (<a href="https://ahrefs.com/faq">Ahrefs FAQ</a>, <a href="https://docs.ahrefs.com/">docs.ahrefs.com</a>, reseñas de 2026) y de lo que conozco del catálogo. Si Ahrefs añadió herramientas que no aparecen aquí, pásame el texto de la página y amplío la guía.
+</div>
+
+<nav>
+<strong>Contenido</strong>
+<ul>
+<li><a href="#como">1. Cómo usar la guía</a></li>
+<li><a href="#mapa">2. Mapa Ahrefs → DataForSEO</a></li>
+<li><a href="#base">3. Prompt base (contexto)</a></li>
+<li><a href="#se">4. Site Explorer</a></li>
+<li><a href="#ke">5. Keywords Explorer</a></li>
+<li><a href="#sa">6. Site Audit</a></li>
+<li><a href="#rt">7. Rank Tracker</a></li>
+<li><a href="#ce">8. Content Explorer</a></li>
+<li><a href="#br">9. Brand Radar (IA)</a></li>
+<li><a href="#extra">10. Otras herramientas</a></li>
+<li><a href="#flujos">11. Flujos combinados</a></li>
+<li><a href="#tips">12. Buenas prácticas y costes</a></li>
+</ul>
+</nav>
+
+<h2 id="como">1. Cómo usar la guía</h2>
+<ol>
+<li><strong>Elige el producto de Ahrefs</strong> cuyo informe quieres replicar.</li>
+<li><strong>Pega el prompt base</strong> (sección 3) una vez por conversación. Fija idioma, país, formato y reglas de coste.</li>
+<li><strong>Pega el prompt de la herramienta</strong> y sustituye los campos <code>{{entre llaves}}</code>.</li>
+<li><strong>Dónde se ejecuta:</strong>
+  <ul>
+  <li><em>Claude Code con este repo:</em> llama a <code>./scripts/dfs.sh</code> directamente.</li>
+  <li><em>Claude con un conector/MCP de DataForSEO:</em> usa las herramientas del MCP.</li>
+  <li><em>Claude sin acceso a la API:</em> pídele que te devuelva el JSON de la petición y lo ejecutas tú, luego le pegas la respuesta.</li>
+  </ul>
+</li>
+</ol>
+
+<h2 id="mapa">2. Mapa Ahrefs → DataForSEO</h2>
+<table>
+<tr><th>Ahrefs</th><th>Qué hace</th><th>DataForSEO (API v3)</th><th>Cobertura</th></tr>
+<tr><td>Site Explorer · Overview</td><td>Autoridad, tráfico, backlinks de un dominio</td><td><code>backlinks/summary</code>, <code>dataforseo_labs/google/domain_rank_overview</code>, <code>backlinks/bulk_ranks</code></td><td>Alta</td></tr>
+<tr><td>Site Explorer · Backlinks / Referring domains / Anchors</td><td>Perfil de enlaces</td><td><code>backlinks/backlinks</code>, <code>referring_domains</code>, <code>anchors</code>, <code>history</code></td><td>Alta</td></tr>
+<tr><td>Site Explorer · Organic keywords</td><td>Keywords por las que rankea un dominio</td><td><code>dataforseo_labs/google/ranked_keywords</code></td><td>Alta</td></tr>
+<tr><td>Site Explorer · Top pages</td><td>Páginas con más tráfico</td><td><code>dataforseo_labs/google/relevant_pages</code></td><td>Alta</td></tr>
+<tr><td>Site Explorer · Organic competitors</td><td>Competidores en búsqueda</td><td><code>dataforseo_labs/google/competitors_domain</code></td><td>Alta</td></tr>
+<tr><td>Content Gap</td><td>Keywords que tienen otros y tú no</td><td><code>dataforseo_labs/google/domain_intersection</code></td><td>Alta</td></tr>
+<tr><td>Link Intersect</td><td>Dominios que enlazan a competidores y no a ti</td><td><code>backlinks/domain_intersection</code></td><td>Alta</td></tr>
+<tr><td>Broken backlinks</td><td>Enlaces entrantes a URLs 404</td><td><code>backlinks/backlinks</code> con filtro de página rota</td><td>Media</td></tr>
+<tr><td>Keywords Explorer</td><td>Volumen, dificultad, intención, ideas</td><td><code>keyword_overview</code>, <code>keyword_ideas</code>, <code>keyword_suggestions</code>, <code>related_keywords</code>, <code>bulk_keyword_difficulty</code>, <code>search_intent</code>, <code>keywords_data/google_ads/search_volume</code></td><td>Alta</td></tr>
+<tr><td>SERP overview</td><td>Resultados y SERP features de una keyword</td><td><code>serp/google/organic/live/advanced</code></td><td>Alta</td></tr>
+<tr><td>Site Audit</td><td>Crawler técnico</td><td><code>on_page/task_post</code>, <code>summary</code>, <code>pages</code>, <code>duplicate_tags</code>, <code>lighthouse</code></td><td>Media-alta</td></tr>
+<tr><td>Rank Tracker</td><td>Seguimiento de posiciones</td><td><code>serp/google/organic</code> + log propio (este repo)</td><td>Alta</td></tr>
+<tr><td>Content Explorer</td><td>Buscar contenido y menciones en la web</td><td><code>content_analysis/search</code>, <code>summary</code>, <code>sentiment_analysis</code></td><td>Media</td></tr>
+<tr><td>Brand Radar</td><td>Visibilidad de marca en IA</td><td><code>ai_optimization/llm_mentions</code>, <code>llm_responses</code>, <code>ai_keyword_data</code></td><td>Media-alta</td></tr>
+<tr><td>Batch Analysis</td><td>Métricas de muchos dominios a la vez</td><td><code>backlinks/bulk_ranks</code>, <code>bulk_backlinks</code>, <code>bulk_referring_domains</code>, <code>bulk_traffic_estimation</code></td><td>Alta</td></tr>
+<tr><td>Web Analytics</td><td>Analítica propia sin cookies</td><td>No existe equivalente</td><td>Ninguna</td></tr>
+<tr><td>Ahrefs Webmaster Tools</td><td>Versión gratuita (propio sitio)</td><td>No aplica</td><td>—</td></tr>
+</table>
+<p class="meta">Comprueba rutas, parámetros y precios en <a href="https://docs.dataforseo.com/v3/">docs.dataforseo.com</a> antes de gastar créditos. Cambian con el tiempo.</p>
+
+<h2 id="base">3. Prompt base (contexto)</h2>
+<p>Pégalo al inicio. Hace que todos los prompts siguientes den resultados comparables y baratos.</p>
+<div class="pw"><pre>Eres un analista SEO senior. Trabajas con la API de DataForSEO como fuente de datos y replicas informes que normalmente haría Ahrefs.
+
+CONTEXTO
+- Sitio / dominio: {{dominio}}
+- País y location_code: {{país}} / {{location_code}}
+- Idioma: {{es|en|...}} (language_code)
+- Negocio: {{una línea}}
+- Competidores conocidos: {{lista o "ninguno"}}
+
+REGLAS
+1. Antes de cada llamada indica: endpoint, parámetros clave y coste estimado. Si el lote supera ~{{N}} USD, pregunta antes de ejecutar.
+2. Usa siempre limit y filtros. Nunca pidas listados enteros sin necesidad.
+3. Prefiere endpoints "live" para consultas puntuales y "task_post" para volumen.
+4. No inventes cifras. Si un dato no viene de la API, márcalo como "estimación" o "no disponible".
+5. Distingue dato (viene de la API) de interpretación (tuya).
+6. Las credenciales van solo por entorno (DATAFORSEO_LOGIN / DATAFORSEO_PASSWORD). No las imprimas.
+
+FORMATO DE SALIDA
+1) Resumen en 5 líneas  2) Tabla con los datos clave  3) Hallazgos priorizados (impacto / esfuerzo)  4) Siguiente acción concreta  5) Anexo: llamadas realizadas y coste total.</pre><button class="cp">Copiar</button></div>
+
+<h2 id="se">4. Site Explorer</h2>
+<p>El producto más usado de Ahrefs: analiza cualquier dominio o URL. Se divide en cuatro prompts.</p>
+
+<div class="tool">
+<h3>4.1 Visión general de un dominio</h3>
+<p class="meta">DataForSEO: <code>dataforseo_labs/google/domain_rank_overview/live</code> · <code>backlinks/summary/live</code></p>
+<div class="pw"><pre>Haz el "Overview" de {{dominio}} como lo haría Site Explorer.
+1. Llama a domain_rank_overview (tráfico orgánico estimado, nº de keywords, keywords en top 3 / top 10, coste de tráfico).
+2. Llama a backlinks/summary (rank, backlinks, dominios de referencia, % dofollow, enlaces rotos).
+3. Haz lo mismo para {{competidor_1}} y {{competidor_2}}.
+Entrégame una tabla comparativa y 3 conclusiones: dónde voy por delante, dónde por detrás y qué métrica explica más la diferencia.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>4.2 Keywords orgánicas y páginas top</h3>
+<p class="meta">DataForSEO: <code>dataforseo_labs/google/ranked_keywords/live</code> · <code>relevant_pages/live</code></p>
+<div class="pw"><pre>Dame las keywords orgánicas de {{dominio}}.
+- Endpoint: ranked_keywords, limit 500, orden por volumen de búsqueda descendente, solo posiciones 1-20.
+- Después agrupa por página (URL) y por intención (informacional, comercial, transaccional, navegacional).
+- Marca las "oportunidades cercanas": posiciones 4-15 con volumen &gt; {{volumen_min}}.
+- Llama también a relevant_pages para listar las 20 páginas con más tráfico estimado.
+Entrega: tabla de oportunidades cercanas con URL actual, posición, volumen y una acción de una línea por fila (título, encabezado, enlaces internos, contenido a ampliar).</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>4.3 Perfil de backlinks</h3>
+<p class="meta">DataForSEO: <code>backlinks/backlinks/live</code> · <code>referring_domains/live</code> · <code>anchors/live</code> · <code>history/live</code></p>
+<div class="pw"><pre>Audita el perfil de enlaces de {{dominio}}.
+1. referring_domains: top 100 por rank, con país y TLD.
+2. anchors: distribución de anchors (marca, URL desnuda, exacta, genérica, otros). Alerta si la exacta supera el {{umbral, p.ej. 10}}%.
+3. backlinks: solo dofollow, nuevos en los últimos 90 días y perdidos en los últimos 90 días.
+4. history: evolución mensual de dominios de referencia en 24 meses.
+Señala patrones de riesgo (picos bruscos, redes de dominios similares, anchors repetidos) y propón un plan de limpieza o de crecimiento. No recomiendes desautorizar nada sin evidencia.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>4.4 Competidores, Content Gap y Link Intersect</h3>
+<p class="meta">DataForSEO: <code>competitors_domain</code> · <code>domain_intersection</code> (Labs y Backlinks)</p>
+<div class="pw"><pre>Encuentra a mis competidores reales en búsqueda y mis huecos.
+1. competitors_domain para {{dominio}}: top 15 por keywords en común. Descarta marketplaces, Wikipedia y medios generalistas.
+2. Content Gap: domain_intersection entre los 3 competidores más cercanos y yo. Keywords donde ellos rankean en top 20 y yo no aparezco. Filtra volumen &gt; {{N}} y dificultad &lt; {{KD}}.
+3. Link Intersect: backlinks/domain_intersection. Dominios que enlazan a al menos 2 competidores y no a mí.
+Entrega dos listas priorizadas: 25 temas de contenido a crear y 25 dominios a los que pedir enlace, con el motivo en una línea.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<h2 id="ke">5. Keywords Explorer</h2>
+
+<div class="tool">
+<h3>5.1 Investigación de keywords desde una semilla</h3>
+<p class="meta">DataForSEO: <code>keyword_ideas</code> · <code>keyword_suggestions</code> · <code>related_keywords</code> · <code>bulk_keyword_difficulty</code> · <code>search_intent</code></p>
+<div class="pw"><pre>Investiga la semilla "{{keyword}}" para {{país}} en {{idioma}}.
+1. keyword_ideas (limit 700) + keyword_suggestions + related_keywords (profundidad 2). Deduplica.
+2. Añade volumen, CPC, dificultad (KD) e intención con search_intent.
+3. Agrupa en clústeres semánticos (máx. {{N}} clústeres). Nombra cada clúster y elige una keyword principal.
+4. Prioriza con: puntuación = volumen × probabilidad de rankear / KD. Explica la fórmula con los números.
+Entrega: tabla de clústeres (keyword principal, volumen total, KD medio, intención, tipo de página recomendada) y un calendario de 12 piezas.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>5.2 Revisión de la SERP (SERP overview)</h3>
+<p class="meta">DataForSEO: <code>serp/google/organic/live/advanced</code></p>
+<div class="pw"><pre>Analiza la SERP de "{{keyword}}" en {{país}} ({{dispositivo}}), profundidad 20.
+- Lista el top 10 con URL, tipo de página y título.
+- Identifica SERP features: AI Overview, featured snippet, People Also Ask, vídeos, imágenes, pack local, ads.
+- Resume qué formato domina y qué longitud/estructura tienen los ganadores.
+- Estima la dificultad real: ¿hay dominios fuertes que no se pueden desplazar?
+Termina con un brief de contenido: intención, ángulo diferencial, encabezados H2/H3, preguntas a responder y entidades a mencionar.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>5.3 Volumen en lote</h3>
+<p class="meta">DataForSEO: <code>keywords_data/google_ads/search_volume/live</code></p>
+<div class="pw"><pre>Esta es mi lista de keywords (una por línea):
+{{pega la lista}}
+
+Consulta volumen mensual, CPC y competencia en Google Ads para {{país}}, en lotes de hasta 1000. Devuelve una tabla ordenada por volumen, marca las que no tienen datos y propón variantes (singular/plural, sinónimos, con/sin tilde) para esas.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<h2 id="sa">6. Site Audit</h2>
+
+<div class="tool">
+<h3>6.1 Rastreo técnico completo</h3>
+<p class="meta">DataForSEO: <code>on_page/task_post</code> → <code>summary</code> · <code>pages</code> · <code>duplicate_tags</code> · <code>non_indexable</code> · <code>lighthouse</code></p>
+<div class="pw"><pre>Lanza un rastreo de {{dominio}} con on_page/task_post (max_crawl_pages {{N}}, enable_javascript {{true|false}}). Cuando termine, extrae con summary y pages.
+Revisa por categorías, con recuento y 3 URLs de ejemplo por incidencia:
+- Indexación: no indexables, noindex accidental, canonicals incoherentes, robots.txt, sitemap.
+- Códigos: 3xx en cadena, 4xx, 5xx.
+- On-page: títulos y descripciones ausentes, duplicados o demasiado largos; H1 ausente o repetido.
+- Contenido: páginas finas, duplicadas.
+- Enlazado: huérfanas, enlaces internos rotos, profundidad &gt; 4 clics.
+- Rendimiento: lighthouse en las 10 plantillas más importantes (LCP, CLS, INP).
+Clasifica cada incidencia como crítica, importante o menor. Entrega un plan ordenado por impacto/esfuerzo con el responsable sugerido (dev, contenido, SEO).</pre><button class="cp">Copiar</button></div>
+</div>
+
+<h2 id="rt">7. Rank Tracker</h2>
+
+<div class="tool">
+<h3>7.1 Seguimiento de posiciones</h3>
+<p class="meta">DataForSEO: <code>serp/google/organic</code> (live o en cola) · en este repo: <code>/seo-setup</code>, <code>/seo-run</code>, <code>/seo-frases</code></p>
+<div class="pw"><pre>Ejecuta un run de seguimiento para {{dominio}} con estas keywords:
+{{lista}}
+
+Por cada keyword: posición orgánica de mi dominio y de {{competidores}}, URL que rankea, presencia en AI Overview y en pack local. Compara con el run anterior del log y calcula el delta.
+Entrega: ganadores y perdedores (±3 posiciones o más), keywords que entran o salen del top 10, canibalizaciones (más de una URL mía rankeando) y una acción por cada caída importante.
+Añade una línea por keyword al log JSONL con fecha, posición, URL y SERP features.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>7.2 Informe mensual de visibilidad</h3>
+<div class="pw"><pre>Con el log de los últimos {{N}} runs de {{dominio}}, genera el informe mensual:
+- Visibilidad: % de keywords en top 3 / top 10 / top 20 y su evolución.
+- Posición media ponderada por volumen.
+- Tabla de mejoras y caídas con la causa probable (cambio en la página, nuevo competidor, SERP feature nueva).
+- 3 prioridades para el mes siguiente.
+Tono ejecutivo, máximo una página. No atribuyas causas que el dato no soporte: marca "hipótesis" cuando no haya evidencia.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<h2 id="ce">8. Content Explorer</h2>
+
+<div class="tool">
+<h3>8.1 Contenido y menciones en la web</h3>
+<p class="meta">DataForSEO: <code>content_analysis/search/live</code> · <code>summary/live</code> · <code>sentiment_analysis/live</code></p>
+<div class="pw"><pre>Usa content_analysis para buscar contenido sobre "{{tema o marca}}" en {{idioma}}, últimos {{N}} meses.
+1. search: top 100 páginas con más citas, con dominio, fecha y sentimiento.
+2. summary: distribución por dominio, país y sentimiento.
+3. Identifica: (a) medios y blogs que cubren el tema y no enlazan a mí, (b) menciones de mi marca sin enlace, (c) formatos que funcionan.
+Entrega una lista de 30 objetivos de digital PR / link building con el ángulo de contacto para cada uno.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<h2 id="br">9. Brand Radar (visibilidad en IA)</h2>
+
+<div class="tool">
+<h3>9.1 Menciones de marca en buscadores de IA</h3>
+<p class="meta">DataForSEO: <code>ai_optimization/llm_mentions/search</code> · <code>ai_optimization/*/llm_responses</code> · <code>ai_keyword_data</code></p>
+<div class="pw"><pre>Mide la visibilidad de {{marca}} ({{dominio}}) en respuestas de IA.
+1. llm_mentions: menciones y citas del dominio frente a {{competidores}} para {{país}}/{{idioma}}. Indica en qué plataformas (Google AI Overviews, ChatGPT, otras disponibles en la API).
+2. Lanza estas {{N}} preguntas reales de usuario a los modelos disponibles y registra: ¿aparece la marca?, ¿en qué posición de la lista?, ¿con enlace?, ¿qué fuentes se citan?
+{{lista de preguntas}}
+3. Calcula "share of voice" por competidor y por tipo de pregunta.
+Entrega: páginas que más se citan (mías y de competidores), huecos donde la IA no me menciona y 10 acciones de contenido o PR para entrar en las respuestas (datos propios, comparativas, definiciones claras, schema, menciones en fuentes que la IA ya cita).</pre><button class="cp">Copiar</button></div>
+</div>
+
+<h2 id="extra">10. Otras herramientas</h2>
+
+<div class="tool">
+<h3>10.1 Batch Analysis (dominios en lote)</h3>
+<p class="meta">DataForSEO: <code>backlinks/bulk_ranks</code> · <code>bulk_backlinks</code> · <code>bulk_referring_domains</code> · <code>bulk_traffic_estimation</code></p>
+<div class="pw"><pre>Evalúa en lote esta lista de dominios (prospectos de enlace o competidores):
+{{lista}}
+Para cada uno: rank, backlinks, dominios de referencia y tráfico orgánico estimado. Ordénalos, descarta los de baja calidad (tráfico casi nulo, spam evidente) y clasifica el resto en A / B / C para outreach. Explica los criterios.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>10.2 Enlaces rotos (oportunidad de recuperación)</h3>
+<div class="pw"><pre>Con backlinks/backlinks de {{dominio}}, localiza enlaces entrantes que apuntan a URLs que devuelven 404 o redirigen mal. Agrupa por URL de destino y suma los dominios de referencia afectados. Para cada una propón: redirección 301 a la página más cercana (con justificación), restaurar la página, o ignorar. Ordena por autoridad de los enlaces recuperables.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>10.3 Tecnologías de un sitio</h3>
+<p class="meta">DataForSEO: <code>domain_analytics/technologies/domain_technologies/live</code></p>
+<div class="pw"><pre>Detecta las tecnologías de {{dominio}} y de {{competidores}} (CMS, analítica, CDN, e-commerce, consent). Compáralas en una tabla y señala implicaciones SEO: rendimiento, renderizado JS, gestión de canonicals y datos estructurados.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>10.4 Web Analytics (sin equivalente)</h3>
+<p>DataForSEO no ofrece analítica propia. Para esta parte usa GA4, Plausible o Matomo y pide a Claude que cruce sus exportaciones con los datos de DataForSEO:</p>
+<div class="pw"><pre>Te paso un CSV exportado de {{GA4|Plausible|Matomo}} con sesiones por página. Cruza con ranked_keywords de DataForSEO por URL. Detecta: páginas con muchas impresiones potenciales y pocas sesiones, páginas con sesiones y sin keywords rastreadas, y páginas que pierden tráfico mientras mantienen posición (posible cambio de SERP o AI Overview).</pre><button class="cp">Copiar</button></div>
+</div>
+
+<h2 id="flujos">11. Flujos combinados</h2>
+
+<div class="tool">
+<h3>11.1 Auditoría SEO express de un dominio nuevo (≈ 30 min)</h3>
+<div class="pw"><pre>Cliente nuevo: {{dominio}}. Ejecuta en este orden y pregúntame solo si el coste acumulado supera {{N}} USD:
+1) Overview + backlinks/summary (4.1)
+2) ranked_keywords y oportunidades cercanas (4.2)
+3) Competidores y Content Gap (4.4)
+4) Rastreo on_page de hasta {{N}} páginas (6.1)
+5) Visibilidad en IA con {{N}} preguntas (9.1)
+Entrega un informe con: diagnóstico en una página, 10 quick wins, plan a 90 días con responsables, y anexo con todas las llamadas y el coste.</pre><button class="cp">Copiar</button></div>
+</div>
+
+<div class="tool">
+<h3>11.2 De la keyword al brief de contenido</h3>
+<div class="pw"><pre>Para la keyword "{{keyword}}":
+1) SERP overview (5.2)  2) keywords relacionadas y PAA (5.1)  3) qué páginas rankean y su estructura  4) brecha frente a mi contenido actual, si existe.
+Escribe el brief: intención, título y meta description (2 opciones), esquema H2/H3, entidades y preguntas a cubrir, datos o ejemplos originales a incluir, enlaces internos sugeridos, schema recomendado y criterio de éxito (posición objetivo y plazo).</pre><button class="cp">Copiar</button></div>
+</div>
+
+<h2 id="tips">12. Buenas prácticas y costes</h2>
+<ul>
+<li><strong>Cuida los créditos.</strong> Pide estimación antes del lote, usa <code>limit</code> y filtros, y cachea los resultados (JSON en <code>raw/</code>, fuera de git).</li>
+<li><strong>Live vs. en cola.</strong> Live para preguntas puntuales; <code>task_post</code> es más barato para volumen y rastreos.</li>
+<li><strong>Los datos no son idénticos a Ahrefs.</strong> Cada proveedor tiene su propio índice: volúmenes, KD y tráfico estimado difieren. Compara tendencias, no cifras absolutas, y no mezcles fuentes en la misma tabla sin avisar.</li>
+<li><strong>Pide siempre el anexo de llamadas.</strong> Permite auditar de dónde sale cada número.</li>
+<li><strong>Separa dato de opinión.</strong> Exige que Claude marque "hipótesis" cuando no haya evidencia.</li>
+<li><strong>Credenciales.</strong> Solo por variables de entorno. Nunca en el prompt, en el log ni en el repo.</li>
+<li><strong>Itera en dos pasos.</strong> Primero muestra con 20 filas para validar el formato; luego lanza el lote completo.</li>
+<li><strong>Comprueba la documentación vigente</strong> de rutas y precios en <a href="https://docs.dataforseo.com/v3/">docs.dataforseo.com</a>.</li>
+</ul>
+
+<footer>Guía generada con Claude Code. Inventario de productos Ahrefs basado en fuentes públicas; <code>ahrefs.com/all</code> no fue accesible desde el entorno de generación.</footer>
+</div>
+
+<script>
+document.querySelectorAll('.cp').forEach(function(b){
+  b.addEventListener('click',function(){
+    var t=b.parentNode.querySelector('pre').innerText;
+    var done=function(){b.textContent='Copiado';b.classList.add('ok');setTimeout(function(){b.textContent='Copiar';b.classList.remove('ok')},1500)};
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(done,function(){})}
+    else{var r=document.createRange();r.selectNodeContents(b.parentNode.querySelector('pre'));var s=getSelection();s.removeAllRanges();s.addRange(r);try{document.execCommand('copy');done()}catch(e){}}
+  });
+});
+</script>
+</body>
+</html>
