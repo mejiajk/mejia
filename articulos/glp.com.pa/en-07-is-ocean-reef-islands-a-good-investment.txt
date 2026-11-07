@@ -1,0 +1,92 @@
+=== SEO METADATA ===
+Suggested URL: /en/blog/is-ocean-reef-islands-a-good-investment/
+Language: en
+Title: Is Ocean Reef Islands, Panama a Good Investment?
+Meta description: Is Ocean Reef Islands in Panama a good investment? A balanced look at costs, liquidity, rental potential and the questions to ask before buying.
+H1: Is Ocean Reef Islands, Panama a Good Investment? A Balanced Look
+Primary keyword: ocean reef islands (3,742/mo, +32% YoY, Growing)
+Secondary keywords: ocean reef islands panama (3,742/mo, same keyword group) · ocean reef islands marina (480/mo) · ocean reef islands panama prices
+Intent / stage: informational-commercial / evaluation
+Content type: decision guide
+Schema: Article + FAQPage (only with visible FAQs)
+Author: [NAME – pending]
+Reviewer: [NAME – pending]
+Published / reviewed: [DATE] / [DATE]
+Suggested internal links: /en/proyecto/ocean-reef-islands/ · /blog/ocean-reef-islands-que-es-desarrollador-precios/ (Spanish) · /en/about-us/
+Audit note: in AI answers to "Is Ocean Reef Islands a good investment?" GLP is not named (0/12 runs). The answers say it may suit a lifestyle purchase more than a financial investment and that a small buyer pool can slow resale. Address that directly.
+=== END METADATA ===
+
+Is Ocean Reef Islands, Panama a Good Investment? A Balanced Look
+
+[DIRECT ANSWER – AEO, 56 words]
+It depends on your goal and your numbers. Ocean Reef Islands can suit buyers who want a lifestyle property, but returns are not guaranteed. A small pool of buyers for high-priced properties can make resale slower. Check the purchase price against comparable units, all ongoing costs, rental rules and how long similar units take to sell.
+
+DISCLOSURE (visible): Grupo Los Pueblos publishes this page. [CONFIRM and state GLP's exact role in Ocean Reef Islands.] We list the risks along with the appeal.
+
+## What is Ocean Reef Islands?
+
+According to public information, Ocean Reef Islands is a residential community on islands connected to the mainland, with a marina. [CONFIRM and COMPLETE from official project documents: location, number of islands, property types, development phase.]
+
+## What makes it appealing
+
+- A distinctive setting: waterfront living with a marina. [CONFIRM amenities.]
+- A defined community with its own services. [COMPLETE what is operating today.]
+
+## Why it may not be a "financial" investment
+
+1. **A small pool of buyers.** High-priced properties appeal to fewer buyers, which can lengthen resale time. [COMPLETE with real time-on-market data if available.]
+2. **Holding costs.** Maintenance, insurance, taxes and any club or marina fees reduce net return.
+3. **Rental rules.** Short-term rental may be limited by community rules. [COMPLETE.]
+4. **Price discovery.** Prices quoted online are asking prices from third parties, not closed sales.
+
+## The numbers to run before you decide
+
+| Item | Where to get it | Your figure |
+|---|---|---|
+| Purchase price per m² | Official price list [COMPLETE] | |
+| Comparable units sold | Ask the sales team for closed prices [COMPLETE if available] | |
+| Monthly fees | Administration | |
+| Annual taxes and insurance | Attorney and insurer | |
+| Expected rent and occupancy | Only with a documented basis | |
+| Exit time | Time on market of similar units | |
+
+Do not rely on a single rental or appreciation figure. If we publish a number, it carries a source and a date.
+
+## Who it may suit, and who it may not
+
+It may suit buyers who value the setting and plan to use the property. It may not suit buyers who need quick resale or a predictable rental income. This is a general guide, not personal advice.
+
+## Frequently asked questions
+
+### Who develops Ocean Reef Islands?
+[CONFIRM AND COMPLETE with precision and links.]
+
+### How much does a property cost?
+[COMPLETE with the official range and date. Third-party sites show wide ranges that we do not verify.]
+
+### Can foreigners buy there?
+In general, foreigners can buy property in Panama, with restrictions in specific zones. See [Can Foreigners Buy Property in Panama?] (link to /en/blog/can-foreigners-buy-property-in-panama/) and confirm with an attorney.
+
+### Is there a marina?
+[COMPLETE with confirmed information and the marina operator.]
+
+## Sources
+- GLP website (project page).
+- [COMPLETE: official project documents with dates.]
+
+=== JSON-LD BLOCK ===
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Is Ocean Reef Islands, Panama a Good Investment? A Balanced Look",
+  "inLanguage": "en",
+  "author": {"@type": "Person", "name": "[NAME]"},
+  "datePublished": "[YYYY-MM-DD]",
+  "dateModified": "[YYYY-MM-DD]"
+}
+
+=== PRE-PUBLISH CHECKLIST ===
+[ ] GLP's role confirmed in writing
+[ ] No return or appreciation claim without a cited source and date
+[ ] Official price list available
+[ ] Disclosure visible

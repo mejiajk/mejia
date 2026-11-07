@@ -1,0 +1,107 @@
+=== METADATOS SEO ===
+URL sugerida: /comprar-apartamento-preventa-panama-extranjero/
+Idioma: es (es-PA)
+Title: Comprar apartamento en preventa en Panamá siendo extranjero
+Meta description: Pasos para comprar un apartamento en preventa en Panamá siendo extranjero: verificar al promotor, contrato, pagos, escritura y registro.
+H1: Cómo comprar un apartamento en preventa en Panamá siendo extranjero: guía paso a paso
+Keyword principal: comprar apartamento en panamá extranjero
+Keywords secundarias: como comprar un apartamento en panamá · comprar en preventa panamá · comprar propiedad en panamá siendo extranjero
+Intención / etapa: informacional / proceso-legal
+Tipo de contenido: guía de proceso (YMYL)
+Schema: Article + FAQPage + HowTo (solo con pasos visibles)
+Autor: [NOMBRE – pendiente]
+Revisor legal: [ABOGADO/A PANAMEÑO/A – nombre, idoneidad y fecha de revisión – OBLIGATORIO antes de publicar]
+Publicado / revisado: [FECHA] / [FECHA]
+Enlazado interno sugerido: /preventa-vs-apartamento-listo-panama/ · /bosco-di-santa-maria/ · /en/buy-apartment-panama-foreigner/
+Fuentes oficiales a enlazar (página específica vigente): Registro Público de Panamá · DGI (dgi.mef.gob.pa) · Migración · Superintendencia de Bancos
+=== FIN METADATOS ===
+
+Cómo comprar un apartamento en preventa en Panamá siendo extranjero: guía paso a paso
+
+[RESPUESTA DIRECTA – AEO, 55 palabras]
+Para comprar un apartamento en preventa en Panamá siendo extranjero, define tu presupuesto, verifica al promotor y el proyecto, revisa el contrato con un abogado panameño, entiende cómo se custodian tus pagos, firma la escritura pública y regístrala. En general los extranjeros pueden comprar inmuebles, con restricciones en zonas concretas. Confirma tu caso con un abogado.
+
+AVISO (visible): Este contenido es informativo y no constituye asesoría legal ni fiscal. Las normas y los montos cambian. Verifica cada punto con un abogado panameño y con la entidad oficial correspondiente.
+
+## ¿Puede un extranjero comprar un apartamento en Panamá?
+
+En general, los extranjeros pueden adquirir inmuebles en Panamá. Existen restricciones en zonas específicas, por ejemplo áreas fronterizas e islas. Antes de firmar, tu abogado debe confirmar que el inmueble no cae en una zona restringida y que no hay gravámenes. [VERIFICAR con el revisor legal y enlazar la norma o la página oficial vigente.]
+
+## Paso 1: define tu objetivo y tu presupuesto
+
+Decide si vas a vivir ahí, alquilar o revender. Suma al precio los costos de cierre, el mantenimiento, los seguros y los impuestos. No uses cifras de ejemplo: consulta los montos vigentes en las fuentes oficiales y con tu abogado. [COMPLETAR: enlace a la página vigente de la DGI y del Registro Público.]
+
+## Paso 2: verifica al promotor y el proyecto
+
+Antes de reservar, pide y revisa:
+- La identidad legal de la promotora (razón social, representante).
+- El título de propiedad del terreno y que esté libre de gravámenes (tu abogado lo comprueba en el Registro Público).
+- Los permisos de construcción del proyecto.
+- El historial de proyectos entregados, con ejemplos que puedas visitar.
+
+## Paso 3: revisa la promesa de compraventa con tu abogado
+
+Es el documento más importante de una preventa. Revisa especialmente:
+- Descripción exacta de la unidad: área, plano, estacionamiento, depósito.
+- Fecha de entrega y qué ocurre si se retrasa.
+- Qué cambios puede hacer la promotora a planos o acabados.
+- Condiciones si desistes o si la promotora incumple.
+- Quién paga cada gasto del cierre.
+
+## Paso 4: entiende cómo se protegen tus pagos
+
+Pregunta por escrito dónde se depositan los pagos de la preventa y bajo qué garantía (por ejemplo, fideicomiso o garantía bancaria). [COMPLETAR con la política real del proyecto y su documento de respaldo.] No pagues a cuentas que el contrato no mencione.
+
+## Paso 5: financiamiento
+
+Si vas a financiar, consulta directamente con los bancos qué requisitos aplican a no residentes y a extranjeros. Los requisitos y las tasas cambian. [COMPLETAR: enlace a la información oficial de la Superintendencia de Bancos y a los bancos consultados, con fecha.]
+
+## Paso 6: escritura pública y registro
+
+Al cierre se firma la escritura pública y se inscribe en el Registro Público. Tu abogado coordina la liquidación de impuestos y derechos vigentes. [COMPLETAR: impuestos y derechos con la cifra vigente, la fuente oficial y la fecha. No publicar porcentajes sin esa fuente.]
+
+## Paso 7: recibe y revisa la unidad
+
+En la entrega, inspecciona la unidad frente al contrato: áreas, acabados, instalaciones. Deja constancia escrita de cualquier observación y plazo de corrección.
+
+## ¿Y la residencia o visa?
+
+Comprar un inmueble no da automáticamente residencia. Si te interesa un programa de residencia por inversión, consulta los requisitos vigentes con Migración y un abogado de inmigración. [COMPLETAR: enlace oficial vigente.]
+
+## Preguntas frecuentes
+
+### ¿Necesito viajar a Panamá para comprar?
+[VERIFICAR con el revisor legal: modalidades de firma y poderes. No afirmar sin confirmación.]
+
+### ¿Cuánto cuestan los gastos de cierre?
+Dependen de impuestos, derechos registrales, honorarios y del contrato. [COMPLETAR con las cifras vigentes y su fuente oficial, o remitir al artículo específico de gastos de cierre.]
+
+### ¿Qué riesgos tiene comprar en preventa?
+Retrasos de entrega, cambios en especificaciones y capital inmovilizado. Lee [Preventa vs apartamento listo] (enlace a /preventa-vs-apartamento-listo-panama/).
+
+### ¿Puedo comprar a través de una sociedad?
+[VERIFICAR con el revisor legal y el revisor fiscal; no recomendar estructuras sin asesoría profesional.]
+
+## Fuentes
+- Registro Público de Panamá: [ENLACE a la página específica vigente]
+- Dirección General de Ingresos (dgi.mef.gob.pa): [ENLACE a la página específica vigente]
+- Migración: [ENLACE a la página específica vigente]
+- Superintendencia de Bancos: [ENLACE a la página específica vigente]
+
+=== BLOQUE JSON-LD ===
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Cómo comprar un apartamento en preventa en Panamá siendo extranjero: guía paso a paso",
+  "inLanguage": "es-PA",
+  "author": {"@type": "Person", "name": "[NOMBRE]"},
+  "reviewedBy": {"@type": "Person", "name": "[ABOGADO/A]"},
+  "datePublished": "[AAAA-MM-DD]",
+  "dateModified": "[AAAA-MM-DD]"
+}
+
+=== CHECKLIST ANTES DE PUBLICAR ===
+[ ] Revisión legal firmada por abogado panameño (nombre y fecha visibles)
+[ ] Ninguna cifra de impuestos sin fuente oficial y fecha
+[ ] Enlaces a páginas oficiales vigentes
+[ ] Aviso de "no es asesoría legal" visible

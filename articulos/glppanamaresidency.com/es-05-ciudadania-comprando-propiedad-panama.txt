@@ -1,0 +1,85 @@
+=== METADATOS SEO ===
+URL sugerida: /panama-citizenship-by-investment/ (REEMPLAZAR el contenido actual; ver nota) o /ciudadania-comprando-propiedad-panama/
+Idioma: es
+Title: ¿Se obtiene la ciudadanía comprando propiedad en Panamá?
+Meta description: Residencia y ciudadanía son estatus distintos. Qué debes verificar antes de asumir que una inversión inmobiliaria en Panamá lleva a la nacionalidad.
+H1: ¿Se obtiene la ciudadanía comprando propiedad en Panamá? Lo que debes verificar
+Keyword principal: ciudadanía panamá por inversión (volumen N/D en español; "panama citizenship by investment" en inglés cae)
+Keywords secundarias: nacionalidad panameña · residencia vs ciudadanía panamá
+Intención / etapa: informacional / evaluación (expectativas)
+Tipo de contenido: respuesta a pregunta de alto riesgo (YMYL)
+Schema: Article + FAQPage (solo con FAQ visibles)
+Autor: [NOMBRE – pendiente]
+Revisor legal: [ABOGADO/A DE INMIGRACIÓN PANAMEÑO/A – nombre, idoneidad y fecha – OBLIGATORIO]
+Publicado / revisado: [FECHA] / [FECHA]
+Enlazado interno sugerido: /qip-vs-friendly-nations-vs-pensionado/ · /why-glp/
+Nota de auditoría: la web tiene hoy una página con "citizenship by investment" en la URL y una sección "Path to Citizenship". ChatGPT y Perplexity responden que comprar propiedad no da ciudadanía de forma directa, y un hilo de Reddit en las SERPs lo titula "No citizenship, just residency". No verifico quién tiene razón: el revisor legal debe decidir si esta página se reescribe como esta pieza o se retira.
+=== FIN METADATOS ===
+
+¿Se obtiene la ciudadanía comprando propiedad en Panamá? Lo que debes verificar
+
+[RESPUESTA DIRECTA – AEO, 53 palabras]
+La residencia y la ciudadanía son estatus distintos. Invertir en un inmueble puede ser un requisito de una vía de residencia, pero no debes asumir que conduce a la nacionalidad. Qué exige hoy la ley para adquirir la ciudadanía lo confirma la norma vigente y un abogado de inmigración, no un material publicitario.
+
+AVISO (visible): Contenido informativo, no es asesoría legal. La ley cambia; verifica con un abogado y con la fuente oficial.
+
+NOTA DE TRANSPARENCIA (visible): Publica [PRESTADOR – CONFIRMAR]. No ofrecemos ciudadanía; ofrecemos [COMPLETAR: descripción exacta del servicio].
+
+## Residencia y ciudadanía no son lo mismo
+
+| | Residencia | Ciudadanía |
+|---|---|---|
+| Qué es | permiso para vivir en el país | vínculo de nacionalidad |
+| Qué otorga | [COMPLETAR con fuente] | [COMPLETAR con fuente] |
+| Quién decide | autoridad migratoria | [COMPLETAR con fuente] |
+| Se puede perder | [COMPLETAR con fuente] | [COMPLETAR con fuente] |
+
+## Qué dice la norma
+
+[COMPLETAR solo con lo que confirme el revisor legal y la fuente oficial vigente, incluyendo la fecha: cómo se adquiere la nacionalidad panameña y si existe alguna relación con una inversión.] Si la norma no vincula la inversión con la nacionalidad, la página debe decirlo con claridad.
+
+## Por qué circulan promesas de "ciudadanía por inversión"
+
+Algunos países ofrecen programas de nacionalidad a cambio de una inversión y el término se usa con frecuencia en el marketing de residencias. Eso no significa que el programa panameño funcione igual. Verifica el significado exacto de cada promesa.
+
+## Qué evitar al leer una oferta
+
+- Frases que mezclan "residencia" y "ciudadanía" sin distinguirlas.
+- Promesas de pasaporte o de nacionalidad como resultado de una compra.
+- Ausencia de una fuente oficial para cualquier afirmación sobre nacionalidad.
+
+## Preguntas frecuentes
+
+### ¿Comprar una propiedad en Panamá me da un pasaporte panameño?
+Verifica con la norma vigente. [COMPLETAR con la respuesta confirmada por el revisor legal y su fuente.]
+
+### ¿Qué exige la ley para solicitar la nacionalidad?
+[COMPLETAR con la fuente oficial vigente.]
+
+### ¿Mi residencia puede llevar a la ciudadanía?
+[COMPLETAR con la fuente oficial vigente.]
+
+### ¿Ofrecen ciudadanía?
+No. Ofrecemos [COMPLETAR el servicio exacto].
+
+## Fuentes
+- Constitución y leyes aplicables: [ENLACE a la fuente oficial vigente]
+- Autoridad migratoria: [ENLACE]
+
+=== BLOQUE JSON-LD ===
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "¿Se obtiene la ciudadanía comprando propiedad en Panamá? Lo que debes verificar",
+  "inLanguage": "es",
+  "author": {"@type": "Person", "name": "[NOMBRE]"},
+  "reviewedBy": {"@type": "Person", "name": "[ABOGADO/A]"},
+  "datePublished": "[AAAA-MM-DD]",
+  "dateModified": "[AAAA-MM-DD]"
+}
+
+=== CHECKLIST ANTES DE PUBLICAR ===
+[ ] Revisión legal firmada: es la pieza de mayor riesgo
+[ ] Se reescribe o se retira la página actual de "citizenship by investment"
+[ ] Ninguna promesa de nacionalidad
+[ ] Aviso de "no es asesoría legal" visible

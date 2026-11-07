@@ -1,0 +1,99 @@
+=== SEO METADATA ===
+Suggested URL: /en/what-is-bosco-di-santa-maria/
+Language: en
+Title: What Is Bosco di Santa María? Panama Residential Project
+Meta description: Bosco di Santa María is a residential project in Santa María Golf & Country Club, Panama City. Location, amenities, unit types and contact.
+H1: What Is Bosco di Santa María? A Residential Project in Panama City
+Primary keyword: bosco di santa maria
+Secondary keywords: bosco di santa maria panama · santa maria golf & country club apartments · luxury apartments santa maria panama
+Intent / stage: informational / discovery (brand entity)
+Content type: entity page
+Schema: Article + Organization/RealEstateAgent + FAQPage (only with visible FAQs)
+Author: [NAME AND ROLE – pending]
+Reviewer: [NAME – pending]
+Published / reviewed: [DATE] / [DATE]
+Suggested internal links: /bosco-di-santa-maria/ (ES, use hreflang) · /en/is-santa-maria-panama-good-place-to-buy/ · /en/pre-construction-condos-panama-city-guide/
+Note: in our AI test (English prompt), ChatGPT, Gemini and Perplexity described the project in all 9 runs but none cited boscodisantamaria.com. Claude without web search said it had no reliable information. The goal of this page is to become the cited source and a clear entity definition.
+=== END METADATA ===
+
+What Is Bosco di Santa María? A Residential Project in Panama City
+
+[DIRECT ANSWER – AEO, 53 words]
+Bosco di Santa María is a residential apartment project inside Santa María Golf & Country Club in Panama City. According to its website, it features Italian-inspired design, golf course views and more than 45 amenities. It is aimed at buyers who want to live in a planned golf community. It is not related to Don Bosco.
+
+NOTICE (visible): This page is published by the Bosco di Santa María team. Commercial data (prices, dates, unit types) is updated at [URL of the pricing page] and carries a date.
+
+## Overview
+
+Bosco di Santa María is a residential development of apartments located within Santa María Golf & Country Club, a planned community in Panama City built around a golf course. The project's website presents it as a luxury development with Italian-inspired architecture, golf views and more than 45 amenities.
+
+The project is developed by [CONFIRM: GLP / Grupo Los Pueblos]. [COMPLETE: one verifiable sentence on the developer's track record, with proof the company can show.]
+
+Not to be confused with: the Don Bosco residential area in Panama City, or Salesian institutions that share the name "Bosco."
+
+## Key facts
+
+| Fact | Detail | Source / date |
+|---|---|---|
+| Location | Santa María Golf & Country Club, Panama City | Project website |
+| Type | Residential apartments [CONFIRM whether penthouses and villas are included] | Project website |
+| Amenities | More than 45 | Project website |
+| Golf course | Designed by Nicklaus Design (per the project's location page) | Project website |
+| Developer | [CONFIRM] | [COMPLETE] |
+| Towers / buildings | [COMPLETE] | [COMPLETE] |
+| Unit types and sizes | [COMPLETE: bedrooms and m² per type] | [COMPLETE] |
+| Price from | [COMPLETE with the current official list and date] | [COMPLETE] |
+| Estimated delivery | [COMPLETE per tower, with last-updated date] | [COMPLETE] |
+
+Do not publish prices or delivery dates without the current official list. AI assistants currently give different answers about this project from one query to another; a dated page is what lets them cite the right figure.
+
+## Location
+
+The project is in Santa María, Panama City. [COMPLETE: district and travel times to Costa del Este, the airport and the financial district, measured by the author with date and time of day.] For the area, read [Is Santa María a good place to buy property?] (link to /en/is-santa-maria-panama-good-place-to-buy/).
+
+## Who it is for
+
+It suits buyers who want to live in a planned community with golf and green areas, and who accept a presale timeline [CONFIRM with real status]. It may not suit those who need to move in within months. See [How presales work] (link to /en/pre-construction-condos-panama-city-guide/).
+
+## Frequently asked questions
+
+### Who is the developer of Bosco di Santa María?
+[CONFIRM AND COMPLETE: developer name with a link to its site.]
+
+### How much does an apartment cost?
+Prices depend on unit type and size. [COMPLETE: price from and range per type, with date and link to the official list.]
+
+### When will it be delivered?
+[COMPLETE per tower, with the last-updated date. If the date may change, say so.]
+
+### Can foreigners buy at Bosco di Santa María?
+In general, foreigners can buy property in Panama, with restrictions in specific zones. See our [guide for foreign buyers] (link to /en/buy-apartment-panama-foreigner/) and confirm with an attorney.
+
+### Is Bosco di Santa María part of the Don Bosco area?
+No. It is in Santa María Golf & Country Club. Don Bosco is a different area of Panama City.
+
+## Contact
+[COMPLETE: legal entity name, sales office address, verifiable phone number, hours, and contact form.]
+
+## Sources
+- Bosco di Santa María project website (location and amenities).
+- [COMPLETE: developer page and official project documents with date.]
+
+=== JSON-LD BLOCK ===
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "What Is Bosco di Santa María? A Residential Project in Panama City",
+  "inLanguage": "en",
+  "author": {"@type": "Person", "name": "[NAME]"},
+  "reviewedBy": {"@type": "Person", "name": "[NAME]"},
+  "datePublished": "[YYYY-MM-DD]",
+  "dateModified": "[YYYY-MM-DD]",
+  "about": {"@type": "Organization", "name": "Bosco di Santa María", "sameAs": ["[DEVELOPER URL]"]}
+}
+
+=== PRE-PUBLISH CHECKLIST ===
+[ ] All [COMPLETE] items resolved with official, dated data
+[ ] Author and reviewer bios linked
+[ ] hreflang pair with the Spanish page
+[ ] Company details visible (legal name, tax ID, address, phone)

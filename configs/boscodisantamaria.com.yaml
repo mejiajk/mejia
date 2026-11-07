@@ -1,0 +1,15 @@
+# Proyecto: Bosco di Santa María — auditoría 2026-10-12 (ver informes/)
+WEB: "boscodisantamaria.com"
+MARCA: "Bosco di Santa María"
+MARCA_ALIAS: ["Bosco Galería Panamá"]      # og:site_name del sitio
+MODELO_NEGOCIO: "promotora (proyecto único) — inferido: desarrolla GLP / Grupo Los Pueblos; confirmar con el cliente"
+LOCALIZACION: "Panama"
+LOCATION_CODE: 2591                         # país; resuelto con /v3/serp/google/locations/pa
+IDIOMAS: ["es", "en"]
+ES_LOCAL: true
+OPERACION: ["venta", "preventa"]
+SEGMENTOS: ["apartamentos", "penthouses", "casas"]
+ZONAS: ["Santa María (Santa María Norte)", "Costa del Este"]   # Santa María es la ubicación del proyecto; Costa del Este es zona comparable
+COMPETIDORES: []                            # derivar de la SERP; portales: compreoalquile.com, encuentra24.com
+RUTA_LOG: "logs/boscodisantamaria.com.jsonl"
+NOTA_RUIDO_ENTIDAD: "Urbanización Don Bosco (otro barrio) y obras salesianas comparten 'Bosco'"

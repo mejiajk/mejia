@@ -1,0 +1,109 @@
+=== METADATOS SEO ===
+URL sugerida: /guia-completa-playa-caracol/ (ACTUALIZAR; hoy posiciona 7 keywords y casi no recibe tráfico)
+Idioma: es (es-PA)
+Title: Playa Caracol, Chame: guía para comprar un apartamento
+Meta description: Guía de Playa Caracol en Chame, Panamá: dónde queda, qué se vende, qué costos revisar y qué preguntar antes de comprar o alquilar frente al mar.
+H1: Playa Caracol, Chame: guía para comprar un apartamento frente al mar
+Keyword principal: playa caracol (4.400/mes, Labs) · playa caracol panamá (86/mes, +45 %, Creciente)
+Keywords secundarias: playa caracol apartamentos (27/mes, +52 %, Emergente) · playa caracol chame (320/mes) · playa caracol rentals (480/mes) · playa caracol residences vacation rental (590/mes)
+Intención / etapa: informacional-comercial / evaluación
+Tipo de contenido: guía de zona y compra
+Schema: Article + FAQPage (solo con FAQ visibles)
+Autor: [NOMBRE – pendiente]
+Revisor: [NOMBRE – pendiente]
+Publicado / revisado: [FECHA] / [FECHA]
+Enlazado interno sugerido: /proyecto/playa-caracol/ · /proyecto/the-tides/ [CONFIRMAR URL] · /venta-apartamentos-playa/ · /comprar-propiedad-ciudad-de-panama/
+PAA a responder: ¿Dónde está Playa Caracol? · ¿Dónde queda Playa Caracol en Panamá? · ¿Quién es el dueño de Playa Caracol, Panamá? · ¿Cuánto cuesta un apartamento en Playa Caracol?
+Nota de auditoría: en la SERP desktop GLP no aparece en el top 20 para "playa caracol" (pos. 12 en la base de ranked_keywords: discrepancia a verificar). El micrositio playacaracolresidences.com ocupa la posición 2; su relación con GLP está por confirmar.
+=== FIN METADATOS ===
+
+Playa Caracol, Chame: guía para comprar un apartamento frente al mar
+
+[RESPUESTA DIRECTA – AEO, 56 palabras]
+Playa Caracol está en el distrito de Chame, provincia de Panamá Oeste. Es una zona de playa con proyectos residenciales, entre ellos The Tides, de Grupo Los Pueblos según su sitio. Antes de comprar, revisa quién es el titular del proyecto, las cuotas de mantenimiento, las reglas de alquiler vacacional y el tiempo real de traslado.
+
+NOTA DE TRANSPARENCIA (visible): Esta guía la publica Grupo Los Pueblos, que promueve un proyecto en Playa Caracol. Por eso incluimos criterios para comparar cualquier proyecto de la zona.
+
+## ¿Dónde queda Playa Caracol?
+
+Playa Caracol está en Chame, en la provincia de Panamá Oeste. [COMPLETAR: distancia en kilómetros y tiempo de traslado medidos desde la Ciudad de Panamá, con día, hora y herramienta de medición. Añadir ruta de acceso.]
+
+## ¿Quién es el dueño de Playa Caracol?
+
+Esta es una pregunta frecuente en Google. Ten claro que "Playa Caracol" puede referirse al lugar, a un hotel y a varios proyectos residenciales distintos. [COMPLETAR: lista de proyectos y operadores presentes, cada uno con enlace a su sitio oficial y fecha de consulta. Aclarar cuál es el proyecto de GLP y cuál es su relación, si existe, con otros sitios que usan el nombre.] No afirmes titularidad de terrenos sin documento.
+
+## Qué se vende en la zona
+
+La web de GLP presenta The Tides como proyecto en Playa Caracol, Chame. [COMPLETAR: tipologías, metrajes y amenidades confirmadas; separar lo operativo de lo planificado.]
+
+| Dato | The Tides | Fuente / fecha |
+|---|---|---|
+| Ubicación | Playa Caracol, Chame | Web de GLP |
+| Tipos de unidad | [COMPLETAR] | [COMPLETAR] |
+| Precio desde | [COMPLETAR con la lista oficial] | [FECHA] |
+| Entrega estimada | [COMPLETAR] | [FECHA] |
+| Cuotas de mantenimiento | [COMPLETAR rango] | [FECHA] |
+| Reglas de alquiler vacacional | [COMPLETAR] | [FECHA] |
+
+## ¿Cuánto cuesta un apartamento en Playa Caracol?
+
+El precio depende del proyecto, el piso, la vista y el tamaño. Los anuncios de terceros muestran rangos muy amplios y son precios de oferta, no de venta cerrada. [COMPLETAR: rango oficial de GLP con fecha. No uses cifras de portales sin citarlas con fecha.]
+
+## ¿Se puede alquilar para vacaciones?
+
+Hay búsquedas de alquiler vacacional en la zona, lo que indica interés. Pero las reglas dependen de cada proyecto y de su reglamento. [COMPLETAR: reglamento oficial del proyecto. Evita prometer rentabilidades.]
+
+## Qué revisar antes de comprar
+
+1. Quién desarrolla y quién es titular del proyecto, con documentos.
+2. Permisos de construcción y estado de obra.
+3. Contrato: entrega, penalidades, cambios de planos.
+4. Cuotas de mantenimiento y qué cubren.
+5. Reglas de alquiler y de uso de áreas comunes.
+6. Tiempo real de traslado en horas pico.
+7. Revisión del contrato por un abogado panameño.
+
+Para el proceso de compra siendo extranjero, lee [Cómo comprar propiedad en Panamá siendo extranjero] (enlace a /comprar-propiedad-ciudad-de-panama/).
+
+## Cómo es el día a día
+
+Esta sección solo se publica con experiencia verificable. Instrucciones: visita la zona en dos horarios, anota lo observado y mide los traslados. Incluye 3 fotos propias con `alt`.
+Plantilla: "Visitamos Playa Caracol el [FECHA] a las [HORA]. Notamos [OBSERVACIÓN]. El traslado a [DESTINO] nos tomó [MINUTOS] minutos."
+
+## Preguntas frecuentes
+
+### ¿Dónde está Playa Caracol?
+En Chame, provincia de Panamá Oeste. [COMPLETAR referencias.]
+
+### ¿Quién es el dueño de Playa Caracol?
+[COMPLETAR con la aclaración de la sección anterior, sin afirmar titularidad sin documento.]
+
+### ¿Cuánto cuesta un apartamento en Playa Caracol?
+[COMPLETAR con el rango oficial vigente y la fecha.]
+
+### ¿Vale la pena comprar en Playa Caracol?
+Depende de si buscas uso propio, alquiler o inversión. Es una compra de playa más adecuada para disfrutarla que para contar con rentas o revalorización garantizadas.
+
+### ¿Se puede comprar siendo extranjero?
+En general los extranjeros pueden comprar inmuebles en Panamá, con restricciones en zonas específicas. Confírmalo con un abogado.
+
+## Fuentes
+- Web de GLP (página del proyecto).
+- [COMPLETAR: fuentes oficiales y fechas de consulta.]
+
+=== BLOQUE JSON-LD ===
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Playa Caracol, Chame: guía para comprar un apartamento frente al mar",
+  "inLanguage": "es-PA",
+  "author": {"@type": "Person", "name": "[NOMBRE]"},
+  "datePublished": "[AAAA-MM-DD]",
+  "dateModified": "[AAAA-MM-DD]"
+}
+
+=== CHECKLIST ANTES DE PUBLICAR ===
+[ ] Ninguna cifra de precio sin fuente y fecha
+[ ] Visita real con fotos propias
+[ ] Relación con otros sitios de "Playa Caracol" aclarada con el cliente
+[ ] Fusionar con el contenido actual de /guia-completa-playa-caracol/

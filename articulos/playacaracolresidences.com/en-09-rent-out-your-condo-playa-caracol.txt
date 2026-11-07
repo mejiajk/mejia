@@ -1,0 +1,100 @@
+=== SEO METADATA ===
+Suggested URL: /en/rent-out-your-condo-playa-caracol/
+Language: en
+Title: Rent Out Your Condo in Playa Caracol, Panama: How It Works
+Meta description: How renting your Playa Caracol condo works: management service, fees, rules and risks. No guaranteed returns, only dated, sourced figures.
+H1: Rent Out Your Condo in Playa Caracol, Panama: How the Management Service Works
+Primary keyword: playa caracol rentals (510/mo, +2%, Stable) · playa caracol residences vacation rental (590/mo)
+Secondary keywords: airbnb playa caracol (38/mo†) · panama vacation rental income (N/D) · property management playa caracol
+Intent / stage: commercial / evaluation (owner-investor)
+Content type: service and decision page (YMYL)
+Schema: Article + Service + FAQPage (only with visible FAQs)
+Author: [NAME – pending]
+Reviewer: [NAME – pending]
+Published / reviewed: [DATE] / [DATE]
+Suggested internal links: /en/beachfront-condos-for-sale-panama/ · /invertir-playa-caracol/ (Spanish) · /en/calculator/
+Audit note: the site holds 6 positions in the top 25 for "playa caracol rentals" and the SERP's PAA asks "Is Playa Caracol, Panama a good investment?", yet the AI engines never named the site for the Airbnb question (0/12). † "airbnb playa caracol" has 5 months at zero in its series: the +283% is inflated.
+=== END METADATA ===
+
+Rent Out Your Condo in Playa Caracol, Panama: How the Management Service Works
+
+[DIRECT ANSWER – AEO, 51 words]
+Owners in Playa Caracol can rent their unit, and the community offers a property management service [CONFIRM what it includes]. Income is not guaranteed: it depends on the nightly rate, occupancy, management fees, maintenance and the project's rules. Review the costs and the contract, and run conservative scenarios before you decide.
+
+NOTICE (visible): Informational, not financial or legal advice. We do not guarantee returns.
+
+DISCLOSURE (visible): Published by [DEVELOPER / LEGAL NAME – CONFIRM], which sells and manages properties in Playa Caracol.
+
+## What the management service includes
+
+[CONFIRM AND COMPLETE: marketing and listing, check-in, cleaning, maintenance, guest support, monthly reports; who provides each; the contract length.]
+
+## What it costs
+
+| Item | Amount | Source / date |
+|---|---|---|
+| Management fee | [COMPLETE %] | sample contract |
+| Cleaning per stay | [COMPLETE] | rate sheet |
+| Platform fees | [COMPLETE] | platform terms |
+| Monthly condo fee | [COMPLETE] | administration |
+| Insurance and taxes | [COMPLETE with official source] | [SOURCE] |
+| Furnishing and replacement | [COMPLETE] | [SOURCE] |
+
+## What income looks like
+
+Do not publish a single return figure. Show three scenarios built on documented data:
+
+| Scenario | Nightly rate | Occupancy | Gross income | Net after costs |
+|---|---|---|---|---|
+| Conservative | [COMPLETE] | [COMPLETE] | [COMPLETE] | [COMPLETE] |
+| Base | [COMPLETE] | [COMPLETE] | [COMPLETE] | [COMPLETE] |
+| Optimistic | [COMPLETE] | [COMPLETE] | [COMPLETE] | [COMPLETE] |
+
+State the source of every input and the date. The site's calculator ([link to /en/calculator/]) must show the same assumptions.
+
+## Rules and risks
+
+1. **Project rules:** [COMPLETE what short-stay rental the project allows].
+2. **Seasonality:** occupancy varies through the year [COMPLETE with data].
+3. **Regulation and platforms:** rules can change; confirm with an attorney.
+4. **Owner use:** every week you use the unit is a week it does not earn.
+5. **Market:** a new supply of rentals can lower rates.
+
+## Is renting right for you?
+
+It may suit owners who accept variable income and want a managed solution. It may not suit owners who need predictable monthly income. See also [Beachfront Condos for Sale in Playa Caracol] (link to /en/beachfront-condos-for-sale-panama/).
+
+## Frequently asked questions
+
+### Can I rent my condo on Airbnb?
+[COMPLETE with the project's rules.]
+
+### Who manages the unit?
+[COMPLETE.]
+
+### How much can I earn?
+It is not guaranteed. [COMPLETE with documented scenarios only.]
+
+### Is Playa Caracol a good investment?
+It depends on purchase price, costs and occupancy. Run the scenarios above before buying.
+
+## Sources
+- Sample management contract and rate sheet: [COMPLETE].
+- Occupancy and rate data: [COMPLETE with source and date].
+
+=== JSON-LD BLOCK ===
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Rent Out Your Condo in Playa Caracol, Panama: How the Management Service Works",
+  "inLanguage": "en",
+  "author": {"@type": "Person", "name": "[NAME]"},
+  "datePublished": "[YYYY-MM-DD]",
+  "dateModified": "[YYYY-MM-DD]"
+}
+
+=== PRE-PUBLISH CHECKLIST ===
+[ ] No return figure without documented scenarios and sources
+[ ] Fees from the actual contract
+[ ] "No guaranteed returns" notice visible
+[ ] Calculator assumptions published

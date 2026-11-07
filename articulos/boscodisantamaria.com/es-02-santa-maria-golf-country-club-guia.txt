@@ -1,0 +1,98 @@
+=== METADATOS SEO ===
+URL sugerida: /santa-maria-golf-country-club-guia/
+Idioma: es (es-PA)
+Title: Santa María Golf & Country Club: guía para vivir ahí
+Meta description: Guía de Santa María Golf & Country Club en Ciudad de Panamá: ubicación, campo de golf, vida en la comunidad y qué preguntar antes de comprar.
+H1: Santa María Golf & Country Club: cómo es vivir en esta comunidad de Panamá
+Keyword principal: santa maria golf and country club (~1.009/mes de media 12 m; 3.600 en ago-2026; Emergente +1.011 %; verificar en Search Console)
+Keywords secundarias: santa maria golf & country club · santa maria panamá · vivir en santa maria panamá
+Intención / etapa: informacional con intención de zona / descubrimiento-evaluación
+Tipo de contenido: guía de zona (hub)
+Schema: Article + FAQPage (solo con FAQ visibles)
+Autor: [NOMBRE Y CARGO – pendiente]
+Revisor: [NOMBRE – pendiente]
+Publicado / revisado: [FECHA] / [FECHA]
+Enlazado interno sugerido: /bosco-di-santa-maria/ · /santa-maria-vs-costa-del-este/ · /ubicacion/
+Nota SEO: la búsqueda es mayormente navegacional (quien busca el club). Los resultados top 10 son los sitios del club y de la comunidad. Este artículo no compite con ellos: atiende a quien evalúa vivir o comprar ahí.
+=== FIN METADATOS ===
+
+Santa María Golf & Country Club: cómo es vivir en esta comunidad de Panamá
+
+[RESPUESTA DIRECTA – AEO, 52 palabras]
+Santa María Golf & Country Club es una comunidad residencial de Ciudad de Panamá organizada alrededor de un campo de golf diseñado por Nicklaus Design, según el sitio de Bosco di Santa María. Reúne viviendas, áreas verdes y servicios. Quien piensa comprar debe revisar acceso, cuotas y reglas de la comunidad antes de decidir.
+
+NOTA DE TRANSPARENCIA (visible): Este artículo lo publica el equipo de Bosco di Santa María, un proyecto dentro de esta comunidad. Para información del club (membresías, horarios, reglamento) consulta siempre sus canales oficiales.
+
+## ¿Dónde queda Santa María?
+
+Santa María está en Ciudad de Panamá. [COMPLETAR: corregimiento y referencia geográfica. Añadir tiempos de traslado a Costa del Este, al aeropuerto y al centro financiero, medidos por el autor con día, hora y herramienta.]
+
+Muchas personas buscan "Santa María Panamá" y encuentran resultados de tres tipos: la comunidad, el hotel y campo de golf, y el parque comercial Santa María Business District. Son cosas distintas. Esta guía trata de la comunidad residencial.
+
+## Qué es la comunidad
+
+El sitio de Bosco di Santa María describe la comunidad como un entorno planificado alrededor de un campo de golf de Nicklaus Design. [COMPLETAR con datos confirmados por el club o la urbanizadora: extensión, año de inicio, tipos de vivienda, servicios.]
+
+## Cómo es el día a día
+
+Esta sección solo debe publicarse con experiencia verificable. Instrucciones para el autor:
+- Visita la zona en dos horarios distintos (por ejemplo, mañana entre semana y fin de semana) y anota lo observado: tráfico, ruido, uso de áreas verdes.
+- Mide los traslados reales y regístralos con fecha.
+- Incluye 3 fotos propias (con alt) de la entrada, un área verde y una calle residencial.
+
+Plantilla de texto, a completar con lo observado:
+"Visitamos la comunidad el [FECHA] a las [HORA]. Notamos [OBSERVACIÓN CONCRETA]. El traslado a [DESTINO] nos tomó [MINUTOS] minutos."
+
+## Qué preguntar antes de comprar en una comunidad con golf
+
+1. ¿La vivienda incluye acceso al club o la membresía se paga aparte? ¿Cuánto cuesta y cómo se transfiere si vendes?
+2. ¿Qué cuotas de mantenimiento aplican al edificio y a la comunidad? ¿Qué cubren?
+3. ¿Qué reglas existen para alquilar la propiedad, incluido el alquiler de corta estadía?
+4. ¿Qué amenidades están operativas hoy y cuáles están planificadas?
+5. ¿Quién es el responsable de las áreas comunes y del mantenimiento del campo?
+6. ¿Qué dice el contrato sobre cambios de planos o de especificaciones?
+
+No respondas la pregunta de la membresía con una cifra si no la confirma el club por escrito.
+
+## Santa María frente a otras zonas
+
+Si estás comparando zonas, lee [Santa María vs Costa del Este: dónde comprar un apartamento] (enlace a /santa-maria-vs-costa-del-este/).
+
+## Proyectos residenciales en la comunidad
+
+Bosco di Santa María es uno de los proyectos de apartamentos. Puedes ver sus datos en [Bosco di Santa María: qué es y para quién es] (enlace a /bosco-di-santa-maria/). [OPCIONAL: tabla neutral con otros proyectos públicos de la zona, con enlace a la fuente de cada uno y fecha de consulta.]
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta la membresía de Santa María Country Club?
+Este costo lo fija el club y puede cambiar. [COMPLETAR solo con la cifra y la fecha que confirme el club por escrito, o remitir a sus canales oficiales.]
+
+### ¿Dónde queda Santa María en Panamá?
+En Ciudad de Panamá. [COMPLETAR corregimiento y referencias.]
+
+### ¿Qué proyectos de apartamentos hay en Santa María?
+[COMPLETAR con la lista pública verificada y la fecha de consulta. Incluye a Bosco di Santa María como uno de ellos.]
+
+### ¿Santa María es lo mismo que Santa María Business District?
+No. El Santa María Business District es un parque comercial; esta guía trata de la comunidad residencial.
+
+## Fuentes
+- Sitio de Bosco di Santa María (página de ubicación).
+- [COMPLETAR: canales oficiales del club y de la urbanizadora, con fecha de consulta.]
+
+=== BLOQUE JSON-LD ===
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Santa María Golf & Country Club: cómo es vivir en esta comunidad de Panamá",
+  "inLanguage": "es-PA",
+  "author": {"@type": "Person", "name": "[NOMBRE]"},
+  "datePublished": "[AAAA-MM-DD]",
+  "dateModified": "[AAAA-MM-DD]"
+}
+
+=== CHECKLIST ANTES DE PUBLICAR ===
+[ ] Cifras del club confirmadas por escrito o eliminadas
+[ ] Sección "día a día" con visita real, fecha y fotos propias
+[ ] Verificar en Search Console el salto de búsquedas antes de invertir más en este tema
+[ ] Autor y revisor con biografía

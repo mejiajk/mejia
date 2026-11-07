@@ -1,0 +1,95 @@
+=== SEO METADATA ===
+Suggested URL: /en/beachfront-condos-for-sale-panama/ (UPDATE; AI engines cite it 6 times)
+Language: en
+Title: Beachfront Condos for Sale in Playa Caracol, Panama
+Meta description: Beachfront condos and homes for sale in Playa Caracol, Punta Chame. Projects, unit types, prices from [PRICE] and how to reserve or book a visit.
+H1: Beachfront Condos for Sale in Playa Caracol, Panama: Projects, Prices and How to Reserve
+Primary keyword: playa caracol condos for sale (7/mo, +100%, very low volume; CPC 8.47 USD) · playa caracol real estate (7/mo, -27%)
+Secondary keywords: playa caracol panama (3,550/mo) · punta chame real estate (8/mo, +11%) · panama beachfront property (7/mo) · panama beach condos for sale (3/mo)
+Intent / stage: transactional / decision
+Content type: category landing with offer
+Schema: CollectionPage + Product/Offer per project + BreadcrumbList + FAQPage (only with visible FAQs)
+Author: [NAME – pending]
+Reviewer: [NAME – pending]
+Published / reviewed: [DATE] / [DATE]
+Suggested internal links: /en/prices/ · /en/rent-out-your-condo-playa-caracol/ · /en/playa-caracol-en/ · /apartamentos-en-venta-playa-caracol/ (Spanish counterpart; hreflang)
+Audit note: in the English SERP the site already ranks #3 for "playa caracol condos for sale" and holds 5 positions for "playa caracol real estate"; brokerages (casasolution, panamaequity, househunterspanama) compete. Volume is small, so keep the page lean and conversion-focused.
+=== END METADATA ===
+
+Beachfront Condos for Sale in Playa Caracol, Panama: Projects, Prices and How to Reserve
+
+[DIRECT ANSWER – AEO, 48 words]
+Playa Caracol, in Punta Chame, Panamá Oeste, has beachfront condos, villas and homes for sale across several projects. Prices start from [PRICE], depending on the project and unit type (price list valid as of [DATE]). You can compare projects, check availability and book a visit or video call.
+
+DISCLOSURE (visible): Published by [DEVELOPER / LEGAL NAME – CONFIRM]. Prices and availability are dated.
+
+## Projects with units for sale
+
+| Project | Unit types | Bedrooms | Size (m²) | Price from | Status | Updated |
+|---|---|---|---|---|---|---|
+| The Tides | [COMPLETE] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [DATE] |
+| Seashore (beachfront villas, per the site) | [COMPLETE] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [DATE] |
+| Olas del Mar | [COMPLETE] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [DATE] |
+| Brisas del Mar | [COMPLETE] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [DATE] |
+
+Remove a unit type from the table the day it sells out. Write "Inquire" where there is no confirmed price.
+
+## What is included
+
+The site also presents furnished beach apartments for rent [CONFIRM]. For sale: [COMPLETE whether units are delivered furnished or unfurnished, and what each price includes].
+
+## The community
+
+[COMPLETE: confirmed amenities (beach club, pools, services), each marked open today or planned, with date. Add three original photos with alt text; label renders as renders.]
+
+## Location and access
+
+Playa Caracol is in Punta Chame, Chame district, Panamá Oeste. See our measured routes and drive times: [How to get to Playa Caracol from Panama City] (link to /en/how-to-get-to-playa-caracol/ [CREATE the English version]).
+
+## How to buy
+
+1. Choose a project and unit type.
+2. Book a visit or video call: [BUTTON] · [WHATSAPP] · [FORM].
+3. Reserve with [COMPLETE amount and terms].
+4. Your attorney reviews the contract.
+5. Financing, if needed: [COMPLETE partner banks and requirements].
+6. Handover as set in the contract.
+
+## Before you decide
+
+- Who is the developer and title holder, with documents.
+- The contract: delivery, penalties, changes.
+- Monthly fees and what they cover.
+- Rental rules if you plan to rent: see [Rent out your condo in Playa Caracol] (link to /en/rent-out-your-condo-playa-caracol/).
+
+## Frequently asked questions
+
+### How much is a beachfront condo in Playa Caracol?
+From [PRICE], depending on the project (valid as of [DATE]).
+
+### Can foreigners buy there?
+In general, foreigners can buy property in Panama, with restrictions in specific zones. See [Can foreigners buy a beachfront condo in Panama?] (link to /en/buy-beachfront-condo-panama-foreigner/) and confirm with an attorney.
+
+### Are units ready to move in?
+[COMPLETE only if finished units exist, with number and date.]
+
+### Can I rent my unit?
+[COMPLETE with the project's official rules.] No returns are guaranteed.
+
+## Sources
+- Playa Caracol Residences official website.
+- [COMPLETE: official documents with dates.]
+
+=== JSON-LD BLOCK ===
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "[PROJECT / UNIT TYPE] – Playa Caracol",
+  "offers": {"@type": "Offer", "priceCurrency": "USD", "price": "[PRICE]", "priceValidUntil": "[YYYY-MM-DD]", "availability": "https://schema.org/InStock"}
+}
+
+=== PRE-PUBLISH CHECKLIST ===
+[ ] Table with price, status and date per project
+[ ] No false scarcity
+[ ] WhatsApp and form tested
+[ ] hreflang pair with the Spanish page

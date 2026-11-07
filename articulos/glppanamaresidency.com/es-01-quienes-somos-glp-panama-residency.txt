@@ -1,0 +1,93 @@
+=== METADATOS SEO ===
+URL sugerida: /why-glp/ o /quienes-somos/ (ACTUALIZAR la página corporativa existente; no crear un duplicado)
+Idioma: es
+Title: GLP Panama Residency: quiénes somos y qué hacemos
+Meta description: Qué es GLP Panama Residency, qué servicios presta, quién se encarga de cada trámite y cómo verificar la empresa antes de contratarla.
+H1: GLP Panama Residency: quiénes somos, qué hacemos y quién presta cada servicio
+Keyword principal: glp panama (marca; volumen mínimo en EE. UU.) · glp panama residency
+Keywords secundarias: grupo los pueblos · servicios de residencia por inversión panamá · inversionista calificado panamá
+Intención / etapa: informacional / confianza (entidad de marca)
+Tipo de contenido: página de entidad (YMYL)
+Schema: Organization + Article + FAQPage (solo con FAQ visibles)
+Autor: [NOMBRE Y CARGO – pendiente]
+Revisor legal: [ABOGADO/A DE INMIGRACIÓN PANAMEÑO/A – nombre, idoneidad y fecha – OBLIGATORIO]
+Publicado / revisado: [FECHA] / [FECHA]
+Enlazado interno sugerido: /faqs/ · /services/ · /como-verificar-proveedor-residencia-inversion-panama/ · /en/about-us/
+Nota de auditoría: Claude (sin búsqueda web) no sabe si "GLP" es un despacho, una consultora o una inmobiliaria. ChatGPT describe el servicio como privado y "no el programa del gobierno" y advierte que no puede verificar las cifras de la empresa. Esta página debe resolver ambas dudas con datos propios.
+=== FIN METADATOS ===
+
+GLP Panama Residency: quiénes somos, qué hacemos y quién presta cada servicio
+
+[RESPUESTA DIRECTA – AEO, 54 palabras]
+GLP Panama Residency es un servicio privado que acompaña a inversionistas extranjeros que quieren obtener residencia en Panamá mediante una inversión inmobiliaria. No es el programa del gobierno ni una entidad pública. Cada trámite lo ejecuta [PRESTADOR – CONFIRMAR: razón social o despacho de abogados], y la relación con Grupo Los Pueblos es [CONFIRMAR].
+
+AVISO (visible): Contenido informativo, no es asesoría legal. Las normas migratorias cambian. Confirma tu caso con un abogado de inmigración panameño y con la entidad oficial.
+
+## Qué es GLP Panama Residency
+
+[COMPLETAR: descripción de una o dos frases del servicio, sin promesas de resultado.] Es un servicio privado. El programa de residencia por inversión es una norma del Estado panameño y lo administran las autoridades de Panamá; ninguna empresa privada lo otorga.
+
+## Quién presta cada parte del servicio
+
+Este es el dato que más importa en un trámite migratorio y que hoy no está claro en nuestra web. Completa la tabla con información real:
+
+| Servicio | Quién lo presta | Datos para verificar |
+|---|---|---|
+| Compra o venta de la propiedad | [COMPLETAR: promotora o corredora] | razón social, RUC, licencia |
+| Asesoría y presentación del trámite migratorio | [COMPLETAR: despacho o abogado de inmigración] | nombre, idoneidad, número de registro |
+| Administración de la propiedad | [COMPLETAR: p. ej., GLP Property Management] | razón social, contrato tipo |
+| Revisión de contratos | [COMPLETAR: abogado independiente del comprador] | libre elección del cliente |
+
+Importante: el comprador debe poder elegir libremente a su abogado. Si GLP recomienda uno, debe decirlo y aclarar si existe relación comercial. [CONFIRMAR con el cliente y el revisor legal.]
+
+## Relación con Grupo Los Pueblos
+
+[CONFIRMAR Y COMPLETAR: relación de GLP Panama Residency con Grupo Los Pueblos (GLP Properties), incluyendo si comparten propietarios y si los proyectos que se muestran son suyos. Enlaza a la página corporativa de la promotora.]
+
+## Qué no hacemos
+
+- No garantizamos resultados ni plazos de aprobación.
+- No sustituimos al abogado del comprador.
+- No presentamos la inversión como una garantía de ganancias.
+
+## Cómo verificarnos
+
+Antes de contratar a cualquier proveedor, consulta [Cómo verificar a un proveedor de residencia por inversión] (enlace a /como-verificar-proveedor-residencia-inversion-panama/). Puedes pedirnos: [COMPLETAR: lista de documentos disponibles, por ejemplo certificado de existencia de la sociedad y contrato tipo].
+
+## Preguntas frecuentes
+
+### ¿GLP Panama Residency es una entidad del gobierno?
+No. Es un servicio privado.
+
+### ¿Quién presenta mi trámite?
+[COMPLETAR: nombre del despacho o abogado, con idoneidad.]
+
+### ¿Garantizan la aprobación?
+No. La decisión corresponde a las autoridades panameñas.
+
+### ¿Cuáles son los honorarios?
+[COMPLETAR: honorarios propios, separados de las tasas oficiales, con fecha.]
+
+## Contacto
+[COMPLETAR: razón social, RUC, dirección, teléfono verificable, correo y horario.]
+
+## Fuentes
+- Autoridad migratoria de Panamá: [ENLACE a la página oficial vigente]
+- [COMPLETAR: documentos corporativos con fecha de consulta.]
+
+=== BLOQUE JSON-LD (completar y validar) ===
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "GLP Panama Residency",
+  "url": "https://glppanamaresidency.com/",
+  "address": {"@type": "PostalAddress", "streetAddress": "[COMPLETAR]", "addressLocality": "[COMPLETAR]", "addressCountry": "PA"},
+  "sameAs": ["[LinkedIn]", "[Facebook]", "[sitio de Grupo Los Pueblos]"]
+}
+
+=== CHECKLIST ANTES DE PUBLICAR ===
+[ ] Revisión legal firmada (nombre y fecha visibles)
+[ ] Tabla de "quién presta cada servicio" completada y verificable
+[ ] Relación con Grupo Los Pueblos confirmada por escrito
+[ ] Honorarios propios separados de tasas oficiales
+[ ] Fusionar con el contenido actual de la página corporativa

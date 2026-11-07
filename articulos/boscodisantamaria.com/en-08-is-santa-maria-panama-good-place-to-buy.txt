@@ -1,0 +1,100 @@
+=== SEO METADATA ===
+Suggested URL: /en/is-santa-maria-panama-good-place-to-buy/
+Language: en
+Title: Is Santa María, Panama a Good Place to Buy Property?
+Meta description: Is Santa María in Panama City a good place to buy property? Who it suits, the trade-offs, the questions to ask and the data to check before you decide.
+H1: Is Santa María, Panama City a Good Place to Buy Property?
+Primary keyword: santa maria panama real estate (15/mo, +20% YoY)
+Secondary keywords: santa maria golf & country club · buy property santa maria panama · santa maria panama apartments
+Intent / stage: commercial-informational / evaluation
+Content type: decision guide
+Schema: Article + FAQPage (only with visible FAQs)
+Author: [NAME – pending]
+Reviewer: [NAME – pending]
+Published / reviewed: [DATE] / [DATE]
+Suggested internal links: /santa-maria-golf-country-club-guia/ (ES) · /en/what-is-bosco-di-santa-maria/ · /en/buy-apartment-panama-foreigner/
+Note: in our test of 15 AI prompts, no engine mentioned Bosco for this question (0/12 runs). This is the gap this article targets.
+=== END METADATA ===
+
+Is Santa María, Panama City a Good Place to Buy Property?
+
+[DIRECT ANSWER – AEO, 57 words]
+Santa María can suit buyers who want to live in a planned community built around a golf course in Panama City and who accept a longer commute radius or a presale timeline. It may not suit those who want to walk to offices and shops. Check price per square meter, fees, travel times and resale demand before deciding.
+
+DISCLOSURE (visible): The Bosco di Santa María team publishes this guide. We are inside Santa María, so we show the criteria and where to verify them, and we mention who it does not suit.
+
+## What "Santa María" means in searches
+
+People searching for Santa María find three different things: the residential community and golf club, the Santa María hotel and golf resort, and the Santa María Business District, which is a commercial park. This guide is about the residential community.
+
+## Who Santa María tends to suit
+
+- Buyers who want a planned community with a golf course and green areas.
+- Buyers comfortable with off-plan purchases and a delivery wait [CONFIRM with the project's real status].
+- Buyers who prefer larger apartments to compact units [CONFIRM with the real unit types].
+
+## Who it may not suit
+
+- Buyers who need to move in within months.
+- Buyers who want a walkable neighborhood with everything within a short walk. [VERIFY by visiting.]
+- Buyers who only look for the lowest price per square meter.
+
+## The data to check before you decide
+
+| What to check | Why it matters | Where to verify |
+|---|---|---|
+| Price per m² (asking vs closed) | Compare with other zones | Active listings from the last 30 days; ask for closed prices [COMPLETE source and date] |
+| Travel times | Daily cost of the location | Measure at your own commute hours; record day and time |
+| Monthly fees | Ongoing cost | Ask each building's administration |
+| Rental rules | Matters if you plan to rent | Project and community rules |
+| Delivery status | Risk and timing | Contract and permits |
+| Resale demand | Liquidity | Time on market for similar units [COMPLETE with source] |
+
+Fill each cell with a sourced figure or write "Not available." Do not estimate.
+
+## How it compares to Costa del Este
+
+Costa del Este offers a wide range of towers and services; Santa María is a planned golf community. Which is better depends on your priorities. See [Santa María vs Costa del Este] (Spanish article: /santa-maria-vs-costa-del-este/; consider an English version).
+
+## Questions to ask the seller
+
+1. What exactly is included in the price (parking, storage, taxes)?
+2. What are the monthly fees and what do they cover?
+3. Is golf membership included, or separate? What does it cost and how does it transfer?
+4. What is the delivery date, and what does the contract say about delays?
+5. Where are my installment payments held, and under what guarantee?
+
+## Frequently asked questions
+
+### Is Santa María a safe area?
+[COMPLETE only with a cited official source or leave the question out. Do not assert safety without evidence.]
+
+### Is property in Santa María a good investment?
+There is no guaranteed return. Compare the purchase price, fees, rental demand and resale conditions for the specific unit.
+
+### Can foreigners buy in Santa María?
+In general, foreigners can buy property in Panama, with restrictions in specific zones. See our [foreign buyer's guide] (link to /en/buy-apartment-panama-foreigner/) and confirm with an attorney.
+
+### How far is Santa María from the airport?
+[COMPLETE with a measured travel time, the date and the time of day.]
+
+## Sources
+- Bosco di Santa María project website (location page).
+- [COMPLETE: official sources for prices and travel times, with date.]
+
+=== JSON-LD BLOCK ===
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Is Santa María, Panama City a Good Place to Buy Property?",
+  "inLanguage": "en",
+  "author": {"@type": "Person", "name": "[NAME]"},
+  "datePublished": "[YYYY-MM-DD]",
+  "dateModified": "[YYYY-MM-DD]"
+}
+
+=== PRE-PUBLISH CHECKLIST ===
+[ ] Every table cell sourced and dated, or "Not available"
+[ ] Own site visit with photos
+[ ] No safety or return claims without evidence
+[ ] Disclosure of interest visible

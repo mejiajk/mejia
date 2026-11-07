@@ -1,0 +1,96 @@
+=== SEO METADATA ===
+Suggested URL: /en/qualified-investor-vs-friendly-nations-vs-pensionado/
+Language: en
+Title: Qualified Investor vs Friendly Nations vs Pensionado Visa
+Meta description: Compare three Panama residency routes: Qualified Investor, Friendly Nations and Pensionado. Who each suits and what to verify with an attorney.
+H1: Qualified Investor vs Friendly Nations vs Pensionado: Choosing a Panama Residency Route
+Primary keyword: panama friendly nations visa (810/mo, -9%, Stable) · panama pensionado visa (933/mo, +85%, Emerging)
+Secondary keywords: panama residency requirements (279/mo) · panama visa for us citizens (633/mo) · panama expat visa (152/mo†)
+Intent / stage: informational / evaluation
+Content type: comparison (YMYL)
+Schema: Article + FAQPage (only with visible FAQs)
+Author: [NAME – pending]
+Legal reviewer: [PANAMANIAN IMMIGRATION ATTORNEY – name, credentials, review date – REQUIRED]
+Published / reviewed: [DATE] / [DATE]
+Suggested internal links: /en/panama-pensionado-visa-who-is-it-for/ · /faqs/ · /qip-vs-friendly-nations-vs-pensionado/ (Spanish; hreflang)
+Audit note: the site was named in 0 of 12 AI runs for this exact comparison. Pensionado searches grow while investment-based residency searches fall; an honest comparison that admits when buying property is not necessary is the credible format. † "panama expat visa" has 2 months at zero: its +314% is inflated.
+=== END METADATA ===
+
+Qualified Investor vs Friendly Nations vs Pensionado: Choosing a Panama Residency Route
+
+[DIRECT ANSWER – AEO, 51 words]
+Panama has several residency routes with different requirements. The Qualified Investor route is based on an investment, Friendly Nations on economic or professional ties to the country, and Pensionado on having a pension. The best one depends on your situation. Confirm the current requirements with an attorney and the official source.
+[VERIFY with the legal reviewer the description of each route before publishing: it is written in general terms, with no official source.]
+
+NOTICE (visible): Informational, not legal advice. Requirements change, so we do not repeat them from memory. Every cell marked [SOURCE] must be completed from the current rule.
+
+DISCLOSURE (visible): Published by [PROVIDER – CONFIRM], which offers services tied to the Qualified Investor route. We also explain when another route may suit you better.
+
+## Compare by criteria
+
+| Criterion | Qualified Investor | Friendly Nations | Pensionado |
+|---|---|---|---|
+| Based on | an investment that meets the rule [COMPLETE with source] | [COMPLETE with source] | having a pension [COMPLETE with source] |
+| Financial requirement | [COMPLETE only with the figure from the current official source] | [COMPLETE] | [COMPLETE] |
+| Must you buy property? | [COMPLETE per the current rule] | [COMPLETE] | [COMPLETE] |
+| Type of residency granted | [COMPLETE with source] | [COMPLETE with source] | [COMPLETE with source] |
+| Associated benefits | [COMPLETE with source] | [COMPLETE with source] | [COMPLETE with source] |
+| Presence obligations | [COMPLETE with source] | [COMPLETE with source] | [COMPLETE with source] |
+| Who files | [COMPLETE] | [COMPLETE] | [COMPLETE] |
+| Official source and date | [LINK] | [LINK] | [LINK] |
+
+Publishing rule: if a cell has no official source and date, write "Consult an attorney." Do not fill the table from memory.
+
+## When each route may fit
+
+### Qualified Investor
+It may interest someone who already plans to buy property or invest in Panama and wants a long-term status. [COMPLETE only with criteria supported by the current rule.]
+
+### Friendly Nations
+It may interest someone with ties the rule recognizes, without a real estate investment. [COMPLETE per the current rule.]
+
+### Pensionado
+It may interest someone who receives a pension that meets what the rule requires. [COMPLETE per the current rule.] See [Panama Pensionado Visa: Who Is It For?] (link to /en/panama-pensionado-visa-who-is-it-for/).
+
+## What to weigh in any of the three
+
+- Requirements and benefits can change; check the date of each rule.
+- No route guarantees the result; the authority decides.
+- A different route may cost less or not require property; compare with an attorney's help.
+- Tax questions are separate; read [Immigration residency vs tax residency] (link to /residencia-migratoria-vs-residencia-fiscal-panama/, Spanish).
+
+## Frequently asked questions
+
+### Which route is easiest?
+There is no general answer. It depends on your profile and the current rule.
+
+### Do I need to buy property?
+It depends on the route. [COMPLETE per the current rule.]
+
+### Can I switch routes later?
+[VERIFY with the legal reviewer.]
+
+### How much does each cost?
+[COMPLETE only with current official charges and date, or point to the source.]
+
+## Sources
+- Panama's immigration authority: [LINK to each current page]
+- Gaceta Oficial: [LINK to the current rule]
+
+=== JSON-LD BLOCK ===
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Qualified Investor vs Friendly Nations vs Pensionado: Choosing a Panama Residency Route",
+  "inLanguage": "en",
+  "author": {"@type": "Person", "name": "[NAME]"},
+  "reviewedBy": {"@type": "Person", "name": "[ATTORNEY]"},
+  "datePublished": "[YYYY-MM-DD]",
+  "dateModified": "[YYYY-MM-DD]"
+}
+
+=== PRE-PUBLISH CHECKLIST ===
+[ ] Every cell with an official source and date, or "Consult an attorney"
+[ ] Legal review signed
+[ ] No figures from memory
+[ ] Disclosure visible

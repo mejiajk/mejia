@@ -1,0 +1,88 @@
+=== SEO METADATA ===
+Suggested URL: /en/news-en/beach-condos-30-minutes-from-panama-city/ (KEEP this one; redirect `-2/` to it with a 301 and update the content)
+Language: en
+Title: Beach Condos 30 Minutes from Panama City | Playa Dorada
+Meta description: Beach condos and homes about 30 minutes from Panama City at Playa Dorada, Vacamonte. Price from [PRICE], amenities and how to reserve.
+H1: Beach Condos 30 Minutes from Panama City: Playa Dorada in Panamá Oeste
+Primary keyword: beach condos near panama city (volume N/D) · panama city condos for sale (12/mo, +15%)
+Secondary keywords: playa dorada panama (967/mo) · beach condos panama · panama west beach community
+Intent / stage: transactional / evaluation-decision
+Content type: updated landing (page already cited by AI engines 22 times across two URLs)
+Schema: Product/Offer + BreadcrumbList + FAQPage (only with visible FAQs)
+Author: [NAME – pending]
+Reviewer: [NAME – pending]
+Published / reviewed: [DATE] / [DATE]
+Suggested internal links: /en/beach-houses-for-sale-panama/ · /en/homes-for-sale-vacamonte-panama/ · /apartamentos/ (Spanish)
+Audit note: two URLs (`beach-condos-30-minutes-from-panama-city/` and `-2/`) are cited 11 times each by AI engines. Consolidate into one canonical URL so the citations add up. [CONFIRM that condos are for sale; if only houses are, rename the page.]
+=== END METADATA ===
+
+Beach Condos 30 Minutes from Panama City: Playa Dorada in Panamá Oeste
+
+[DIRECT ANSWER – AEO, 49 words]
+Playa Dorada offers beach homes and condos in Vacamonte, Panamá Oeste, about 30 minutes from Panama City according to its website [CONFIRM the unit types]. Prices start from [PRICE] (price list valid as of [DATE]). You can see the unit types, tour the project virtually and book a visit.
+
+DISCLOSURE (visible): Published by [DEVELOPER / LEGAL NAME – CONFIRM]. Availability and prices are dated.
+
+## What "30 minutes" means
+
+The project describes itself as 30 minutes from the city. Publish the measurement behind that claim: [COMPLETE: route, time of day, day of week, tool and date, for example off-peak and peak]. Drive times in Panama change a lot with traffic on the bridges and highway.
+
+## Unit types
+
+| Type | Bedrooms | Area (m²) | Price from | Status | Updated |
+|---|---|---|---|---|---|
+| [CONDO TYPE 1] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [DATE] |
+| [HOUSE MODEL 1] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [COMPLETE] | [DATE] |
+
+## Amenities
+
+[COMPLETE: beach club and other amenities with status, open today or planned, and date.]
+
+## Who it suits
+
+- Buyers who want a beach setting without moving far from the city [COMPLETE with real commuting data].
+- Buyers comfortable with the community's rules and fees [COMPLETE].
+
+It may not suit buyers who need to be within a short drive of downtown every day at peak hours.
+
+## How to reserve
+
+1. Pick a unit type and confirm availability.
+2. Visit or take the virtual tour.
+3. Reserve with [COMPLETE amount and terms].
+4. Your attorney reviews the contract.
+5. Financing, if needed: [COMPLETE].
+
+[BUTTON: Reserve / Book a visit] · [WHATSAPP] · [FORM]
+
+## Frequently asked questions
+
+### How far are the beach condos from Panama City?
+About 30 minutes according to the project; see our measurements above.
+
+### How much do they cost?
+From [PRICE] (valid as of [DATE]).
+
+### Can I rent my unit?
+[COMPLETE with the project's official rules.] No returns are guaranteed.
+
+### Can foreigners buy?
+In general, yes, with restrictions in specific zones. Confirm with an attorney.
+
+## Sources
+- Playa Dorada website.
+- [COMPLETE: official documents with dates.]
+
+=== JSON-LD BLOCK ===
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "[UNIT TYPE] – Playa Dorada",
+  "offers": {"@type": "Offer", "priceCurrency": "USD", "price": "[PRICE]", "priceValidUntil": "[YYYY-MM-DD]", "availability": "https://schema.org/InStock"}
+}
+
+=== PRE-PUBLISH CHECKLIST ===
+[ ] 301 from the duplicate URL to the canonical one
+[ ] Condo availability confirmed
+[ ] Drive-time measurements published with date
+[ ] Renders labeled

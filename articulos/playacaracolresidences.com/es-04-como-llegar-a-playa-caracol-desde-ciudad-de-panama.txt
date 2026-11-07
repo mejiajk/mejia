@@ -1,0 +1,88 @@
+=== METADATOS SEO ===
+URL sugerida: /como-llegar-playa-caracol/
+Idioma: es (es-PA)
+Title: Cómo llegar a Playa Caracol desde la Ciudad de Panamá
+Meta description: Ruta, distancia y tiempo reales para llegar a Playa Caracol, Punta Chame, desde la Ciudad de Panamá, en carro y en transporte público.
+H1: Cómo llegar a Playa Caracol desde la Ciudad de Panamá: ruta, distancia y tiempo
+Keyword principal: dónde queda playa caracol (61/mes, −44 %) · playa caracol panama distancia ciudad [N/D]
+Keywords secundarias: cómo llegar a playa caracol · playa caracol chame (354/mes) · punta chame (3.417/mes)
+Intención / etapa: informacional con intención de compra / evaluación
+Tipo de contenido: guía de acceso con mediciones propias
+Schema: Article + HowTo (solo con pasos visibles) + FAQPage
+Autor: [NOMBRE – pendiente]
+Revisor: [NOMBRE – pendiente]
+Publicado / revisado: [FECHA] / [FECHA]
+Enlazado interno sugerido: /apartamentos-en-venta-playa-caracol/ · /punta-chame-playa-caracol/ · /nosotros/
+Nota de auditoría: las IA dan cifras distintas para el trayecto: Gemini "75 km (1 h 15 min)", ChatGPT "alrededor de 1 h 30" y un resultado de Instagram "90 minutos". El volumen de "dónde queda" cae un 44 %, pero la pregunta se repite en PAA y en los prompts de IA. Una medición propia, fechada, resuelve la contradicción.
+=== FIN METADATOS ===
+
+Cómo llegar a Playa Caracol desde la Ciudad de Panamá: ruta, distancia y tiempo
+
+[RESPUESTA DIRECTA – AEO, 50 palabras]
+Playa Caracol está en Punta Chame, Chame, Panamá Oeste. En carro, el trayecto desde la Ciudad de Panamá toma [MINUTOS] en horario valle y [MINUTOS] en hora pico, según nuestras mediciones del [FECHA]. La ruta sigue [COMPLETAR RUTA] hasta el desvío a Punta Chame. Las cifras cambian con el tráfico.
+
+## Las cifras que circulan no coinciden
+
+Las IA y las redes dan tiempos de 1 h 15, 1 h 30 y "90 minutos". Los tiempos cambian según el día, la hora y el punto de partida. Por eso publicamos nuestras mediciones, con fecha.
+
+## Nuestras mediciones
+
+Instrucciones para el autor: mide el trayecto al menos 6 veces (valle y pico, entre semana y fin de semana), desde un punto fijo, con la misma herramienta.
+
+| Salida desde | Día y hora | Distancia (km) | Tiempo | Herramienta | Fecha |
+|---|---|---|---|---|---|
+| [PUNTO DE PARTIDA 1] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+| [PUNTO DE PARTIDA 1] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+| [PUNTO DE PARTIDA 2] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+
+## Ruta en carro
+
+[COMPLETAR: pasos de la ruta con referencias reales: puente, autopista, desvío a Punta Chame, tramo final. Incluye peajes si los hay, con fecha y cifra oficial.]
+
+## En transporte público
+
+[COMPLETAR solo con información verificada y con fecha: salida desde la terminal, línea, tiempo y transbordos.]
+
+## En qué tener cuidado
+
+- El tráfico en los puentes y la autopista cambia mucho los tiempos.
+- El estado de la vía en el tramo final hacia Punta Chame [VERIFICAR en la medición y anotar cualquier incidencia observada].
+
+## Qué significa para vivir o invertir
+
+Para uso de fin de semana, un trayecto de [MINUTOS] puede ser razonable; para ir todos los días a la ciudad, calcula tu hora pico. Si decides comprar, lee [Apartamentos en venta en Playa Caracol] (enlace a /apartamentos-en-venta-playa-caracol/).
+
+## Preguntas frecuentes
+
+### ¿Dónde queda Playa Caracol?
+En Punta Chame, distrito de Chame, provincia de Panamá Oeste.
+
+### ¿Cuántos kilómetros son desde la Ciudad de Panamá?
+[COMPLETAR con tu medición y la ruta.]
+
+### ¿Cuánto se tarda?
+[COMPLETAR con la tabla de mediciones.]
+
+### ¿Se puede ir en transporte público?
+[COMPLETAR solo si está verificado.]
+
+## Fuentes
+- Mediciones propias del [FECHA] con [HERRAMIENTA].
+- [COMPLETAR: fuentes de peajes y vías.]
+
+=== BLOQUE JSON-LD ===
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Cómo llegar a Playa Caracol desde la Ciudad de Panamá: ruta, distancia y tiempo",
+  "inLanguage": "es-PA",
+  "author": {"@type": "Person", "name": "[NOMBRE]"},
+  "datePublished": "[AAAA-MM-DD]",
+  "dateModified": "[AAAA-MM-DD]"
+}
+
+=== CHECKLIST ANTES DE PUBLICAR ===
+[ ] Al menos 6 mediciones reales con fecha
+[ ] Ninguna cifra tomada de una IA sin comprobar
+[ ] Peajes con fuente oficial
+[ ] Mapa de la ruta

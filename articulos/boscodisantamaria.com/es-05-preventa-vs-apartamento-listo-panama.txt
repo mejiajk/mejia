@@ -1,0 +1,101 @@
+=== METADATOS SEO ===
+URL sugerida: /preventa-vs-apartamento-listo-panama/
+Idioma: es (es-PA)
+Title: Preventa vs apartamento listo en Panamá: cuál conviene
+Meta description: Compara comprar en preventa o un apartamento listo en Panamá: tiempos, riesgos, pagos y costos. Una guía para decidir según tu objetivo y tu plazo.
+H1: Preventa vs apartamento listo en Panamá: cuál conviene según tu objetivo
+Keyword principal: preventa vs apartamento listo panamá
+Keywords secundarias: apartamentos en preventa panamá · comprar en preventa o listo · riesgos de comprar en preventa
+Intención / etapa: informacional-comercial / evaluación
+Tipo de contenido: guía de decisión
+Schema: Article + FAQPage (solo con FAQ visibles)
+Autor: [NOMBRE – pendiente]
+Revisor: [NOMBRE – pendiente]
+Publicado / revisado: [FECHA] / [FECHA]
+Enlazado interno sugerido: /comprar-apartamento-preventa-panama-extranjero/ · /bosco-di-santa-maria/ · /santa-maria-vs-costa-del-este/
+=== FIN METADATOS ===
+
+Preventa vs apartamento listo en Panamá: cuál conviene según tu objetivo
+
+[RESPUESTA DIRECTA – AEO, 56 palabras]
+Comprar en preventa permite elegir unidad y distribuir pagos durante la construcción, pero exige esperar la entrega y asumir el riesgo de retrasos o cambios. Un apartamento listo permite mudarte o alquilar pronto y ver lo que compras, pero ofrece menos opciones de elección. La decisión depende de tu plazo, tu liquidez y tu tolerancia al riesgo.
+
+NOTA DE TRANSPARENCIA (visible): Publica este artículo el equipo de Bosco di Santa María, un proyecto en preventa. Por eso detallamos también los riesgos de la preventa y los casos en que una unidad lista es mejor.
+
+## Comparativa rápida
+
+| Criterio | Preventa | Apartamento listo |
+|---|---|---|
+| Cuándo te mudas o alquilas | Al entregar el proyecto (plazo del contrato) | Casi de inmediato |
+| Qué ves antes de comprar | Planos, maqueta, unidad piloto si existe | La unidad real |
+| Elección de unidad | Mayor, según disponibilidad | Limitada a lo que está en venta |
+| Forma de pago | Normalmente por etapas, según el contrato [COMPLETAR plan del proyecto] | Normalmente al cierre, o con financiamiento |
+| Capital inmovilizado | Sí, hasta la entrega | Menor tiempo |
+| Riesgo de retraso o cambios | Existe; depende de la promotora y del contrato | Bajo (la unidad existe) |
+| Revalorización | No garantizada | No garantizada |
+
+## Cuándo conviene la preventa
+
+- Tienes un horizonte de varios años y no necesitas la unidad ya.
+- Prefieres elegir piso, orientación o tipología entre más opciones.
+- Puedes sostener los pagos por etapas sin comprometer tu liquidez.
+- Has verificado a la promotora y el contrato con un abogado.
+
+## Cuándo conviene el apartamento listo
+
+- Necesitas mudarte o alquilar pronto.
+- Quieres inspeccionar lo que compras y conocer el edificio en funcionamiento.
+- No quieres asumir el riesgo de retrasos.
+- Prefieres conocer los costos reales de mantenimiento antes de decidir.
+
+## Los riesgos de la preventa y cómo reducirlos
+
+1. Retraso en la entrega: revisa en el contrato la fecha, las penalidades y las causas que justifican prórrogas.
+2. Cambios en especificaciones: exige que el contrato detalle áreas, acabados y amenidades.
+3. Protección de los pagos: pregunta dónde y bajo qué garantía se custodian tus aportes [COMPLETAR con la política real del proyecto].
+4. Capital inmovilizado: calcula cuánto dinero queda comprometido y por cuánto tiempo.
+5. Mercado al momento de la entrega: el valor puede subir o bajar; no hay garantía.
+
+Para el proceso completo, lee [Cómo comprar un apartamento en preventa en Panamá siendo extranjero] (enlace a /comprar-apartamento-preventa-panama-extranjero/).
+
+## Una lista de verificación antes de decidir
+
+- [ ] ¿Sé cuándo necesito usar la propiedad?
+- [ ] ¿Revisó un abogado el contrato?
+- [ ] ¿Conozco el historial de proyectos de la promotora?
+- [ ] ¿Sé cuánto pagaré en mantenimiento por mes? [COMPLETAR rango del proyecto]
+- [ ] ¿Compararé con al menos una unidad lista de la zona?
+
+## Preguntas frecuentes
+
+### ¿Es mejor comprar en preventa o listo para invertir?
+No hay una respuesta general. La preventa puede ofrecer más elección y pagos por etapas; la unidad lista permite generar renta antes. En ambos casos el resultado no está garantizado.
+
+### ¿Se puede perder dinero en una preventa?
+Sí, si hay incumplimiento, retrasos extremos o una caída del mercado. Reduce el riesgo verificando al promotor, el contrato y la custodia de los pagos.
+
+### ¿Cuánto tarda una preventa en entregarse?
+Depende del proyecto. [COMPLETAR con las fechas estimadas por torre, con fecha de actualización.]
+
+### ¿Puedo vender mi unidad antes de la entrega?
+Depende del contrato y de las condiciones de cesión. [VERIFICAR con el revisor legal.]
+
+## Fuentes
+- [COMPLETAR: documentos oficiales del proyecto y fuentes de mercado, con fecha de consulta.]
+
+=== BLOQUE JSON-LD ===
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Preventa vs apartamento listo en Panamá: cuál conviene según tu objetivo",
+  "inLanguage": "es-PA",
+  "author": {"@type": "Person", "name": "[NOMBRE]"},
+  "datePublished": "[AAAA-MM-DD]",
+  "dateModified": "[AAAA-MM-DD]"
+}
+
+=== CHECKLIST ANTES DE PUBLICAR ===
+[ ] Plan de pagos y fechas del proyecto con fecha de vigencia
+[ ] Ninguna promesa de plusvalía o rentabilidad
+[ ] Revisión del contrato tipo por abogado antes de describirlo
+[ ] Declaración de interés visible

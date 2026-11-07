@@ -7,6 +7,8 @@ Herramienta de SEO para Claude Code: rastreo de posición en Google (orgánico, 
 | Ruta | Descripción |
 |---|---|
 | [`prompts/seo-serp-ai-visibility.md`](prompts/seo-serp-ai-visibility.md) | Prompt largo, para pegar en cualquier Claude. Es la especificación del método. |
+| [`prompts/seo-auditoria-inmobiliaria-panama.md`](prompts/seo-auditoria-inmobiliaria-panama.md) | Prompt de auditoría por web inmobiliaria de Panamá: plan de contenido SEO · E-E-A-T · AEO · GEO según tendencia y volumen. |
+| `.claude/commands/seo-auditar.md` | `/seo-auditar` — ejecuta esa auditoría para un dominio y escribe el informe en `informes/`. |
 | `.claude/commands/seo-setup.md` | `/seo-setup` — da de alta un proyecto: resuelve `location_code`, investiga el sitio, escribe su config. |
 | `.claude/commands/seo-run.md` | `/seo-run` — ejecuta el run, escribe al log e imprime el LOG TAIL. |
 | `.claude/commands/seo-frases.md` | `/seo-frases` — analiza el log y devuelve las frases que mejor posicionan. |

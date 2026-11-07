@@ -1,0 +1,95 @@
+=== METADATOS SEO ===
+URL sugerida: /precios/ (página nueva) o sección fija en /casas/
+Idioma: es (es-PA)
+Title: Casas en Playa Dorada: precios, modelos y cómo reservar
+Meta description: Precios vigentes de las casas en Playa Dorada, Vacamonte: modelos, monto de reserva, plan de pago y financiamiento. Actualizado el [FECHA].
+H1: Casas en Playa Dorada: precios vigentes, modelos y cómo reservar
+Keyword principal: playa dorada (1.035/mes, +21 %) · playa dorada vacamonte (387/mes, +93 %) · playa dorada precios [sin volumen medible]
+Keywords secundarias: casas en playa dorada precio · playa dorada plan de pago · financiamiento casa panamá oeste
+Intención / etapa: transaccional / decisión
+Tipo de contenido: página de precios y condiciones (citable por IA)
+Schema: WebPage + Product/Offer por modelo + FAQPage (solo con FAQ visibles)
+Autor: [NOMBRE – pendiente]
+Revisor: [NOMBRE – pendiente]
+Publicado / revisado: [FECHA] / [FECHA] (revisar cada mes)
+Enlazado interno sugerido: /casas/ · /apartamentos/ · /contacto/ · /ubicacion/
+Nota de auditoría: ninguna IA cita al sitio en preguntas de precio ("¿cuánto cuesta una casa de playa en Panamá?"); Perplexity ofrece cifras del tipo "desde ~US$97.000" que no están verificadas. Una tabla oficial y fechada es la fuente citable que falta.
+=== FIN METADATOS ===
+
+Casas en Playa Dorada: precios vigentes, modelos y cómo reservar
+
+[RESPUESTA DIRECTA – AEO, 49 palabras]
+Las casas en Playa Dorada, en Vacamonte, Panamá Oeste, tienen precios desde [PRECIO] según el modelo, con lista vigente al [FECHA]. La reserva requiere [MONTO DE RESERVA] y el resto se paga según el plan del contrato. Esta página muestra los modelos, los precios y los pasos para reservar.
+
+NOTA DE TRANSPARENCIA (visible): Publica [DESARROLLADORA / RAZÓN SOCIAL – CONFIRMAR]. Precios sujetos a cambio; la fecha indica la última verificación.
+
+## Lista de precios vigente
+
+| Modelo | Recámaras | m² | Precio de lista | Reserva | Estado | Vigente al |
+|---|---|---|---|---|---|---|
+| [MODELO 1] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+| [MODELO 2] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+| [MODELO 3] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+
+Reglas: si un precio no está confirmado, escribe "Consultar". No uses "desde" sin que exista al menos una unidad a ese precio.
+
+## Plan de pago
+
+[COMPLETAR con el plan real: reserva, pago inicial, pagos durante construcción o hasta la entrega, saldo y fecha. Presenta un ejemplo numérico solo con cifras oficiales del proyecto.]
+
+## Qué cubre el precio, y qué no
+
+| Incluido | No incluido (cotiza aparte) |
+|---|---|
+| [COMPLETAR] | [COMPLETAR: p. ej., gastos de cierre, mobiliario, impuestos] |
+
+Los gastos de cierre e impuestos dependen de la normativa vigente; no los estimamos aquí. [COMPLETAR: enlace a la página oficial vigente de la DGI y el Registro Público, y "verificar con abogado".]
+
+## Financiamiento
+
+Si vas a financiar, consulta directamente con los bancos qué requisitos aplican. [COMPLETAR: bancos con los que el proyecto trabaja y enlace a su información oficial. El listado de Caja de Ahorros que aparece en Google para "playa dorada vacamonte" puede ser un punto de partida: confirmar con el cliente.]
+
+## Cómo reservar
+
+1. Elige modelo y confirma disponibilidad.
+2. Visita o usa el [tour virtual].
+3. Firma la reserva con [MONTO].
+4. Tu abogado revisa el contrato.
+5. Pago según el plan y entrega según el contrato.
+
+[BOTÓN: Reservar] · [WHATSAPP] · [FORMULARIO]
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta una casa en Playa Dorada?
+Desde [PRECIO], según el modelo (lista vigente al [FECHA]).
+
+### ¿Cuánto es la reserva?
+[COMPLETAR].
+
+### ¿Puedo pagar en cuotas?
+[COMPLETAR con el plan de pago real.]
+
+### ¿Los precios incluyen gastos de cierre?
+[COMPLETAR. Si no los incluyen, dilo.]
+
+### ¿Se puede financiar con un banco?
+[COMPLETAR con los bancos aliados.]
+
+## Fuentes
+- Lista de precios oficial vigente al [FECHA].
+- DGI y Registro Público: [ENLACES a las páginas vigentes].
+
+=== BLOQUE JSON-LD ===
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "[MODELO] – Playa Dorada",
+  "offers": {"@type": "Offer", "priceCurrency": "USD", "price": "[PRECIO]", "priceValidUntil": "[AAAA-MM-DD]", "availability": "https://schema.org/InStock"}
+}
+
+=== CHECKLIST ANTES DE PUBLICAR ===
+[ ] Tabla fiel a la lista oficial; fecha de vigencia visible
+[ ] Plan de pago aprobado por el cliente
+[ ] Sin cifras legales ni de impuestos sin fuente
+[ ] Revisión mensual programada

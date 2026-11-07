@@ -1,0 +1,111 @@
+=== SEO METADATA ===
+Suggested URL: /en/how-to-vet-panama-residency-provider/
+Language: en
+Title: How to Vet a Panama Residency-by-Investment Provider
+Meta description: Before you hire a Panama residency provider, check the company, the attorney who files, the contract and the property. A step-by-step checklist.
+H1: How to Vet a Panama Residency-by-Investment Provider Before You Hire One
+Primary keyword: panama residency lawyer (17/mo, series inflated†) · is glp panama residency legit (AI query)
+Secondary keywords: panama residency scams · panama immigration attorney · panama residency service reviews
+Intent / stage: informational / evaluation (trust)
+Content type: checklist (YMYL)
+Schema: Article + HowTo (only with visible steps) + FAQPage
+Author: [NAME – pending]
+Legal reviewer: [PANAMANIAN IMMIGRATION ATTORNEY – name, credentials, review date – REQUIRED]
+Published / reviewed: [DATE] / [DATE]
+Suggested internal links: /en/about-us/ · /faqs/ · /como-verificar-proveedor-residencia-inversion-panama/ (Spanish; hreflang)
+Official sources to link (specific, current page): Registro Público de Panamá · immigration authority · consumer protection authority
+Audit note: † "panama residency lawyer" has 11 months at zero in its series, so its +567% is inflated. In AI tests, "Is GLP reliable?" got a cautious answer; the best reply is a neutral checklist applied equally to GLP and to any competitor.
+=== END METADATA ===
+
+How to Vet a Panama Residency-by-Investment Provider Before You Hire One
+
+[DIRECT ANSWER – AEO, 48 words]
+To vet a Panama residency provider, confirm that the company legally exists, identify the attorney who will file your case and check their credentials, require a contract that separates fees from official charges, and be wary of guaranteed outcomes. An independent attorney should review everything before you pay.
+
+NOTICE (visible): Informational, not legal advice. Verify each point with a Panamanian attorney and the official agency.
+
+DISCLOSURE (visible): Published by [PROVIDER – CONFIRM]. We apply the same criteria to our own service and make the documents in the last section available to you.
+
+## Step 1: Confirm the company exists
+
+Ask for the legal name, tax ID and the name of the legal representative. An attorney can check the company at the Registro Público. [COMPLETE: link to the current official page.]
+
+## Step 2: Identify who files the case
+
+The immigration filing must be made by a qualified professional. Ask for name, credentials and registration number, and verify them with the relevant body. [VERIFY with the legal reviewer who is authorized to file and how to check it, with an official source.]
+
+## Step 3: Separate fees from official charges
+
+The contract must distinguish what the provider charges from what is paid to the authorities. Ask for the breakdown in writing. [COMPLETE: link to the current official source for charges.]
+
+## Step 4: Have your own attorney review the contract
+
+Choose the attorney yourself. Review what happens if the application is not approved, what is refunded and under which conditions, and which obligations you take on.
+
+## Step 5: Check how your payments are protected
+
+Ask where your payments are held and under what guarantee. Do not pay into accounts the contract does not name.
+
+## Step 6: Verify the property
+
+If your residency depends on buying real estate, your attorney must confirm the title, that it is free of liens and that it meets the program's current conditions. [VERIFY with the legal reviewer and cite the official source.]
+
+## Step 7: Look for independent information
+
+Ask for references from earlier clients, check for complaints with the consumer protection authority and compare what you are told with official information. Do not rely only on marketing material.
+
+## Red flags
+
+- A promise of certain approval or guaranteed timelines.
+- Pressure to pay before you receive a contract.
+- No name, credentials or address for the professional who files.
+- Charges with no breakdown of fees and official costs.
+- Absolute claims such as "instant status" or "no presence required" with no official source.
+
+## Documents you can ask us for
+
+| Document | What it is for | Available |
+|---|---|---|
+| Company certificate of existence | confirms the company exists | [COMPLETE yes/no and how to request it] |
+| Sample services contract | lets your attorney review it before you pay | [COMPLETE] |
+| Breakdown of fees and official charges | avoids hidden costs | [COMPLETE] |
+| Identification of the attorney who files | lets you verify credentials | [COMPLETE] |
+
+List only what the company will actually provide.
+
+## Frequently asked questions
+
+### How do I know if an attorney is authorized in Panama?
+[VERIFY with the legal reviewer and link the official source for checking credentials.]
+
+### Can a provider that sells me the property also handle my residency?
+It may be lawful, but you must be free to choose your own attorney and know about any commercial relationship between them. [CONFIRM with the legal reviewer.]
+
+### What if the provider breaches the contract?
+Consult an attorney and file a complaint with the competent authority. [COMPLETE with the current official link.]
+
+### Is GLP Panama Residency legitimate?
+We do not ask you to take our word: we give you the documents to verify us. See the table above and [About us] (link to /en/about-us/).
+
+## Sources
+- Registro Público de Panamá: [LINK to the specific current page]
+- Immigration authority: [LINK]
+- Consumer protection authority: [LINK]
+
+=== JSON-LD BLOCK ===
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How to Vet a Panama Residency-by-Investment Provider Before You Hire One",
+  "inLanguage": "en",
+  "author": {"@type": "Person", "name": "[NAME]"},
+  "reviewedBy": {"@type": "Person", "name": "[ATTORNEY]"},
+  "datePublished": "[YYYY-MM-DD]",
+  "dateModified": "[YYYY-MM-DD]"
+}
+
+=== PRE-PUBLISH CHECKLIST ===
+[ ] Legal review signed (name and date visible)
+[ ] Documents table lists only what will be provided
+[ ] Official links current
+[ ] "Not legal advice" notice visible

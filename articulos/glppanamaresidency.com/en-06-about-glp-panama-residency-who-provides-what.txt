@@ -1,0 +1,93 @@
+=== SEO METADATA ===
+Suggested URL: /en/about-us/ (UPDATE the existing page; do not create a duplicate)
+Language: en
+Title: GLP Panama Residency: Who We Are and What We Do
+Meta description: What GLP Panama Residency is, which services it provides, who handles each step and how to verify the company before you hire it.
+H1: GLP Panama Residency: Who We Are, What We Do and Who Provides Each Service
+Primary keyword: glp panama (18/mo, brand) · glp panama residency
+Secondary keywords: grupo los pueblos · panama residency by real estate investment company
+Intent / stage: informational / trust (brand entity)
+Content type: entity page (YMYL)
+Schema: Organization + Article + FAQPage (only with visible FAQs)
+Author: [NAME AND ROLE – pending]
+Legal reviewer: [PANAMANIAN IMMIGRATION ATTORNEY – name, credentials, review date – REQUIRED]
+Published / reviewed: [DATE] / [DATE]
+Suggested internal links: /faqs/ · /services/ · /en/how-to-vet-panama-residency-provider/ · /why-glp/ (Spanish; hreflang)
+Audit note: ChatGPT, Gemini and Perplexity describe GLP when asked by name; Claude (no web search) says it cannot identify the company. In the "Is GLP reliable?" test ChatGPT noted that the company's figures are its own claims and that it could not verify finances or titles.
+=== END METADATA ===
+
+GLP Panama Residency: Who We Are, What We Do and Who Provides Each Service
+
+[DIRECT ANSWER – AEO, 54 words]
+GLP Panama Residency is a private service that supports foreign investors seeking residency in Panama through a real estate investment. It is not the government program and not a public body. Each step is carried out by [PROVIDER – CONFIRM: legal name or law firm], and its relationship with Grupo Los Pueblos is [CONFIRM].
+
+NOTICE (visible): Informational, not legal advice. Immigration rules change. Confirm your case with a Panamanian immigration attorney and the official agency.
+
+## What GLP Panama Residency is
+
+[COMPLETE: one or two sentences describing the service, with no promises of outcome.] It is a private service. The residency-by-investment program is a rule of the Panamanian state, administered by Panama's authorities; no private company grants it.
+
+## Who provides each part of the service
+
+This is the information that matters most in an immigration process, and our website does not make it clear today. Complete the table with real information:
+
+| Service | Provided by | What you can verify |
+|---|---|---|
+| Property sale or brokerage | [COMPLETE: developer or broker] | legal name, tax ID, license |
+| Immigration advice and filing | [COMPLETE: law firm or immigration attorney] | name, credentials, registration number |
+| Property management | [COMPLETE: for example GLP Property Management] | legal name, sample contract |
+| Contract review | [COMPLETE: attorney chosen independently by the buyer] | the client's free choice |
+
+Important: the buyer must be free to choose their own attorney. If GLP recommends one, it must say so and disclose any commercial relationship. [CONFIRM with the client and the legal reviewer.]
+
+## Relationship with Grupo Los Pueblos
+
+[CONFIRM AND COMPLETE: the relationship between GLP Panama Residency and Grupo Los Pueblos (GLP Properties), including shared ownership and whether the projects shown are theirs. Link to the developer's corporate page.]
+
+## What we do not do
+
+- We do not guarantee outcomes or approval timelines.
+- We do not replace the buyer's own attorney.
+- We do not present the investment as a guarantee of profit.
+
+## How to verify us
+
+Before hiring any provider, read [How to vet a Panama residency provider] (link to /en/how-to-vet-panama-residency-provider/). You can ask us for: [COMPLETE: list of available documents, for example the company's certificate of existence and a sample contract].
+
+## Frequently asked questions
+
+### Is GLP Panama Residency a government agency?
+No. It is a private service.
+
+### Who files my application?
+[COMPLETE: name of the law firm or attorney, with credentials.]
+
+### Do you guarantee approval?
+No. The decision belongs to Panama's authorities.
+
+### What are your fees?
+[COMPLETE: your own fees, separate from official charges, with date.]
+
+## Contact
+[COMPLETE: legal name, tax ID, address, verifiable phone number, email and hours.]
+
+## Sources
+- Panama's immigration authority: [LINK to the current official page]
+- [COMPLETE: corporate documents with consultation date.]
+
+=== JSON-LD BLOCK ===
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "GLP Panama Residency",
+  "url": "https://glppanamaresidency.com/",
+  "address": {"@type": "PostalAddress", "streetAddress": "[COMPLETE]", "addressLocality": "[COMPLETE]", "addressCountry": "PA"},
+  "sameAs": ["[LinkedIn]", "[Facebook]", "[Grupo Los Pueblos website]"]
+}
+
+=== PRE-PUBLISH CHECKLIST ===
+[ ] Legal review signed (name and date visible)
+[ ] "Who provides each service" table completed and verifiable
+[ ] Relationship with Grupo Los Pueblos confirmed in writing
+[ ] Own fees separated from official charges
+[ ] hreflang pair with the Spanish page

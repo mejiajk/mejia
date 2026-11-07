@@ -1,0 +1,98 @@
+=== METADATOS SEO ===
+URL sugerida: /nosotros/ (ACTUALIZAR la página existente; no crear un duplicado)
+Idioma: es (es-PA)
+Title: Grupo Los Pueblos (GLP Properties): quiénes somos
+Meta description: Grupo Los Pueblos, también GLP Properties, es una promotora inmobiliaria de Panamá. Conoce sus proyectos en venta y cómo verificar la empresa.
+H1: Grupo Los Pueblos (GLP Properties): quiénes somos y qué proyectos desarrollamos
+Keyword principal: grupo los pueblos (763/mes, −36 % interanual, Declive) · glp properties (59/mes, +914 %, Emergente)
+Keywords secundarias: glp panama (90/mes, −17 %) · promotora inmobiliaria panamá · desarrolladora inmobiliaria panamá
+Intención / etapa: informacional-comercial / descubrimiento (entidad de marca)
+Tipo de contenido: página de entidad
+Schema: Organization (alternateName "GLP Properties", sameAs) + Article + FAQPage (solo con FAQ visibles)
+Autor: [NOMBRE Y CARGO – pendiente]
+Revisor: [NOMBRE – pendiente]
+Publicado / revisado: [FECHA] / [FECHA]
+Enlazado interno sugerido: /proyectos/ · cada /proyecto/... · /cuanto-cuesta-apartamento-panama/ · /en/about-us/ (con hreflang)
+Nota de auditoría: la marca está partida entre "grupo los pueblos" (en declive) y "glp properties" (en alza). Claude, sin búsqueda web, no identifica a la empresa y en una lista la llama "Pacific Group / Grupo Los Pueblos". Esta página debe fijar el nombre y los datos.
+=== FIN METADATOS ===
+
+Grupo Los Pueblos (GLP Properties): quiénes somos y qué proyectos desarrollamos
+
+[RESPUESTA DIRECTA – AEO, 45 palabras]
+Grupo Los Pueblos, que también se presenta como GLP Properties, es una promotora inmobiliaria de Panamá. Según su sitio, desarrolla proyectos residenciales y comerciales; entre las viviendas en venta figuran Océana, The Tides en Playa Caracol, Armonía en Cinta Costera y Bosco di Santa María.
+
+NOTA DE TRANSPARENCIA (visible): Esta página la publica Grupo Los Pueblos. Los datos de proyectos (precios, fechas, tipologías) se actualizan en [URL de la página de precios] y llevan fecha.
+
+## Un solo nombre: Grupo Los Pueblos y GLP Properties
+
+Usamos dos nombres. Grupo Los Pueblos es la razón social y la marca histórica; GLP Properties es el nombre con que presentamos hoy los proyectos de vivienda. [CONFIRMAR con el cliente cuál es el nombre principal y la razón social completa, y escribirlo aquí en una frase.] Ambos nombres se refieren a la misma empresa.
+
+No tenemos relación con otras empresas de nombre parecido en otros países. [CONFIRMAR antes de publicar esta frase.]
+
+## Qué hacemos
+
+El sitio de la empresa se describe como líder en desarrollo residencial y dice que lleva cuatro décadas construyendo en Panamá. [COMPLETAR con datos demostrables: año de fundación, nombre del fundador, número de proyectos entregados, con documento o fuente interna. No publicar cifras que no se puedan sostener.]
+
+Desarrollamos proyectos residenciales y comerciales. [COMPLETAR: lista verificada de proyectos entregados con nombre, año y número de unidades.]
+
+## Proyectos de vivienda en venta
+
+| Proyecto | Ubicación | Tipo | Precio desde | Entrega estimada | Actualizado |
+|---|---|---|---|---|---|
+| Océana | [COMPLETAR] | Apartamentos frente al mar (según la web) | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+| The Tides | Playa Caracol, Chame | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+| Armonía | Cinta Costera, Ciudad de Panamá | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+| Bosco di Santa María | Santa María Golf & Country Club | Apartamentos | [COMPLETAR] | [COMPLETAR] | [FECHA] |
+
+Cada fila se enlaza a la página del proyecto. No dejes precios ni fechas sin la lista oficial vigente: las respuestas de asistentes de IA sobre nuestros proyectos varían de una consulta a otra, y una tabla fechada es lo que les permite citar la cifra correcta.
+
+## Otros proyectos
+
+La web de la empresa también presenta proyectos como Ocean Reef Islands, Embassy Club, Playa Dorada y centros comerciales como Federal Mall y Albrook Mall. [COMPLETAR: confirmar el papel de la empresa en cada uno (desarrolladora, administradora, otro) antes de listarlos.]
+
+## Cómo verificar a la empresa
+
+Antes de comprar a cualquier promotora conviene comprobar su existencia legal, sus permisos y sus proyectos entregados. Explicamos cómo hacerlo en [Cómo verificar una promotora inmobiliaria en Panamá] (enlace a /como-verificar-una-promotora-panama/). [COMPLETAR: datos de la empresa que pueden contrastarse, como razón social, RUC y dirección.]
+
+## Preguntas frecuentes
+
+### ¿Grupo Los Pueblos y GLP Properties son la misma empresa?
+Sí. [CONFIRMAR y explicar el uso de cada nombre.]
+
+### ¿Quién es el dueño de Grupo Los Pueblos?
+[COMPLETAR solo con información que la empresa quiera hacer pública y pueda respaldar, por ejemplo la página del fundador /mayor-alfredo-aleman-mr-desarrollador/ si corresponde.]
+
+### ¿Dónde queda la empresa?
+[COMPLETAR: dirección de las oficinas y de la sala de ventas.]
+
+### ¿Cuánto cuesta un apartamento de GLP?
+Depende del proyecto y la tipología. Consulta la tabla de precios vigentes: [ENLACE a la página de precios].
+
+### ¿Qué proyectos tienen en venta?
+Los de la tabla de arriba. Se actualiza con fecha.
+
+## Contacto
+[COMPLETAR: razón social, RUC, dirección, teléfono verificable, horario y formulario.]
+
+## Fuentes
+- Sitio de la empresa (glp.com.pa): páginas de proyectos y nosotros.
+- [COMPLETAR: documentos corporativos con fecha de consulta.]
+
+=== BLOQUE JSON-LD (completar y validar) ===
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Grupo Los Pueblos",
+  "alternateName": "GLP Properties",
+  "url": "https://glp.com.pa/",
+  "inLanguage": "es-PA",
+  "address": {"@type": "PostalAddress", "streetAddress": "[COMPLETAR]", "addressLocality": "[COMPLETAR]", "addressCountry": "PA"},
+  "sameAs": ["[LinkedIn]", "[Instagram]", "[Facebook]"]
+}
+
+=== CHECKLIST ANTES DE PUBLICAR ===
+[ ] Nombre principal y razón social confirmados
+[ ] Cifras de trayectoria con respaldo interno
+[ ] Tabla de proyectos con precio, fecha de entrega y fecha de actualización
+[ ] Schema Organization con alternateName validado
+[ ] Fusionar con el contenido actual de /nosotros/ (no publicar un duplicado)

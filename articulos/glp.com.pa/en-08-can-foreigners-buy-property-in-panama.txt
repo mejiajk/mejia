@@ -1,0 +1,100 @@
+=== SEO METADATA ===
+Suggested URL: /en/buy-property-panama-city/ (UPDATE the existing page, cited 3 times by AI engines) or /en/blog/can-foreigners-buy-property-in-panama/ if kept separate
+Language: en
+Title: Can Foreigners Buy Property in Panama? Steps and Sources
+Meta description: Can foreigners buy property in Panama? The general answer, the steps from vetting the developer to registration, and the official sources to check.
+H1: Can Foreigners Buy Property in Panama? Steps, Risks and Official Sources
+Primary keyword: can foreigners buy property in panama (10/mo; PAA in Google)
+Secondary keywords: buy property in panama (23/mo) · buy apartment in panama (90/mo, +64%, Emerging) · panama real estate for foreigners
+Intent / stage: informational / process-legal
+Content type: process guide (YMYL)
+Schema: Article + FAQPage + HowTo (only with visible steps/FAQ)
+Author: [NAME – pending]
+Legal reviewer: [PANAMANIAN ATTORNEY – name, credentials, date – REQUIRED]
+Published / reviewed: [DATE] / [DATE]
+Suggested internal links: /como-verificar-una-promotora-panama/ (Spanish) · /en/about-us/ · /en/blog/playa-caracol-panama-buyers-guide/
+Official sources to link (specific, current page): Registro Público de Panamá · DGI (dgi.mef.gob.pa) · Migración · Superintendencia de Bancos
+Audit note: in AI answers to the process question, GLP appeared 0/12 times. The engines cite dgi.mef.gob.pa (17) and registro-publico.gob.pa (13). Without official links and a named reviewer, this guide will not be cited.
+=== END METADATA ===
+
+Can Foreigners Buy Property in Panama? Steps, Risks and Official Sources
+
+[DIRECT ANSWER – AEO, 55 words]
+Yes, foreigners can generally buy property in Panama, with restrictions in specific areas such as border zones and islands. The usual steps are to vet the developer and the title, have a Panamanian attorney review the contract, confirm how payments are protected, sign the public deed and register it. Confirm your case with an attorney.
+
+NOTICE (visible): This guide is informational and is not legal or tax advice. Rules and amounts change. Verify each point with a licensed Panamanian attorney and the official agency.
+
+## The general rule, and its exceptions
+
+In general, foreigners can buy real estate in Panama. There are restrictions in specific zones, for example border areas and islands, and the status of land near the shoreline needs confirmation. Your attorney should check that the property is not in a restricted zone, that its legal status is clear and that there are no liens. [VERIFY with the legal reviewer; link the current official source.]
+
+## Step 1: Set a budget that includes all costs
+
+Decide whether you will live in the property, rent it or resell it. Add closing costs, monthly fees, insurance and taxes. Use current amounts from the official sources, not examples. [COMPLETE: links to the current DGI and Registro Público pages.]
+
+## Step 2: Vet the developer and the project
+
+Ask for: the developer's legal entity and representative, the land title free of liens (your attorney checks at the Registro Público), construction permits, and a record of delivered projects you can visit. See our checklist, [How to verify a real estate developer in Panama] (link to /como-verificar-una-promotora-panama/, Spanish).
+
+## Step 3: Have an attorney review the purchase agreement
+
+Check: the exact unit (area, plan, parking), the delivery date and what happens if it slips, what changes the developer may make, what happens if you withdraw or the developer defaults, and who pays each closing cost.
+
+## Step 4: Confirm how payments are protected
+
+Ask in writing where installments are held and under what guarantee. [COMPLETE with the project's actual policy and document.] Do not pay into accounts the contract does not name.
+
+## Step 5: Financing
+
+Ask banks directly which requirements apply to non-residents and foreign nationals. They change. [COMPLETE: Superintendencia de Bancos link and banks consulted, with date.]
+
+## Step 6: Public deed and registration
+
+A public deed is signed and recorded at the Registro Público. Your attorney coordinates taxes and fees currently due. [COMPLETE: taxes and fees with current figure, official source and date. Do not publish percentages without that source.]
+
+## Step 7: Handover
+
+Inspect the unit against the contract: areas, finishes, installations. Put every observation and correction deadline in writing.
+
+## Does buying give you residency?
+
+Not automatically. If you are interested in a residency program, check current requirements with Migración and an immigration attorney. [COMPLETE: current official link.]
+
+## Frequently asked questions
+
+### Do I need to be in Panama to buy?
+[VERIFY with the legal reviewer: signing methods and powers of attorney.]
+
+### What are the closing costs?
+They depend on taxes, registry fees, attorney fees and the contract. [COMPLETE with current figures, source and date, or link to a dedicated article.]
+
+### Can I buy through a company?
+[VERIFY with the legal and tax reviewers; do not recommend structures without professional advice.]
+
+### Can foreigners own beachfront property?
+[VERIFY with the legal reviewer. Explain any rules on the shoreline and concessions, with an official source.]
+
+## Sources
+- Registro Público de Panamá: [LINK to the specific current page]
+- Dirección General de Ingresos (dgi.mef.gob.pa): [LINK]
+- Migración: [LINK]
+- Superintendencia de Bancos: [LINK]
+
+=== JSON-LD BLOCK ===
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Can Foreigners Buy Property in Panama? Steps, Risks and Official Sources",
+  "inLanguage": "en",
+  "author": {"@type": "Person", "name": "[NAME]"},
+  "reviewedBy": {"@type": "Person", "name": "[ATTORNEY]"},
+  "datePublished": "[YYYY-MM-DD]",
+  "dateModified": "[YYYY-MM-DD]"
+}
+
+=== PRE-PUBLISH CHECKLIST ===
+[ ] Legal review signed by a Panamanian attorney (name and date visible)
+[ ] No tax figure without an official source and date
+[ ] Links to current official pages
+[ ] "Not legal advice" notice visible
+[ ] If updating /en/buy-property-panama-city/, merge with the existing text

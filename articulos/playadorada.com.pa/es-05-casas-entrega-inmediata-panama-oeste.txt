@@ -1,0 +1,87 @@
+=== METADATOS SEO ===
+URL sugerida: /casas-entrega-inmediata/ (o actualizar /blog/casa-en-venta-en-panama-oeste-con-entrega-inmediata/)
+Idioma: es (es-PA)
+Title: Casas con entrega inmediata en Panamá Oeste | Playa Dorada
+Meta description: Casas con entrega inmediata en Playa Dorada, Vacamonte: unidades terminadas, precio, fotos reales y cómo reservar y mudarte.
+H1: Casas con entrega inmediata en Panamá Oeste: unidades listas en Playa Dorada
+Keyword principal: casa en venta en panamá oeste con entrega inmediata (sin volumen medible; N/D)
+Keywords secundarias: casas listas para mudarse panamá oeste · casas en venta panamá oeste (21/mes) · casas en venta vacamonte
+Intención / etapa: transaccional / decisión (alta intención)
+Tipo de contenido: landing de inventario inmediato
+Schema: Product/Offer por unidad + BreadcrumbList + FAQPage
+Autor: [NOMBRE – pendiente]
+Revisor: [NOMBRE – pendiente]
+Publicado / revisado: [FECHA] / [FECHA] (actualizar con cada venta)
+Enlazado interno sugerido: /casas/ · /precios/ · /contacto/
+Nota de auditoría: [CONFIRMAR que existen unidades terminadas. Si no, NO publicar esta pieza.] Ya hay una entrada con ese tema en el blog que posiciona 1 keyword.
+=== FIN METADATOS ===
+
+Casas con entrega inmediata en Panamá Oeste: unidades listas en Playa Dorada
+
+[RESPUESTA DIRECTA – AEO, 44 palabras]
+Playa Dorada tiene [NÚMERO] casas terminadas con entrega inmediata en Vacamonte, Panamá Oeste (inventario al [FECHA]). Puedes visitarlas, ver su precio y reservar. Si buscas mudarte pronto, esta es la opción que no requiere esperar a la construcción. Confirma disponibilidad con el equipo comercial.
+
+NOTA DE TRANSPARENCIA (visible): Publica [DESARROLLADORA / RAZÓN SOCIAL – CONFIRMAR]. El inventario cambia; la fecha indica la última verificación.
+
+## Unidades listas hoy
+
+| Unidad | Modelo | Recámaras | m² | Precio | Fotos reales | Disponible al |
+|---|---|---|---|---|---|---|
+| [LOTE/CASA] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [SÍ/NO] | [FECHA] |
+| [LOTE/CASA] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | [SÍ/NO] | [FECHA] |
+
+Quita una unidad de la tabla el mismo día que se reserva. Evita mensajes de escasez que no puedas probar.
+
+## Por qué elegir entrega inmediata
+
+- Ves la casa real antes de comprar.
+- No dependes de fechas de construcción.
+- Puedes mudarte o alquilar antes [COMPLETAR plazo real desde la firma hasta la entrega].
+
+## Qué considerar
+
+- Una unidad lista tiene menos opciones de personalización que una casa por construir.
+- Revisa el estado de la casa en una inspección y deja las observaciones por escrito.
+- Compara con los modelos en construcción en [Casas en Playa Dorada: precios y modelos] (enlace a /precios/).
+
+## Del contrato a las llaves
+
+1. Visita la unidad.
+2. Reserva con [MONTO].
+3. Firma el contrato tras la revisión de tu abogado.
+4. Financiamiento, si lo necesitas: [COMPLETAR].
+5. Escritura y entrega: [COMPLETAR plazos reales].
+
+[BOTÓN: Ver unidad] · [WHATSAPP] · [FORMULARIO]
+
+## Preguntas frecuentes
+
+### ¿Cuánto tarda la entrega?
+[COMPLETAR con el plazo real desde la reserva.]
+
+### ¿Puedo ver la casa antes de comprar?
+Sí: agenda una visita [CTA].
+
+### ¿Qué costos adicionales hay?
+Gastos de cierre, impuestos y cuotas de mantenimiento. [COMPLETAR con las cuotas reales; los impuestos con fuente oficial vigente y "verificar con abogado".]
+
+### ¿Se puede financiar?
+[COMPLETAR con bancos aliados.]
+
+## Fuentes
+- Inventario del proyecto al [FECHA].
+- [COMPLETAR: documentos oficiales con fecha.]
+
+=== BLOQUE JSON-LD ===
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Casa [N] – Playa Dorada, entrega inmediata",
+  "offers": {"@type": "Offer", "priceCurrency": "USD", "price": "[PRECIO]", "availability": "https://schema.org/InStock"}
+}
+
+=== CHECKLIST ANTES DE PUBLICAR ===
+[ ] Confirmar unidades terminadas y su número
+[ ] Procedimiento para quitar unidades vendidas el mismo día
+[ ] Fotos reales de cada unidad
+[ ] Sin escasez falsa

@@ -1,0 +1,106 @@
+=== METADATOS SEO ===
+URL sugerida: /como-verificar-una-promotora-panama/
+Idioma: es (es-PA)
+Title: Cómo verificar una promotora inmobiliaria en Panamá
+Meta description: Antes de comprar en preventa, verifica a la promotora: existencia legal, título del terreno, permisos, proyectos entregados y contrato. Lista de pasos.
+H1: Cómo verificar una promotora inmobiliaria en Panamá antes de comprar
+Keyword principal: es confiable grupo los pueblos (consulta de IA) · cómo elegir una promotora en panamá
+Keywords secundarias: mejores promotoras inmobiliarias panamá (sin volumen medible; AIO presente) · promotora inmobiliaria panamá · desarrolladora inmobiliaria panamá · quiénes son las promotoras de casas en panamá (PAA)
+Intención / etapa: informacional / evaluación
+Tipo de contenido: guía de verificación (YMYL)
+Schema: Article + FAQPage + HowTo (solo con pasos visibles)
+Autor: [NOMBRE – pendiente]
+Revisor legal: [ABOGADO/A PANAMEÑO/A – nombre y fecha – OBLIGATORIO]
+Publicado / revisado: [FECHA] / [FECHA]
+Enlazado interno sugerido: /nosotros/ · /comprar-propiedad-ciudad-de-panama/ · /que-es-un-ph-en-panama/
+Fuentes oficiales a enlazar (página específica vigente): Registro Público de Panamá · MIVIOT · ACODECO
+Nota de auditoría: ChatGPT ante "¿es confiable GLP?" responde "no compraría basándome solo en su trayectoria". Esta guía da al lector (y a la IA) los criterios y documentos concretos.
+=== FIN METADATOS ===
+
+Cómo verificar una promotora inmobiliaria en Panamá antes de comprar
+
+[RESPUESTA DIRECTA – AEO, 56 palabras]
+Para verificar una promotora en Panamá, comprueba que la sociedad existe en el Registro Público, que el terreno está a nombre del proyecto y libre de gravámenes, que hay permisos de construcción, que tiene proyectos entregados que puedas visitar y que el contrato protege tus pagos. Un abogado panameño debe revisar cada documento antes de firmar.
+
+AVISO (visible): Contenido informativo, no es asesoría legal. Las normas cambian. Verifica cada punto con un abogado y con la entidad oficial.
+
+NOTA DE TRANSPARENCIA (visible): Publica esta guía Grupo Los Pueblos, una promotora. Aplica los mismos criterios a nosotros y a cualquier otra empresa.
+
+## Los siete pasos
+
+### 1. Confirma que la empresa existe legalmente
+Pide la razón social, el RUC y los datos del representante legal. Tu abogado puede consultar la sociedad en el Registro Público. [COMPLETAR: enlace a la página oficial vigente.]
+
+### 2. Revisa el título del terreno
+El proyecto debe estar construido sobre un terreno cuya titularidad sea clara y esté libre de gravámenes. Tu abogado lo comprueba en el Registro Público.
+
+### 3. Pide los permisos de construcción
+Solicita copia de los permisos del proyecto y verifica su vigencia. [COMPLETAR: entidades que los emiten, con enlaces oficiales vigentes.]
+
+### 4. Visita proyectos entregados
+Una trayectoria se demuestra con obras que puedas ver. Pide la lista y visita al menos una. [COMPLETAR para GLP: lista verificable de proyectos entregados con año y unidades.]
+
+### 5. Lee el contrato de promesa de compraventa
+Revisa con tu abogado: descripción de la unidad, fecha de entrega y qué ocurre si se retrasa, cambios permitidos a planos, y qué pasa si desistes o la promotora incumple.
+
+### 6. Pregunta cómo se protegen tus pagos
+Pide por escrito dónde se depositan los aportes y bajo qué garantía. [COMPLETAR con la política real de GLP y su documento.]
+
+### 7. Busca información independiente
+Consulta referencias de compradores anteriores y revisa si hay quejas ante la autoridad de protección al consumidor. [COMPLETAR: enlace oficial a ACODECO.] No te bases solo en el material publicitario.
+
+## Lista de documentos que puedes pedirnos
+
+| Documento | Para qué sirve | Disponible |
+|---|---|---|
+| Certificado de existencia de la sociedad | Confirma que la empresa existe | [COMPLETAR sí/no y cómo solicitarlo] |
+| Título del terreno | Confirma la titularidad | [COMPLETAR] |
+| Permisos de construcción | Confirma que la obra está autorizada | [COMPLETAR] |
+| Modelo de contrato de promesa | Para que tu abogado lo revise antes de reservar | [COMPLETAR] |
+| Detalle de garantía de los pagos | Muestra cómo se custodian tus aportes | [COMPLETAR] |
+
+Publicar esta tabla es una señal de confianza. Solo incluye lo que la empresa realmente entregará.
+
+## Señales de alerta
+
+- Presión para pagar sin entregarte el contrato.
+- Pagos a cuentas que el contrato no menciona.
+- Promesas de rentabilidad garantizada.
+- Falta de documentos del terreno o de los permisos.
+
+## Preguntas frecuentes
+
+### ¿Es confiable Grupo Los Pueblos?
+No te pedimos que lo creas: te damos los documentos para verificarlo. Consulta la tabla de arriba y la página [Quiénes somos] (enlace a /nosotros/).
+
+### ¿Cómo sé si una promotora tiene proyectos entregados?
+Pídele la lista con nombre, año y número de unidades, y visita al menos un proyecto.
+
+### ¿Quién autoriza a una promotora para vender en preventa?
+[VERIFICAR con el revisor legal y citar la norma o entidad oficial vigente. No afirmar de memoria.]
+
+### ¿Qué hago si una promotora incumple?
+Consulta a un abogado y presenta tu queja ante la autoridad competente. [COMPLETAR con enlace oficial.]
+
+## Fuentes
+- Registro Público de Panamá: [ENLACE a la página específica vigente]
+- ACODECO: [ENLACE a la página específica vigente]
+- MIVIOT: [ENLACE a la página específica vigente]
+
+=== BLOQUE JSON-LD ===
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Cómo verificar una promotora inmobiliaria en Panamá antes de comprar",
+  "inLanguage": "es-PA",
+  "author": {"@type": "Person", "name": "[NOMBRE]"},
+  "reviewedBy": {"@type": "Person", "name": "[ABOGADO/A]"},
+  "datePublished": "[AAAA-MM-DD]",
+  "dateModified": "[AAAA-MM-DD]"
+}
+
+=== CHECKLIST ANTES DE PUBLICAR ===
+[ ] Revisión legal firmada (nombre y fecha visibles)
+[ ] Tabla de documentos con solo lo que GLP realmente entregará
+[ ] Enlaces oficiales vigentes
+[ ] Aviso de "no es asesoría legal" visible
